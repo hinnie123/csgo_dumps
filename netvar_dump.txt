@@ -1,0 +1,2145 @@
+DT_TestTraceline
+    m_clrRender                                   : 0x00000070
+    m_vecOrigin                                   : 0x00000138
+    m_angRotation[0]                              : 0x0000012C
+    m_angRotation[1]                              : 0x00000130
+    m_angRotation[2]                              : 0x00000134
+    moveparent                                    : 0x00000148
+
+DT_TEWorldDecal
+    m_vecOrigin                                   : 0x00000010
+    m_nIndex                                      : 0x0000001C
+
+DT_TESpriteSpray
+    m_vecOrigin                                   : 0x00000010
+    m_vecDirection                                : 0x0000001C
+    m_nModelIndex                                 : 0x00000028
+    m_fNoise                                      : 0x00000030
+    m_nCount                                      : 0x00000034
+    m_nSpeed                                      : 0x0000002C
+
+DT_TESprite
+    m_vecOrigin                                   : 0x00000010
+    m_nModelIndex                                 : 0x0000001C
+    m_fScale                                      : 0x00000020
+    m_nBrightness                                 : 0x00000024
+
+DT_TESparks
+    m_nMagnitude                                  : 0x0000001C
+    m_nTrailLength                                : 0x00000020
+    m_vecDir                                      : 0x00000024
+
+DT_TESmoke
+    m_vecOrigin                                   : 0x00000010
+    m_nModelIndex                                 : 0x0000001C
+    m_fScale                                      : 0x00000020
+    m_nFrameRate                                  : 0x00000024
+
+DT_TEShowLine
+    m_vecEnd                                      : 0x0000001C
+
+DT_TEProjectedDecal
+    m_vecOrigin                                   : 0x00000010
+    m_angRotation                                 : 0x0000001C
+    m_flDistance                                  : 0x00000028
+    m_nIndex                                      : 0x0000002C
+
+DT_FEPlayerDecal
+    m_nUniqueID                                   : 0x000009D8
+    m_unAccountID                                 : 0x000009DC
+    m_unTraceID                                   : 0x000009E0
+    m_rtGcTime                                    : 0x000009E4
+    m_vecEndPos                                   : 0x000009E8
+    m_vecStart                                    : 0x000009F4
+    m_vecRight                                    : 0x00000A00
+    m_vecNormal                                   : 0x00000A0C
+    m_nEntity                                     : 0x00000A1C
+    m_nPlayer                                     : 0x00000A18
+    m_nHitbox                                     : 0x00000A20
+    m_nTintID                                     : 0x00000A24
+    m_flCreationTime                              : 0x00000A28
+    m_nVersion                                    : 0x00000A2C
+    m_ubSignature                                 : 0x00000A2D
+
+DT_TEPlayerDecal
+    m_vecOrigin                                   : 0x00000014
+    m_vecStart                                    : 0x00000020
+    m_vecRight                                    : 0x0000002C
+    m_nEntity                                     : 0x00000038
+    m_nPlayer                                     : 0x00000010
+    m_nHitbox                                     : 0x0000003C
+
+DT_TEPhysicsProp
+    m_vecOrigin                                   : 0x00000010
+    m_angRotation[0]                              : 0x0000001C
+    m_angRotation[1]                              : 0x00000020
+    m_angRotation[2]                              : 0x00000024
+    m_vecVelocity                                 : 0x00000028
+    m_nModelIndex                                 : 0x00000034
+    m_nFlags                                      : 0x0000003C
+    m_nSkin                                       : 0x00000038
+    m_nEffects                                    : 0x00000040
+    m_clrRender                                   : 0x00000044
+
+DT_TEParticleSystem
+    m_vecOrigin[0]                                : 0x00000010
+    m_vecOrigin[1]                                : 0x00000014
+    m_vecOrigin[2]                                : 0x00000018
+
+DT_TEMuzzleFlash
+    m_vecOrigin                                   : 0x00000010
+    m_vecAngles                                   : 0x0000001C
+    m_flScale                                     : 0x00000028
+    m_nType                                       : 0x0000002C
+
+DT_TELargeFunnel
+    m_nModelIndex                                 : 0x0000001C
+    m_nReversed                                   : 0x00000020
+
+DT_TEKillPlayerAttachments
+    m_nPlayer                                     : 0x00000010
+
+DT_TEImpact
+    m_vecOrigin                                   : 0x00000010
+    m_vecNormal                                   : 0x0000001C
+    m_iType                                       : 0x00000028
+    m_ucFlags                                     : 0x0000002C
+
+DT_TEGlowSprite
+    m_vecOrigin                                   : 0x00000010
+    m_nModelIndex                                 : 0x0000001C
+    m_fScale                                      : 0x00000020
+    m_fLife                                       : 0x00000024
+    m_nBrightness                                 : 0x00000028
+
+DT_TEShatterSurface
+    m_vecOrigin                                   : 0x00000010
+    m_vecAngles                                   : 0x0000001C
+    m_vecForce                                    : 0x00000028
+    m_vecForcePos                                 : 0x00000034
+    m_flWidth                                     : 0x00000040
+    m_flHeight                                    : 0x00000044
+    m_flShardSize                                 : 0x00000048
+    m_nSurfaceType                                : 0x00000050
+    m_uchFrontColor[0]                            : 0x00000054
+    m_uchFrontColor[1]                            : 0x00000055
+    m_uchFrontColor[2]                            : 0x00000056
+    m_uchBackColor[0]                             : 0x00000057
+    m_uchBackColor[1]                             : 0x00000058
+    m_uchBackColor[2]                             : 0x00000059
+
+DT_TEFootprintDecal
+    m_vecOrigin                                   : 0x00000010
+    m_vecDirection                                : 0x0000001C
+    m_nEntity                                     : 0x00000034
+    m_nIndex                                      : 0x00000038
+    m_chMaterialType                              : 0x0000003C
+
+DT_TEFizz
+    m_nEntity                                     : 0x00000010
+    m_nModelIndex                                 : 0x00000014
+    m_nDensity                                    : 0x00000018
+    m_nCurrent                                    : 0x0000001C
+
+DT_TEExplosion
+    m_nModelIndex                                 : 0x0000001C
+    m_fScale                                      : 0x00000020
+    m_nFrameRate                                  : 0x00000024
+    m_nFlags                                      : 0x00000028
+    m_vecNormal                                   : 0x0000002C
+    m_chMaterialType                              : 0x00000038
+    m_nRadius                                     : 0x0000003C
+    m_nMagnitude                                  : 0x00000040
+
+DT_TEEnergySplash
+    m_vecPos                                      : 0x00000010
+    m_vecDir                                      : 0x0000001C
+    m_bExplosive                                  : 0x00000028
+
+DT_TEEffectDispatch
+    m_EffectData                                  : 0x00000010
+        m_vOrigin.x                               : 0x00000010
+        m_vOrigin.y                               : 0x00000014
+        m_vOrigin.z                               : 0x00000018
+        m_vStart.x                                : 0x0000001C
+        m_vStart.y                                : 0x00000020
+        m_vStart.z                                : 0x00000024
+        m_vAngles                                 : 0x00000034
+        m_vNormal                                 : 0x00000028
+        m_fFlags                                  : 0x00000040
+        m_flMagnitude                             : 0x0000004C
+        m_flScale                                 : 0x00000048
+        m_nAttachmentIndex                        : 0x00000054
+        m_nSurfaceProp                            : 0x00000058
+        m_iEffectName                             : 0x00000070
+        m_nMaterial                               : 0x0000005C
+        m_nDamageType                             : 0x00000060
+        m_nHitBox                                 : 0x00000064
+        entindex                                  : 0x00000010
+        m_nOtherEntIndex                          : 0x00000068
+        m_nColor                                  : 0x0000006C
+        m_flRadius                                : 0x00000050
+        m_bPositionsAreRelativeToEntity           : 0x0000006D
+
+DT_TEDynamicLight
+    m_vecOrigin                                   : 0x00000010
+    r                                             : 0x00000020
+    g                                             : 0x00000024
+    b                                             : 0x00000028
+    exponent                                      : 0x0000002C
+    m_fRadius                                     : 0x0000001C
+    m_fTime                                       : 0x00000030
+    m_fDecay                                      : 0x00000034
+
+DT_TEDecal
+    m_vecOrigin                                   : 0x00000010
+    m_vecStart                                    : 0x0000001C
+    m_nEntity                                     : 0x00000028
+    m_nHitbox                                     : 0x0000002C
+    m_nIndex                                      : 0x00000030
+
+DT_TEClientProjectile
+    m_vecOrigin                                   : 0x00000010
+    m_vecVelocity                                 : 0x0000001C
+    m_nModelIndex                                 : 0x00000028
+    m_nLifeTime                                   : 0x0000002C
+    m_hOwner                                      : 0x00000030
+
+DT_TEBubbleTrail
+    m_vecMins                                     : 0x00000010
+    m_vecMaxs                                     : 0x0000001C
+    m_nModelIndex                                 : 0x0000002C
+    m_flWaterZ                                    : 0x00000028
+    m_nCount                                      : 0x00000030
+    m_fSpeed                                      : 0x00000034
+
+DT_TEBubbles
+    m_vecMins                                     : 0x00000010
+    m_vecMaxs                                     : 0x0000001C
+    m_nModelIndex                                 : 0x0000002C
+    m_fHeight                                     : 0x00000028
+    m_nCount                                      : 0x00000030
+    m_fSpeed                                      : 0x00000034
+
+DT_TEBSPDecal
+    m_vecOrigin                                   : 0x00000010
+    m_nEntity                                     : 0x0000001C
+    m_nIndex                                      : 0x00000020
+
+DT_TEBreakModel
+    m_vecOrigin                                   : 0x00000010
+    m_angRotation[0]                              : 0x0000001C
+    m_angRotation[1]                              : 0x00000020
+    m_angRotation[2]                              : 0x00000024
+    m_vecSize                                     : 0x00000028
+    m_vecVelocity                                 : 0x00000034
+    m_nModelIndex                                 : 0x00000044
+    m_nRandomization                              : 0x00000040
+    m_nCount                                      : 0x00000048
+    m_fTime                                       : 0x0000004C
+    m_nFlags                                      : 0x00000050
+
+DT_TEBloodStream
+    m_vecDirection                                : 0x0000001C
+    r                                             : 0x00000028
+    g                                             : 0x0000002C
+    b                                             : 0x00000030
+    a                                             : 0x00000034
+    m_nAmount                                     : 0x00000038
+
+DT_TEBloodSprite
+    m_vecOrigin                                   : 0x00000010
+    m_vecDirection                                : 0x0000001C
+    r                                             : 0x00000028
+    g                                             : 0x0000002C
+    b                                             : 0x00000030
+    a                                             : 0x00000034
+    m_nSprayModel                                 : 0x0000003C
+    m_nDropModel                                  : 0x00000038
+    m_nSize                                       : 0x00000040
+
+DT_TEBeamSpline
+    m_nPoints                                     : 0x000000D0
+    m_vecPoints[0]                                : 0x00000010
+    m_vecPoints                                   : 0x00000000
+
+DT_TEBeamRingPoint
+    m_vecCenter                                   : 0x0000004C
+    m_flStartRadius                               : 0x00000058
+    m_flEndRadius                                 : 0x0000005C
+
+DT_TEBeamRing
+    m_nStartEntity                                : 0x0000004C
+    m_nEndEntity                                  : 0x00000050
+
+DT_TEBeamPoints
+    m_vecStartPoint                               : 0x0000004C
+    m_vecEndPoint                                 : 0x00000058
+
+DT_TEBeamLaser
+    m_nStartEntity                                : 0x0000004C
+    m_nEndEntity                                  : 0x00000050
+
+DT_TEBeamFollow
+    m_iEntIndex                                   : 0x0000004C
+
+DT_TEBeamEnts
+    m_nStartEntity                                : 0x0000004C
+    m_nEndEntity                                  : 0x00000050
+
+DT_TEBeamEntPoint
+    m_nStartEntity                                : 0x0000004C
+    m_nEndEntity                                  : 0x00000050
+    m_vecStartPoint                               : 0x00000054
+    m_vecEndPoint                                 : 0x00000060
+
+DT_BaseBeam
+    m_nModelIndex                                 : 0x00000010
+    m_nHaloIndex                                  : 0x00000014
+    m_nStartFrame                                 : 0x00000018
+    m_nFrameRate                                  : 0x0000001C
+    m_fLife                                       : 0x00000020
+    m_fWidth                                      : 0x00000024
+    m_fEndWidth                                   : 0x00000028
+    m_nFadeLength                                 : 0x0000002C
+    m_fAmplitude                                  : 0x00000030
+    m_nSpeed                                      : 0x00000044
+    r                                             : 0x00000034
+    g                                             : 0x00000038
+    b                                             : 0x0000003C
+    a                                             : 0x00000040
+    m_nFlags                                      : 0x00000048
+
+DT_TEMetalSparks
+    m_vecPos                                      : 0x00000010
+    m_vecDir                                      : 0x0000001C
+
+DT_SteamJet
+    m_SpreadSpeed                                 : 0x00000AC4
+    m_Speed                                       : 0x00000AC8
+    m_StartSize                                   : 0x00000ACC
+    m_EndSize                                     : 0x00000AD0
+    m_Rate                                        : 0x00000AD4
+    m_JetLength                                   : 0x00000AD8
+    m_bEmit                                       : 0x00000ADC
+    m_bFaceLeft                                   : 0x00000AE4
+    m_nType                                       : 0x00000AE0
+    m_spawnflags                                  : 0x00000AE8
+    m_flRollSpeed                                 : 0x00000AEC
+
+DT_SmokeStack
+    m_SpreadSpeed                                 : 0x00000B14
+    m_Speed                                       : 0x00000B18
+    m_StartSize                                   : 0x00000B1C
+    m_EndSize                                     : 0x00000B20
+    m_Rate                                        : 0x00000B24
+    m_JetLength                                   : 0x00000B28
+    m_bEmit                                       : 0x00000B2C
+    m_flBaseSpread                                : 0x00000B30
+    m_flTwist                                     : 0x00000B84
+    m_flRollSpeed                                 : 0x00000BC0
+    m_iMaterialModel                              : 0x00000B88
+    m_AmbientLight.m_vPos                         : 0x00000B34
+    m_AmbientLight.m_vColor                       : 0x00000B40
+    m_AmbientLight.m_flIntensity                  : 0x00000B4C
+    m_DirLight.m_vPos                             : 0x00000B50
+    m_DirLight.m_vColor                           : 0x00000B5C
+    m_DirLight.m_flIntensity                      : 0x00000B68
+    m_vWind                                       : 0x00000B78
+
+DT_DustTrail
+    m_SpawnRate                                   : 0x00000AC4
+    m_Color                                       : 0x00000AC8
+    m_ParticleLifetime                            : 0x00000AD8
+    m_StopEmitTime                                : 0x00000AE0
+    m_MinSpeed                                    : 0x00000AE4
+    m_MaxSpeed                                    : 0x00000AE8
+    m_MinDirectedSpeed                            : 0x00000AEC
+    m_MaxDirectedSpeed                            : 0x00000AF0
+    m_StartSize                                   : 0x00000AF4
+    m_EndSize                                     : 0x00000AF8
+    m_SpawnRadius                                 : 0x00000AFC
+    m_bEmit                                       : 0x00000B0C
+    m_Opacity                                     : 0x00000AD4
+
+DT_FireTrail
+    m_nAttachment                                 : 0x00000AC4
+    m_flLifetime                                  : 0x00000AC8
+
+DT_SporeTrail
+    m_flSpawnRate                                 : 0x00000ACC
+    m_vecEndColor                                 : 0x00000AC0
+    m_flParticleLifetime                          : 0x00000AD0
+    m_flStartSize                                 : 0x00000AD4
+    m_flEndSize                                   : 0x00000AD8
+    m_flSpawnRadius                               : 0x00000ADC
+    m_bEmit                                       : 0x00000AEC
+
+DT_SporeExplosion
+    m_flSpawnRate                                 : 0x00000AC4
+    m_flParticleLifetime                          : 0x00000AC8
+    m_flStartSize                                 : 0x00000ACC
+    m_flEndSize                                   : 0x00000AD0
+    m_flSpawnRadius                               : 0x00000AD4
+    m_bEmit                                       : 0x00000ADC
+    m_bDontRemove                                 : 0x00000ADD
+
+DT_RocketTrail
+    m_SpawnRate                                   : 0x00000AC4
+    m_StartColor                                  : 0x00000AC8
+    m_EndColor                                    : 0x00000AD4
+    m_ParticleLifetime                            : 0x00000AE4
+    m_StopEmitTime                                : 0x00000AE8
+    m_MinSpeed                                    : 0x00000AEC
+    m_MaxSpeed                                    : 0x00000AF0
+    m_StartSize                                   : 0x00000AF4
+    m_EndSize                                     : 0x00000AF8
+    m_SpawnRadius                                 : 0x00000AFC
+    m_bEmit                                       : 0x00000B0C
+    m_nAttachment                                 : 0x00000B10
+    m_Opacity                                     : 0x00000AE0
+    m_bDamaged                                    : 0x00000B0D
+    m_flFlareScale                                : 0x00000B20
+
+DT_SmokeTrail
+    m_SpawnRate                                   : 0x00000AC4
+    m_StartColor                                  : 0x00000AC8
+    m_EndColor                                    : 0x00000AD4
+    m_ParticleLifetime                            : 0x00000AE4
+    m_StopEmitTime                                : 0x00000AE8
+    m_MinSpeed                                    : 0x00000AEC
+    m_MaxSpeed                                    : 0x00000AF0
+    m_MinDirectedSpeed                            : 0x00000AF4
+    m_MaxDirectedSpeed                            : 0x00000AF8
+    m_StartSize                                   : 0x00000AFC
+    m_EndSize                                     : 0x00000B00
+    m_SpawnRadius                                 : 0x00000B04
+    m_bEmit                                       : 0x00000B14
+    m_nAttachment                                 : 0x00000B18
+    m_Opacity                                     : 0x00000AE0
+
+DT_PropVehicleDriveable
+    m_hPlayer                                     : 0x00002984
+    m_nSpeed                                      : 0x00002988
+    m_nRPM                                        : 0x0000298C
+    m_flThrottle                                  : 0x00002990
+    m_nBoostTimeLeft                              : 0x00002994
+    m_nHasBoost                                   : 0x00002998
+    m_nScannerDisabledWeapons                     : 0x0000299C
+    m_nScannerDisabledVehicle                     : 0x000029A0
+    m_bEnterAnimOn                                : 0x000029C0
+    m_bExitAnimOn                                 : 0x000029C1
+    m_bUnableToFire                               : 0x00002A0D
+    m_vecEyeExitEndpoint                          : 0x00002A00
+    m_bHasGun                                     : 0x00002A0C
+    m_vecGunCrosshair                             : 0x000029C8
+
+DT_ParticleSmokeGrenade
+    m_flSpawnTime                                 : 0x00000AD4
+    m_FadeStartTime                               : 0x00000AD8
+    m_FadeEndTime                                 : 0x00000ADC
+    m_MinColor                                    : 0x00000AE4
+    m_MaxColor                                    : 0x00000AF0
+    m_CurrentStage                                : 0x00000AC4
+
+DT_ParticleFire
+    m_vOrigin                                     : 0x00000ACC
+    m_vDirection                                  : 0x00000AD8
+
+DT_TEGaussExplosion
+    m_nType                                       : 0x0000001C
+    m_vecDirection                                : 0x00000020
+
+DT_QuadraticBeam
+    m_targetPosition                              : 0x000009D8
+    m_controlPosition                             : 0x000009E4
+    m_scrollRate                                  : 0x000009F0
+    m_flWidth                                     : 0x000009F4
+
+DT_Embers
+    m_nDensity                                    : 0x000009D8
+    m_nLifetime                                   : 0x000009DC
+    m_nSpeed                                      : 0x000009E0
+    m_bEmit                                       : 0x000009E4
+
+DT_EnvWind
+    m_EnvWindShared                               : 0x000009D8
+        m_iMinWind                                : 0x000009E4
+        m_iMaxWind                                : 0x000009E8
+        m_iMinGust                                : 0x000009F0
+        m_iMaxGust                                : 0x000009F4
+        m_flMinGustDelay                          : 0x000009F8
+        m_flMaxGustDelay                          : 0x000009FC
+        m_iGustDirChange                          : 0x00000A04
+        m_iWindSeed                               : 0x000009E0
+        m_iInitialWindDir                         : 0x00000A44
+        m_flInitialWindSpeed                      : 0x00000A48
+        m_flStartTime                             : 0x000009DC
+        m_flGustDuration                          : 0x00000A00
+
+DT_Precipitation
+    m_nPrecipType                                 : 0x00000A00
+
+DT_BaseAttributableItem
+    m_OriginalOwnerXuidLow                        : 0x000031B0
+    m_OriginalOwnerXuidHigh                       : 0x000031B4
+    m_nFallbackPaintKit                           : 0x000031B8
+    m_nFallbackSeed                               : 0x000031BC
+    m_flFallbackWear                              : 0x000031C0
+    m_nFallbackStatTrak                           : 0x000031C4
+    m_AttributeManager                            : 0x00002D80
+        m_hOuter                                  : 0x00002D9C
+        m_ProviderType                            : 0x00002DA4
+        m_iReapplyProvisionParity                 : 0x00002D98
+        m_Item                                    : 0x00002DC0
+            m_iItemDefinitionIndex                : 0x0000022A
+            m_iEntityLevel                        : 0x00000230
+            m_iItemIDHigh                         : 0x00000240
+            m_iItemIDLow                          : 0x00000244
+            m_iAccountID                          : 0x00000248
+            m_iEntityQuality                      : 0x0000022C
+            m_bInitialized                        : 0x00000254
+            m_szCustomName                        : 0x000002BC
+            m_NetworkedDynamicAttributesForDemos  : 0x000002A0
+                m_Attributes                      : 0x00000260
+                    lengthproxy                   : 0x00000000
+                        lengthprop32              : 0x00000000
+
+DT_EconEntity
+    m_OriginalOwnerXuidLow                        : 0x000031B0
+    m_OriginalOwnerXuidHigh                       : 0x000031B4
+    m_nFallbackPaintKit                           : 0x000031B8
+    m_nFallbackSeed                               : 0x000031BC
+    m_flFallbackWear                              : 0x000031C0
+    m_nFallbackStatTrak                           : 0x000031C4
+    m_AttributeManager                            : 0x00002D80
+        m_hOuter                                  : 0x00002D9C
+        m_ProviderType                            : 0x00002DA4
+        m_iReapplyProvisionParity                 : 0x00002D98
+        m_Item                                    : 0x00002DC0
+            m_iItemDefinitionIndex                : 0x0000022A
+            m_iEntityLevel                        : 0x00000230
+            m_iItemIDHigh                         : 0x00000240
+            m_iItemIDLow                          : 0x00000244
+            m_iAccountID                          : 0x00000248
+            m_iEntityQuality                      : 0x0000022C
+            m_bInitialized                        : 0x00000254
+            m_szCustomName                        : 0x000002BC
+            m_NetworkedDynamicAttributesForDemos  : 0x000002A0
+                m_Attributes                      : 0x00000260
+                    lengthproxy                   : 0x00000000
+                        lengthprop32              : 0x00000000
+
+DT_WeaponXM1014
+    m_reloadState                                 : 0x00003394
+
+DT_WeaponTaser
+    m_fFireTime                                   : 0x000033B0
+
+DT_WeaponTablet
+    m_flUpgradeExpirationTime[0]                  : 0x00003398
+    m_flUpgradeExpirationTime                     : 0x00000000
+    m_vecLocalHexFlags[0]                         : 0x000033A4
+    m_vecLocalHexFlags                            : 0x00000000
+    m_nContractKillGridIndex                      : 0x0000344C
+    m_nContractKillGridHighResIndex               : 0x00003450
+    m_bTabletReceptionIsBlocked                   : 0x00003454
+    m_flScanProgress                              : 0x00003458
+    m_flBootTime                                  : 0x0000345C
+    m_flShowMapTime                               : 0x00003460
+    m_vecNotificationIds[0]                       : 0x00003464
+    m_vecNotificationIds                          : 0x00000000
+    m_vecNotificationTimestamps[0]                : 0x00003484
+    m_vecNotificationTimestamps                   : 0x00000000
+    m_vecPlayerPositionHistory[0]                 : 0x000034A4
+    m_vecPlayerPositionHistory                    : 0x00000000
+    m_nLastPurchaseIndex                          : 0x000035C4
+
+DT_WeaponSawedoff
+    m_reloadState                                 : 0x00003394
+
+DT_WeaponNOVA
+    m_reloadState                                 : 0x00003394
+
+DT_WeaponMelee
+    m_flThrowAt                                   : 0x00003390
+
+DT_WeaponM3
+    m_reloadState                                 : 0x00003394
+
+DT_WeaponFists
+    m_bPlayingUninterruptableAct                  : 0x00003390
+
+DT_WeaponCSBaseGun
+    m_zoomLevel                                   : 0x00003390
+    m_iBurstShotsRemaining                        : 0x00003394
+
+DT_WeaponCSBase
+    m_weaponMode                                  : 0x000032EC
+    m_fAccuracyPenalty                            : 0x00003304
+    m_fLastShotTime                               : 0x00003360
+    m_iRecoilIndex                                : 0x00003310
+    m_flRecoilIndex                               : 0x00003314
+    m_hPrevOwner                                  : 0x0000333C
+    m_bBurstMode                                  : 0x00003318
+    m_flPostponeFireReadyTime                     : 0x0000331C
+    m_bReloadVisuallyComplete                     : 0x00003320
+    m_bSilencerOn                                 : 0x00003321
+    m_flDoneSwitchingSilencer                     : 0x00003324
+    m_iOriginalTeamNumber                         : 0x0000332C
+    m_iIronSightMode                              : 0x0000337C
+
+DT_WeaponC4
+    m_bStartedArming                              : 0x000033C0
+    m_bBombPlacedAnimation                        : 0x000033C8
+    m_fArmedTime                                  : 0x000033C4
+    m_bShowC4LED                                  : 0x000033C9
+    m_bIsPlantingViaUse                           : 0x000033CA
+
+DT_BreachChargeProjectile
+    m_bShouldExplode                              : 0x000029B0
+    m_weaponThatThrewMe                           : 0x000029B4
+    m_nParentBoneIndex                            : 0x000029B8
+    m_vecParentBonePos                            : 0x000029BC
+
+DT_WeaponBaseItem
+    m_bRedraw                                     : 0x0000339C
+
+DT_BaseCSGrenade
+    m_bRedraw                                     : 0x00003390
+    m_bIsHeldByPlayer                             : 0x00003391
+    m_bPinPulled                                  : 0x00003392
+    m_fThrowTime                                  : 0x00003394
+    m_bLoopingSoundPlaying                        : 0x00003398
+    m_flThrowStrength                             : 0x0000339C
+
+DT_SmokeGrenadeProjectile
+    m_bDidSmokeEffect                             : 0x000029E4
+    m_nSmokeEffectTickBegin                       : 0x000029E0
+
+DT_MolotovProjectile
+    m_bIsIncGrenade                               : 0x000029E0
+
+DT_ItemDogtags
+    m_OwningPlayer                                : 0x00003420
+    m_KillingPlayer                               : 0x00003424
+
+DT_PhysPropLootCrate
+    m_bRenderInPSPM                               : 0x000029F4
+    m_bRenderInTablet                             : 0x000029F5
+    m_iHealth                                     : 0x00000100
+    m_iMaxHealth                                  : 0x000029F8
+
+DT_EnvGasCanister
+    m_flFlightSpeed                               : 0x000029F4
+    m_flLaunchTime                                : 0x000029F8
+    m_vecParabolaDirection                        : 0x00002A0C
+    m_flFlightTime                                : 0x000029F0
+    m_flWorldEnterTime                            : 0x00002A18
+    m_flInitialZSpeed                             : 0x000029FC
+    m_flZAcceleration                             : 0x00002A00
+    m_flHorizSpeed                                : 0x00002A04
+    m_bLaunchedFromWithinWorld                    : 0x00002A08
+    m_vecImpactPosition                           : 0x000029B4
+    m_vecStartPosition                            : 0x000029C0
+    m_vecEnterWorldPosition                       : 0x000029CC
+    m_vecDirection                                : 0x000029D8
+    m_vecStartAngles                              : 0x000029E4
+    m_vecSkyboxOrigin                             : 0x00002A1C
+    m_flSkyboxScale                               : 0x00002A28
+    m_bInSkybox                                   : 0x00002A2C
+    m_bDoImpactEffects                            : 0x00002A2D
+    m_bLanded                                     : 0x00002980
+    m_hSkyboxCopy                                 : 0x000029A8
+    m_nMyZoneIndex                                : 0x00002A30
+    m_vecOrigin                                   : 0x00000138
+    m_vecOrigin[2]                                : 0x00000140
+
+DT_Dronegun
+    m_vecAttentionTarget                          : 0x00002980
+    m_vecTargetOffset                             : 0x0000298C
+    m_iHealth                                     : 0x00000100
+    m_bHasTarget                                  : 0x00002998
+
+DT_ParadropChopper
+    m_vecOrigin                                   : 0x00000138
+    m_vecOrigin[2]                                : 0x00000140
+    m_hCallingPlayer                              : 0x00002990
+
+DT_SurvivalSpawnChopper
+    m_vecOrigin                                   : 0x00000138
+    m_vecOrigin[2]                                : 0x00000140
+
+DT_BRC4Target
+    m_bBrokenOpen                                 : 0x00002984
+    m_flRadius                                    : 0x00002988
+
+DT_InfoMapRegion
+    m_flRadius                                    : 0x000009D8
+    m_szLocToken                                  : 0x000009DC
+
+DT_Inferno
+    m_fireCount                                   : 0x000013A8
+    m_fireXDelta                                  : 0x000009E4
+    m_fireYDelta                                  : 0x00000B74
+    m_fireZDelta                                  : 0x00000D04
+    m_bFireIsBurning                              : 0x00000E94
+
+DT_CChicken
+    m_jumpedThisFrame                             : 0x000029E8
+    m_leader                                      : 0x000029EC
+
+DT_Drone
+    m_hMoveToThisEntity                           : 0x000029D8
+    m_hDeliveryCargo                              : 0x000029DC
+
+DT_FootstepControl
+    m_source                                      : 0x00000A10
+    m_destination                                 : 0x00000A20
+
+DT_CSGameRulesProxy
+    cs_gamerules_data                             : 0x00000000
+        m_bFreezePeriod                           : 0x00000020
+        m_bMatchWaitingForResume                  : 0x00000040
+        m_bWarmupPeriod                           : 0x00000021
+        m_fWarmupPeriodEnd                        : 0x00000024
+        m_fWarmupPeriodStart                      : 0x00000028
+        m_bTerroristTimeOutActive                 : 0x0000002C
+        m_bCTTimeOutActive                        : 0x0000002D
+        m_flTerroristTimeOutRemaining             : 0x00000030
+        m_flCTTimeOutRemaining                    : 0x00000034
+        m_nTerroristTimeOuts                      : 0x00000038
+        m_nCTTimeOuts                             : 0x0000003C
+        m_iRoundTime                              : 0x00000044
+        m_gamePhase                               : 0x00000060
+        m_totalRoundsPlayed                       : 0x00000064
+        m_nOvertimePlaying                        : 0x00000068
+        m_timeUntilNextPhaseStarts                : 0x0000005C
+        m_flCMMItemDropRevealStartTime            : 0x00000870
+        m_flCMMItemDropRevealEndTime              : 0x00000874
+        m_fRoundStartTime                         : 0x0000004C
+        m_bGameRestart                            : 0x00000054
+        m_flRestartRoundTime                      : 0x00000050
+        m_flGameStartTime                         : 0x00000058
+        m_iHostagesRemaining                      : 0x0000006C
+        m_bAnyHostageReached                      : 0x00000070
+        m_bMapHasBombTarget                       : 0x00000071
+        m_bMapHasRescueZone                       : 0x00000072
+        m_bMapHasBuyZone                          : 0x00000073
+        m_bIsQueuedMatchmaking                    : 0x00000074
+        m_bIsValveDS                              : 0x00000075
+        m_bIsQuestEligible                        : 0x00000879
+        m_bLogoMap                                : 0x00000076
+        m_bPlayAllStepSoundsOnServer              : 0x00000077
+        m_iNumGunGameProgressiveWeaponsCT         : 0x00000078
+        m_iNumGunGameProgressiveWeaponsT          : 0x0000007C
+        m_iSpectatorSlotCount                     : 0x00000080
+        m_bBombDropped                            : 0x0000099C
+        m_bBombPlanted                            : 0x0000099D
+        m_iRoundWinStatus                         : 0x000009A0
+        m_eRoundWinReason                         : 0x000009A4
+        m_flDMBonusStartTime                      : 0x0000044C
+        m_flDMBonusTimeLength                     : 0x00000450
+        m_unDMBonusWeaponLoadoutSlot              : 0x00000454
+        m_bDMBonusActive                          : 0x00000456
+        m_bTCantBuy                               : 0x000009A8
+        m_bCTCantBuy                              : 0x000009A9
+        m_flGuardianBuyUntilTime                  : 0x000009AC
+        m_MatchDevice                             : 0x00000444
+        m_bHasMatchStarted                        : 0x00000448
+        m_nNextMapInMapgroup                      : 0x00000458
+        m_nEndMatchMapVoteWinner                  : 0x00000C70
+        m_bIsDroppingItems                        : 0x00000878
+        m_iActiveAssassinationTargetMissionID     : 0x00000C18
+        m_fMatchStartTime                         : 0x00000048
+        m_szTournamentEventName                   : 0x0000045C
+        m_szTournamentEventStage                  : 0x00000560
+        m_szTournamentPredictionsTxt              : 0x00000768
+        m_nTournamentPredictionsPct               : 0x0000086C
+        m_szMatchStatTxt                          : 0x00000664
+        m_nGuardianModeWaveNumber                 : 0x0000087C
+        m_nGuardianModeSpecialKillsRemaining      : 0x00000880
+        m_nGuardianModeSpecialWeaponNeeded        : 0x00000884
+        m_nHalloweenMaskListSeed                  : 0x00000998
+        m_numGlobalGiftsGiven                     : 0x00000890
+        m_numGlobalGifters                        : 0x00000894
+        m_numGlobalGiftsPeriodSeconds             : 0x00000898
+        m_numBestOfMaps                           : 0x00000994
+        m_iMatchStats_RoundResults                : 0x000009B0
+        m_iMatchStats_PlayersAlive_T              : 0x00000AA0
+        m_iMatchStats_PlayersAlive_CT             : 0x00000A28
+        m_GGProgressiveWeaponOrderCT              : 0x00000084
+        m_GGProgressiveWeaponOrderT               : 0x00000174
+        m_GGProgressiveWeaponKillUpgradeOrderCT   : 0x00000264
+        m_GGProgressiveWeaponKillUpgradeOrderT    : 0x00000354
+        m_TeamRespawnWaveTimes                    : 0x00000B18
+        m_flNextRespawnWave                       : 0x00000B98
+        m_nEndMatchMapGroupVoteTypes              : 0x00000C20
+        m_nEndMatchMapGroupVoteOptions            : 0x00000C48
+        m_arrFeaturedGiftersAccounts              : 0x0000089C
+        m_arrFeaturedGiftersGifts                 : 0x000008AC
+        m_arrProhibitedItemIndices                : 0x000008BC
+        m_arrTournamentActiveCasterAccounts       : 0x00000984
+        m_SurvivalRules                           : 0x00000CF0
+            m_vecPlayAreaMins                     : 0x00000CF0
+            m_vecPlayAreaMaxs                     : 0x00000CFC
+            m_flSpawnSelectionTimeStart           : 0x00000EE8
+            m_flSpawnSelectionTimeEnd             : 0x00000EEC
+            m_flSpawnSelectionTimeLoadout         : 0x00000EF0
+            m_spawnStage                          : 0x00000EF4
+            m_flTabletHexOriginX                  : 0x00000EF8
+            m_flTabletHexOriginY                  : 0x00000EFC
+            m_flTabletHexSize                     : 0x00000F00
+            m_flSurvivalStartTime                 : 0x00001398
+            m_iPlayerSpawnHexIndices              : 0x00000D08
+            m_SpawnTileState                      : 0x00000E08
+            m_roundData_playerXuids               : 0x00000F08
+            m_roundData_playerPositions           : 0x00001110
+            m_roundData_playerTeams               : 0x00001214
+            m_SurvivalGameRuleDecisionTypes       : 0x00001318
+            m_SurvivalGameRuleDecisionValues      : 0x00001358
+
+DT_TEPlantBomb
+    m_vecOrigin                                   : 0x00000014
+    m_iPlayer                                     : 0x00000010
+    m_option                                      : 0x00000020
+
+DT_TEFireBullets
+    m_vecOrigin                                   : 0x00000018
+    m_vecAngles[0]                                : 0x00000024
+    m_vecAngles[1]                                : 0x00000028
+    m_iWeaponID                                   : 0x00000034
+    m_weapon                                      : 0x00000030
+    m_iMode                                       : 0x00000038
+    m_iSeed                                       : 0x0000003C
+    m_iPlayer                                     : 0x00000010
+    m_fInaccuracy                                 : 0x00000040
+    m_fSpread                                     : 0x00000048
+    m_nItemDefIndex                               : 0x00000014
+    m_iSoundType                                  : 0x0000004C
+    m_flRecoilIndex                               : 0x00000044
+
+DT_TERadioIcon
+    m_iAttachToClient                             : 0x00000010
+
+DT_PlantedC4
+    m_bBombTicking                                : 0x00002980
+    m_nBombSite                                   : 0x00002984
+    m_flC4Blow                                    : 0x00002990
+    m_flTimerLength                               : 0x00002994
+    m_flDefuseLength                              : 0x000029A8
+    m_flDefuseCountDown                           : 0x000029AC
+    m_bBombDefused                                : 0x000029B0
+    m_hBombDefuser                                : 0x000029B4
+
+DT_CSPlayerResource
+    m_iPlayerC4                                   : 0x0000165C
+    m_iPlayerVIP                                  : 0x00001660
+    m_bombsiteCenterA                             : 0x00001664
+    m_bombsiteCenterB                             : 0x00001670
+    m_bEndMatchNextMapAllVoted                    : 0x00006164
+    m_bHostageAlive                               : 0x0000167C
+    m_isHostageFollowingSomeone                   : 0x00001688
+    m_iHostageEntityIDs                           : 0x00001694
+    m_hostageRescueX                              : 0x000016C4
+    m_hostageRescueY                              : 0x000016D4
+    m_hostageRescueZ                              : 0x000016E4
+    m_iMVPs                                       : 0x000016F4
+    m_iArmor                                      : 0x0000187C
+    m_bHasHelmet                                  : 0x00001839
+    m_bHasDefuser                                 : 0x000017F8
+    m_iScore                                      : 0x00001980
+    m_iCompetitiveRanking                         : 0x00001A84
+    m_iCompetitiveWins                            : 0x00001B88
+    m_iCompetitiveRankType                        : 0x00001C8C
+    m_iCompTeammateColor                          : 0x00001CD0
+    m_iLifetimeStart                              : 0x00001DD4
+    m_iLifetimeEnd                                : 0x00001ED8
+    m_bControllingBot                             : 0x00001FDC
+    m_iControlledPlayer                           : 0x00002020
+    m_iControlledByPlayer                         : 0x00002124
+    m_iBotDifficulty                              : 0x000042A8
+    m_szClan                                      : 0x000043AC
+    m_iTotalCashSpent                             : 0x000047BC
+    m_iGunGameLevel                               : 0x000048C0
+    m_iCashSpentThisRound                         : 0x000049C4
+    m_nEndMatchNextMapVotes                       : 0x00006060
+    m_nActiveCoinRank                             : 0x00004AC8
+    m_nMusicID                                    : 0x00004BCC
+    m_nPersonaDataPublicLevel                     : 0x00004CD0
+    m_nPersonaDataPublicCommendsLeader            : 0x00004DD4
+    m_nPersonaDataPublicCommendsTeacher           : 0x00004ED8
+    m_nPersonaDataPublicCommendsFriendly          : 0x00004FDC
+    m_iMatchStats_Kills_Total                     : 0x000050E0
+    m_iMatchStats_5k_Total                        : 0x000055F4
+    m_iMatchStats_4k_Total                        : 0x000054F0
+    m_iMatchStats_3k_Total                        : 0x000053EC
+    m_iMatchStats_Damage_Total                    : 0x000056F8
+    m_iMatchStats_EquipmentValue_Total            : 0x000057FC
+    m_iMatchStats_KillReward_Total                : 0x00005900
+    m_iMatchStats_LiveTime_Total                  : 0x00005A04
+    m_iMatchStats_Deaths_Total                    : 0x000052E8
+    m_iMatchStats_Assists_Total                   : 0x000051E4
+    m_iMatchStats_HeadShotKills_Total             : 0x00005B08
+    m_iMatchStats_Objective_Total                 : 0x00005C0C
+    m_iMatchStats_CashEarned_Total                : 0x00005D10
+    m_iMatchStats_UtilityDamage_Total             : 0x00005E14
+    m_iMatchStats_EnemiesFlashed_Total            : 0x00005F18
+
+DT_CSPlayer
+    m_angEyeAngles[0]                             : 0x0000B328
+    m_angEyeAngles[1]                             : 0x0000B32C
+    m_iAddonBits                                  : 0x0000A354
+    m_iPrimaryAddon                               : 0x0000A358
+    m_iSecondaryAddon                             : 0x0000A35C
+    m_iThrowGrenadeCounter                        : 0x00003950
+    m_bWaitForNoAttack                            : 0x00003954
+    m_bIsRespawningForDMBonus                     : 0x00003955
+    m_iPlayerState                                : 0x00003910
+    m_iAccount                                    : 0x0000B310
+    m_iStartAccount                               : 0x0000A384
+    m_totalHitsOnServer                           : 0x0000A388
+    m_bInBombZone                                 : 0x0000394C
+    m_bInBuyZone                                  : 0x0000394D
+    m_bInNoDefuseArea                             : 0x0000394E
+    m_bKilledByTaser                              : 0x00003965
+    m_iMoveState                                  : 0x00003968
+    m_iClass                                      : 0x0000B320
+    m_ArmorValue                                  : 0x0000B324
+    m_angEyeAngles                                : 0x0000B328
+    m_bHasDefuser                                 : 0x0000B334
+    m_bNightVisionOn                              : 0x0000A379
+    m_bHasNightVision                             : 0x0000A37A
+    m_bInHostageRescueZone                        : 0x0000B335
+    m_bIsDefusing                                 : 0x00003914
+    m_bIsGrabbingHostage                          : 0x00003915
+    m_iBlockingUseActionInProgress                : 0x00003918
+    m_bIsScoped                                   : 0x0000390A
+    m_bIsWalking                                  : 0x0000390B
+    m_nIsAutoMounting                             : 0x00003A7C
+    m_bResumeZoom                                 : 0x0000390C
+    m_fImmuneToGunGameDamageTime                  : 0x00003920
+    m_bGunGameImmunity                            : 0x00003928
+    m_bHasMovedSinceSpawn                         : 0x00003929
+    m_bMadeFinalGunGameProgressiveKill            : 0x0000392A
+    m_iGunGameProgressiveWeaponIndex              : 0x0000392C
+    m_iNumGunGameTRKillPoints                     : 0x00003930
+    m_iNumGunGameKillsWithCurrentWeapon           : 0x00003934
+    m_iNumRoundKills                              : 0x00003938
+    m_fMolotovUseTime                             : 0x00003944
+    m_fMolotovDamageTime                          : 0x00003948
+    m_szArmsModel                                 : 0x0000396F
+    m_hCarriedHostage                             : 0x0000A3B8
+    m_hCarriedHostageProp                         : 0x0000A3BC
+    m_bIsRescuing                                 : 0x0000391C
+    m_flGroundAccelLinearFracLastTime             : 0x0000A380
+    m_bCanMoveDuringFreezePeriod                  : 0x0000396C
+    m_isCurrentGunGameLeader                      : 0x0000396D
+    m_isCurrentGunGameTeamLeader                  : 0x0000396E
+    m_flGuardianTooFarDistFrac                    : 0x00003958
+    m_flDetectedByEnemySensorTime                 : 0x0000395C
+    m_bIsPlayerGhost                              : 0x00003A79
+    m_unMusicID                                   : 0x0000B300
+    m_bHasHelmet                                  : 0x0000B318
+    m_bHasHeavyArmor                              : 0x0000B319
+    m_nHeavyAssaultSuitCooldownRemaining          : 0x0000B31C
+    m_flFlashDuration                             : 0x0000A3E0
+    m_flFlashMaxAlpha                             : 0x0000A3DC
+    m_iProgressBarDuration                        : 0x0000A360
+    m_flProgressBarStartTime                      : 0x0000A364
+    m_hRagdoll                                    : 0x0000A3B0
+    m_cycleLatch                                  : 0x0000B450
+    m_unCurrentEquipmentValue                     : 0x0000B2E0
+    m_unRoundStartEquipmentValue                  : 0x0000B2E2
+    m_unFreezetimeEndEquipmentValue               : 0x0000B2E4
+    m_bIsControllingBot                           : 0x0000B995
+    m_bHasControlledBotThisRound                  : 0x0000B9A4
+    m_bCanControlObservedBot                      : 0x0000B996
+    m_iControlledBotEntIndex                      : 0x0000B998
+    m_vecAutomoveTargetEnd                        : 0x00003A8C
+    m_flAutoMoveStartTime                         : 0x00003A9C
+    m_flAutoMoveTargetTime                        : 0x00003AA0
+    m_bIsAssassinationTarget                      : 0x0000B994
+    m_bHud_MiniScoreHidden                        : 0x0000B356
+    m_bHud_RadarHidden                            : 0x0000B357
+    m_nLastKillerIndex                            : 0x0000B358
+    m_nLastConcurrentKilled                       : 0x0000B35C
+    m_nDeathCamMusic                              : 0x0000B360
+    m_bIsHoldingLookAtWeapon                      : 0x0000B8E5
+    m_bIsLookingAtWeapon                          : 0x0000B8E4
+    m_iNumRoundKillsHeadshots                     : 0x0000393C
+    m_unTotalRoundDamageDealt                     : 0x00003940
+    m_flLowerBodyYawTarget                        : 0x00003A74
+    m_bStrafing                                   : 0x00003A78
+    m_flThirdpersonRecoil                         : 0x0000B934
+    m_bHideTargetID                               : 0x0000B938
+    m_bHasParachute                               : 0x0000A38D
+    m_bIsSpawnRappelling                          : 0x0000A38E
+    m_vecSpawnRappellingRopeOrigin                : 0x0000A390
+    m_nSurvivalTeam                               : 0x0000A3A0
+    m_hSurvivalAssassinationTarget                : 0x0000A3A4
+    m_flHealthShotBoostExpirationTime             : 0x0000A3A8
+    cslocaldata                                   : 0x00000000
+        m_vecOrigin                               : 0x00000138
+        m_vecOrigin[2]                            : 0x00000140
+        m_flStamina                               : 0x0000A368
+        m_iDirection                              : 0x0000A36C
+        m_iShotsFired                             : 0x0000A370
+        m_nNumFastDucks                           : 0x0000A374
+        m_bDuckOverride                           : 0x0000A378
+        m_flVelocityModifier                      : 0x0000A37C
+        m_nQuestProgressReason                    : 0x0000B2DC
+        m_bPlayerDominated                        : 0x0000B458
+        m_bPlayerDominatingMe                     : 0x0000B499
+        m_iWeaponPurchasesThisRound               : 0x0000B4DC
+    csnonlocaldata                                : 0x00000000
+        m_vecOrigin                               : 0x00000138
+        m_vecOrigin[2]                            : 0x00000140
+    csteamdata                                    : 0x00000000
+        m_iWeaponPurchasesThisMatch               : 0x0000AA3C
+        m_EquippedLoadoutItemDefIndices           : 0x0000B214
+    m_iMatchStats_Kills                           : 0x0000A424
+    m_iMatchStats_Damage                          : 0x0000A49C
+    m_iMatchStats_EquipmentValue                  : 0x0000A514
+    m_iMatchStats_MoneySaved                      : 0x0000A58C
+    m_iMatchStats_KillReward                      : 0x0000A604
+    m_iMatchStats_LiveTime                        : 0x0000A67C
+    m_iMatchStats_Deaths                          : 0x0000A6F4
+    m_iMatchStats_Assists                         : 0x0000A76C
+    m_iMatchStats_HeadShotKills                   : 0x0000A7E4
+    m_iMatchStats_Objective                       : 0x0000A85C
+    m_iMatchStats_CashEarned                      : 0x0000A8D4
+    m_iMatchStats_UtilityDamage                   : 0x0000A94C
+    m_iMatchStats_EnemiesFlashed                  : 0x0000A9C4
+    m_rank                                        : 0x0000B2E8
+
+DT_CSRagdoll
+    m_vecOrigin                                   : 0x00000138
+    m_vecRagdollOrigin                            : 0x00002A0C
+    m_hPlayer                                     : 0x000029F0
+    m_nModelIndex                                 : 0x00000258
+    m_nForceBone                                  : 0x0000268C
+    m_vecForce                                    : 0x00002680
+    m_vecRagdollVelocity                          : 0x00002A00
+    m_iDeathPose                                  : 0x00002A18
+    m_iDeathFrame                                 : 0x00002A1C
+    m_iTeamNum                                    : 0x000000F4
+    m_bClientSideAnimation                        : 0x0000289C
+    m_flDeathYaw                                  : 0x00002A20
+    m_flAbsYaw                                    : 0x00002A24
+
+DT_TEPlayerAnimEvent
+    m_hPlayer                                     : 0x00000010
+    m_iEvent                                      : 0x00000014
+    m_nData                                       : 0x00000018
+
+DT_CHostage
+    m_isRescued                                   : 0x00002F30
+    m_jumpedThisFrame                             : 0x00002F31
+    m_iHealth                                     : 0x00000100
+    m_iMaxHealth                                  : 0x00002F18
+    m_lifeState                                   : 0x0000025F
+    m_fFlags                                      : 0x00000104
+    m_nHostageState                               : 0x00002F34
+    m_flRescueStartTime                           : 0x00002F38
+    m_flGrabSuccessTime                           : 0x00002F3C
+    m_flDropStartTime                             : 0x00002F40
+    m_vel                                         : 0x00002F24
+    m_leader                                      : 0x00002F20
+
+DT_BaseCSGrenadeProjectile
+    m_vInitialVelocity                            : 0x000029B0
+    m_nBounces                                    : 0x000029BC
+
+DT_HandleTest
+    m_Handle                                      : 0x000009D8
+    m_bSendHandle                                 : 0x000009DC
+
+DT_TeamplayRoundBasedRulesProxy
+    teamplayroundbased_gamerules_data             : 0x00000000
+        m_iRoundState                             : 0x00000028
+        m_bInWaitingForPlayers                    : 0x00000038
+        m_iWinningTeam                            : 0x00000030
+        m_bInOvertime                             : 0x0000002C
+        m_bInSetup                                : 0x0000002D
+        m_bSwitchedTeamsThisRound                 : 0x0000002E
+        m_bAwaitingReadyRestart                   : 0x00000039
+        m_flRestartRoundTime                      : 0x0000003C
+        m_flMapResetTime                          : 0x00000040
+        m_bStopWatch                              : 0x000000E4
+        m_flNextRespawnWave                       : 0x00000044
+        m_TeamRespawnWaveTimes                    : 0x000000E8
+        m_bTeamReady                              : 0x000000C4
+
+DT_SpriteTrail
+    m_flLifeTime                                  : 0x00001074
+    m_flStartWidth                                : 0x00001078
+    m_flEndWidth                                  : 0x0000107C
+    m_flStartWidthVariance                        : 0x00001080
+    m_flTextureRes                                : 0x00001084
+    m_flMinFadeLength                             : 0x00001088
+    m_vecSkyboxOrigin                             : 0x0000108C
+    m_flSkyboxScale                               : 0x00001098
+
+DT_Sprite
+    m_hAttachedToEntity                           : 0x000009E8
+    m_nAttachment                                 : 0x000009EC
+    m_flScaleTime                                 : 0x00000A08
+    m_flSpriteScale                               : 0x00000A04
+    m_flSpriteFramerate                           : 0x000009F0
+    m_flGlowProxySize                             : 0x00000A10
+    m_flHDRColorScale                             : 0x00000A14
+    m_flFrame                                     : 0x000009F4
+    m_flBrightnessTime                            : 0x00000A00
+    m_nBrightness                                 : 0x000009FC
+    m_bWorldSpaceScale                            : 0x00000A0C
+
+DT_Ragdoll_Attached
+    m_boneIndexAttached                           : 0x00002CB8
+    m_ragdollAttachedObjectIndex                  : 0x00002CB4
+    m_attachmentPointBoneSpace                    : 0x00002C90
+    m_attachmentPointRagdollSpace                 : 0x00002CA8
+
+DT_Ragdoll
+    m_ragAngles[0]                                : 0x00002AA0
+    m_ragAngles                                   : 0x00000000
+    m_ragPos[0]                                   : 0x00002980
+    m_ragPos                                      : 0x00000000
+    m_hUnragdoll                                  : 0x00002C7C
+    m_flBlendWeight                               : 0x00002C80
+    m_nOverlaySequence                            : 0x00002C88
+
+DT_PropCounter
+    m_flDisplayValue                              : 0x00002980
+
+DT_PoseController
+    m_bPoseValueParity                            : 0x000009EC
+    m_fPoseValue                                  : 0x000009F0
+    m_fInterpolationTime                          : 0x000009F4
+    m_bInterpolationWrap                          : 0x000009F8
+    m_fCycleFrequency                             : 0x000009FC
+    m_nFModType                                   : 0x00000A00
+    m_fFModTimeOffset                             : 0x00000A04
+    m_fFModRate                                   : 0x00000A08
+    m_fFModAmplitude                              : 0x00000A0C
+    m_hProps                                      : 0x000009D8
+    m_chPoseIndex                                 : 0x000009E8
+
+DT_GrassBurn
+    m_flGrassBurnClearTime                        : 0x000009D8
+
+DT_FuncLadder
+    m_vecPlayerMountPositionTop                   : 0x000009F8
+    m_vecPlayerMountPositionBottom                : 0x00000A04
+    m_vecLadderDir                                : 0x000009D8
+    m_bFakeLadder                                 : 0x00000A11
+
+DT_TEFoundryHelpers
+    m_iEntity                                     : 0x00000010
+
+DT_DetailController
+    m_flFadeStartDist                             : 0x000009D8
+    m_flFadeEndDist                               : 0x000009DC
+
+DT_DangerZone
+    m_vecDangerZoneOriginStartedAt                : 0x000009D8
+    m_flBombLaunchTime                            : 0x000009E4
+    m_flExtraRadius                               : 0x000009E8
+    m_flExtraRadiusStartTime                      : 0x000009EC
+    m_flExtraRadiusTotalLerpTime                  : 0x000009F0
+    m_nDropOrder                                  : 0x000009F4
+    m_iWave                                       : 0x000009F8
+
+DT_DangerZoneController
+    m_bDangerZoneControllerEnabled                : 0x000009D8
+    m_flStartTime                                 : 0x000009F4
+    m_flFinalExpansionTime                        : 0x000009F8
+    m_vecEndGameCircleStart                       : 0x000009DC
+    m_vecEndGameCircleEnd                         : 0x000009E8
+    m_hTheFinalZone                               : 0x00000AB8
+    m_DangerZones                                 : 0x000009FC
+    m_flWaveEndTimes                              : 0x00000AA4
+
+DT_WorldVguiText
+    m_bEnabled                                    : 0x000009D8
+    m_szDisplayText                               : 0x000009D9
+    m_szDisplayTextOption                         : 0x00000BD9
+    m_szFont                                      : 0x00000CD9
+    m_iTextPanelWidth                             : 0x00000D20
+    m_clrText                                     : 0x00000D19
+
+DT_World
+    m_flWaveHeight                                : 0x000009D8
+    m_WorldMins                                   : 0x000009DC
+    m_WorldMaxs                                   : 0x000009E8
+    m_bStartDark                                  : 0x000009F4
+    m_flMaxOccludeeArea                           : 0x000009F8
+    m_flMinOccluderArea                           : 0x000009FC
+    m_flMaxPropScreenSpaceWidth                   : 0x00000A04
+    m_flMinPropScreenSpaceWidth                   : 0x00000A00
+    m_iszDetailSpriteMaterial                     : 0x00000A10
+    m_bColdWorld                                  : 0x00000A08
+    m_iTimeOfDay                                  : 0x00000A0C
+
+DT_WaterLODControl
+    m_flCheapWaterStartDistance                   : 0x000009D8
+    m_flCheapWaterEndDistance                     : 0x000009DC
+
+DT_VoteController
+    m_iActiveIssueIndex                           : 0x000009E4
+    m_iOnlyTeamToVote                             : 0x000009E8
+    m_nPotentialVotes                             : 0x00000A04
+    m_bIsYesNoVote                                : 0x00000A0A
+    m_nVoteOptionCount                            : 0x000009EC
+
+DT_VGuiScreen
+    m_flWidth                                     : 0x000009E0
+    m_flHeight                                    : 0x000009E4
+    m_fScreenFlags                                : 0x00000A0C
+    m_nPanelName                                  : 0x000009E8
+    m_nAttachmentIndex                            : 0x00000A04
+    m_nOverlayMaterial                            : 0x00000A08
+    m_hPlayerOwner                                : 0x00000A68
+
+DT_PropJeep
+    m_bHeadlightIsOn                              : 0x00002ACC
+
+DT_PropVehicleChoreoGeneric
+    m_hPlayer                                     : 0x000029F4
+    m_bEnterAnimOn                                : 0x000029FC
+    m_bExitAnimOn                                 : 0x000029FD
+    m_bForceEyesToAttachment                      : 0x00002A0C
+    m_vecEyeExitEndpoint                          : 0x00002A00
+    m_vehicleView.bClampEyeAngles                 : 0x00002A90
+    m_vehicleView.flPitchCurveZero                : 0x00002A94
+    m_vehicleView.flPitchCurveLinear              : 0x00002A98
+    m_vehicleView.flRollCurveZero                 : 0x00002A9C
+    m_vehicleView.flRollCurveLinear               : 0x00002AA0
+    m_vehicleView.flFOV                           : 0x00002AA4
+    m_vehicleView.flYawMin                        : 0x00002AA8
+    m_vehicleView.flYawMax                        : 0x00002AAC
+    m_vehicleView.flPitchMin                      : 0x00002AB0
+    m_vehicleView.flPitchMax                      : 0x00002AB4
+
+DT_TriggerSoundOperator
+    m_nSoundOperator                              : 0x00000A10
+
+DT_BaseTrigger
+    m_bClientSidePredicted                        : 0x00000A08
+    m_spawnflags                                  : 0x000002C8
+
+DT_ProxyToggle
+    blah                                          : 0x00000000
+        m_WithProxy                               : 0x000009D8
+
+DT_Tesla
+    m_SoundName                                   : 0x00000A00
+    m_iszSpriteName                               : 0x00000A40
+
+DT_BaseTeamObjectiveResource
+    m_iTimerToShowInHUD                           : 0x000009D8
+    m_iStopWatchTimer                             : 0x000009DC
+    m_iNumControlPoints                           : 0x000009E0
+    m_bPlayingMiniRounds                          : 0x000009E8
+    m_bControlPointsReset                         : 0x000009E9
+    m_iUpdateCapHudParity                         : 0x000009EC
+    m_vCPPositions[0]                             : 0x000009F4
+    m_vCPPositions                                : 0x00000000
+    m_iszWarnSound[0]                             : 0x00001304
+    m_iszWarnSound                                : 0x00000000
+    m_pszCapLayoutInHUD                           : 0x00001CEC
+    m_bCPIsVisible                                : 0x00000A54
+    m_flLazyCapPerc                               : 0x00000A5C
+    m_iTeamIcons                                  : 0x00000A9C
+    m_iTeamOverlays                               : 0x00000B9C
+    m_iTeamReqCappers                             : 0x00000C9C
+    m_flTeamCapTime                               : 0x00000D9C
+    m_iPreviousPoints                             : 0x00000E9C
+    m_bTeamCanCap                                 : 0x0000119C
+    m_iTeamBaseIcons                              : 0x000011DC
+    m_iBaseControlPoints                          : 0x0000125C
+    m_bInMiniRound                                : 0x000012DC
+    m_iWarnOnCap                                  : 0x000012E4
+    m_flPathDistance                              : 0x00001AFC
+    m_iNumTeamMembers                             : 0x00001B1C
+    m_iCappingTeam                                : 0x00001C1C
+    m_iTeamInZone                                 : 0x00001C3C
+    m_bBlocked                                    : 0x00001C5C
+    m_iOwner                                      : 0x00001C64
+
+DT_Team
+    m_iTeamNum                                    : 0x00000B68
+    m_bSurrendered                                : 0x00000B6C
+    m_scoreTotal                                  : 0x00000B40
+    m_scoreFirstHalf                              : 0x00000B44
+    m_scoreSecondHalf                             : 0x00000B48
+    m_scoreOvertime                               : 0x00000B4C
+    m_iClanID                                     : 0x00000B58
+    m_szTeamname                                  : 0x000009EC
+    m_szClanTeamname                              : 0x00000A0C
+    m_szTeamFlagImage                             : 0x00000A2C
+    m_szTeamLogoImage                             : 0x00000A34
+    m_szTeamMatchStat                             : 0x00000A3C
+    m_nGGLeaderEntIndex_CT                        : 0x00000B50
+    m_nGGLeaderEntIndex_T                         : 0x00000B54
+    m_numMapVictories                             : 0x00000B70
+    player_array_element                          : 0x00000000
+    "player_array"                                : 0x00000000
+
+DT_SunlightShadowControl
+    m_shadowDirection                             : 0x000009D8
+    m_bEnabled                                    : 0x000009E4
+    m_TextureName                                 : 0x000009E5
+    m_LightColor                                  : 0x00000AF0
+    m_flColorTransitionTime                       : 0x00000B04
+    m_flSunDistance                               : 0x00000B08
+    m_flFOV                                       : 0x00000B0C
+    m_flNearZ                                     : 0x00000B10
+    m_flNorthOffset                               : 0x00000B14
+    m_bEnableShadows                              : 0x00000B18
+
+DT_Sun
+    m_clrRender                                   : 0x00000070
+    m_clrOverlay                                  : 0x00000B38
+    m_vDirection                                  : 0x00000B44
+    m_bOn                                         : 0x00000B50
+    m_nSize                                       : 0x00000B3C
+    m_nOverlaySize                                : 0x00000B40
+    m_nMaterial                                   : 0x00000B54
+    m_nOverlayMaterial                            : 0x00000B58
+    HDRColorScale                                 : 0x00000000
+    glowDistanceScale                             : 0x00000000
+
+DT_ParticlePerformanceMonitor
+    m_bMeasurePerf                                : 0x000009D9
+    m_bDisplayPerf                                : 0x000009D8
+
+DT_SpotlightEnd
+    m_flLightScale                                : 0x000009D8
+    m_Radius                                      : 0x000009DC
+
+DT_SpatialEntity
+    m_vecOrigin                                   : 0x000009D8
+    m_minFalloff                                  : 0x000009E4
+    m_maxFalloff                                  : 0x000009E8
+    m_flCurWeight                                 : 0x000009EC
+    m_bEnabled                                    : 0x00000AF4
+
+DT_SlideshowDisplay
+    m_bEnabled                                    : 0x000009D8
+    m_szDisplayText                               : 0x000009D9
+    m_szSlideshowDirectory                        : 0x00000A59
+    m_fMinSlideTime                               : 0x00000B08
+    m_fMaxSlideTime                               : 0x00000B0C
+    m_iCycleType                                  : 0x00000B14
+    m_bNoListRepeats                              : 0x00000B18
+    m_chCurrentSlideLists                         : 0x00000AF0
+
+DT_ShadowControl
+    m_shadowDirection                             : 0x000009D8
+    m_shadowColor                                 : 0x000009E4
+    m_flShadowMaxDist                             : 0x000009E8
+    m_bDisableShadows                             : 0x000009EC
+    m_bEnableLocalLightShadows                    : 0x000009ED
+
+DT_SceneEntity
+    m_nSceneStringIndex                           : 0x000009E8
+    m_bIsPlayingBack                              : 0x000009DC
+    m_bPaused                                     : 0x000009DD
+    m_bMultiplayer                                : 0x000009DE
+    m_flForceClientTime                           : 0x000009E4
+    m_hActorList                                  : 0x00000000
+        lengthproxy                               : 0x00000000
+            lengthprop16                          : 0x00000000
+
+DT_RopeKeyframe
+    m_nChangeCount                                : 0x00000CCC
+    m_iRopeMaterialModelIndex                     : 0x00000A14
+    m_hStartPoint                                 : 0x00000CAC
+    m_hEndPoint                                   : 0x00000CB0
+    m_iStartAttachment                            : 0x00000CB4
+    m_iEndAttachment                              : 0x00000CB6
+    m_fLockedPoints                               : 0x00000CC8
+    m_Slack                                       : 0x00000CC0
+    m_RopeLength                                  : 0x00000CBC
+    m_RopeFlags                                   : 0x00000A10
+    m_TextureScale                                : 0x00000CC4
+    m_nSegments                                   : 0x00000CA8
+    m_bConstrainBetweenEndpoints                  : 0x00000D50
+    m_Subdiv                                      : 0x00000CB8
+    m_Width                                       : 0x00000CD0
+    m_flScrollSpeed                               : 0x00000A0C
+    m_vecOrigin                                   : 0x00000138
+    moveparent                                    : 0x00000148
+    m_iParentAttachment                           : 0x000002EC
+    m_iDefaultRopeMaterialModelIndex              : 0x00000A18
+    m_nMinCPULevel                                : 0x00000988
+    m_nMaxCPULevel                                : 0x00000989
+    m_nMinGPULevel                                : 0x0000098A
+    m_nMaxGPULevel                                : 0x0000098B
+
+DT_RagdollManager
+    m_iCurrentMaxRagdollCount                     : 0x000009D8
+
+DT_PhysicsPropMultiplayer
+    m_iPhysicsMode                                : 0x000029C4
+    m_fMass                                       : 0x000029C8
+    m_collisionMins                               : 0x000029CC
+    m_collisionMaxs                               : 0x000029D8
+
+DT_PhysBoxMultiplayer
+    m_iPhysicsMode                                : 0x000009E4
+    m_fMass                                       : 0x000009E8
+
+DT_DynamicProp
+    m_bUseHitboxesForRenderBox                    : 0x000029A4
+    m_flGlowMaxDist                               : 0x000029C4
+    m_bShouldGlow                                 : 0x000029C8
+    m_clrGlow                                     : 0x000029C9
+    m_nGlowStyle                                  : 0x000029D0
+
+DT_Prop_Hallucination
+    m_bEnabled                                    : 0x00002999
+    m_fVisibleTime                                : 0x0000299C
+    m_fRechargeTime                               : 0x000029A0
+
+DT_PostProcessController
+    m_bMaster                                     : 0x00000A04
+    m_flPostProcessParameters                     : 0x000009D8
+
+DT_PointWorldText
+    m_szText                                      : 0x00000A08
+    m_flTextSize                                  : 0x00000B0C
+    m_textColor                                   : 0x00000B10
+
+DT_PointCommentaryNode
+    m_bActive                                     : 0x00002980
+    m_flStartTime                                 : 0x00002984
+    m_iszCommentaryFile                           : 0x00002988
+    m_iszCommentaryFileNoHDR                      : 0x00002A8C
+    m_iszSpeakers                                 : 0x00002B90
+    m_iNodeNumber                                 : 0x00002C90
+    m_iNodeNumberMax                              : 0x00002C94
+    m_hViewPosition                               : 0x00002C9C
+
+DT_PointCamera
+    m_FOV                                         : 0x000009D8
+    m_Resolution                                  : 0x000009DC
+    m_bFogEnable                                  : 0x000009E0
+    m_FogColor                                    : 0x000009E1
+    m_flFogStart                                  : 0x000009E8
+    m_flFogEnd                                    : 0x000009EC
+    m_flFogMaxDensity                             : 0x000009F0
+    m_bActive                                     : 0x000009F4
+    m_bUseScreenAspectRatio                       : 0x000009F5
+
+DT_PlayerResource
+    m_iPing                                       : 0x00000B28
+    m_iKills                                      : 0x00000C2C
+    m_iAssists                                    : 0x00000D30
+    m_iDeaths                                     : 0x00000E34
+    m_bConnected                                  : 0x00000AE4
+    m_iTeam                                       : 0x00000F38
+    m_iPendingTeam                                : 0x0000103C
+    m_bAlive                                      : 0x00001140
+    m_iHealth                                     : 0x00001184
+    m_iCoachingTeam                               : 0x00001288
+
+DT_Plasma
+    m_flStartScale                                : 0x000009D8
+    m_flScale                                     : 0x000009DC
+    m_flScaleTime                                 : 0x000009E0
+    m_nFlags                                      : 0x000009E4
+    m_nPlasmaModelIndex                           : 0x000009E8
+    m_nPlasmaModelIndex2                          : 0x000009EC
+    m_nGlowModelIndex                             : 0x000009F0
+
+DT_PhysicsProp
+    m_bAwake                                      : 0x000029A0
+    m_spawnflags                                  : 0x000002C8
+
+DT_StatueProp
+    m_hInitBaseAnimating                          : 0x000029C0
+    m_bShatter                                    : 0x000029C4
+    m_nShatterFlags                               : 0x000029C8
+    m_vShatterPosition                            : 0x000029CC
+    m_vShatterForce                               : 0x000029D8
+
+DT_PhysBox
+    m_mass                                        : 0x000009D8
+
+DT_ParticleSystem
+    m_vecOrigin                                   : 0x00000138
+    m_fEffects                                    : 0x000000F0
+    m_hOwnerEntity                                : 0x0000014C
+    moveparent                                    : 0x00000148
+    m_iParentAttachment                           : 0x000002EC
+    m_angRotation                                 : 0x0000012C
+    m_iEffectIndex                                : 0x000009D8
+    m_bActive                                     : 0x000009E0
+    m_nStopType                                   : 0x000009DC
+    m_flStartTime                                 : 0x000009E4
+    m_szSnapshotFileName                          : 0x000009E8
+    m_vServerControlPoints                        : 0x00000AEC
+    m_iServerControlPointAssignments              : 0x00000B1C
+    m_hControlPointEnts                           : 0x00000B30
+    m_iControlPointParents                        : 0x00000C2C
+
+DT_MovieDisplay
+    m_bEnabled                                    : 0x000009D8
+    m_bLooping                                    : 0x000009D9
+    m_szMovieFilename                             : 0x000009DA
+    m_szGroupName                                 : 0x00000A5A
+    m_bStretchToFill                              : 0x00000ADA
+    m_bForcedSlave                                : 0x00000ADB
+    m_bUseCustomUVs                               : 0x00000ADC
+    m_flUMin                                      : 0x00000AE0
+    m_flUMax                                      : 0x00000AE4
+    m_flVMin                                      : 0x00000AE8
+    m_flVMax                                      : 0x00000AEC
+
+DT_MaterialModifyControl
+    m_szMaterialName                              : 0x000009D8
+    m_szMaterialVar                               : 0x00000AD7
+    m_szMaterialVarValue                          : 0x00000BD6
+    m_iFrameStart                                 : 0x00000CE0
+    m_iFrameEnd                                   : 0x00000CE4
+    m_bWrap                                       : 0x00000CE8
+    m_flFramerate                                 : 0x00000CEC
+    m_bNewAnimCommandsSemaphore                   : 0x00000CF0
+    m_flFloatLerpStartValue                       : 0x00000CF4
+    m_flFloatLerpEndValue                         : 0x00000CF8
+    m_flFloatLerpTransitionTime                   : 0x00000CFC
+    m_bFloatLerpWrap                              : 0x00000D00
+    m_nModifyMode                                 : 0x00000D08
+
+DT_LightGlow
+    m_clrRender                                   : 0x00000070
+    m_nHorizontalSize                             : 0x000009D8
+    m_nVerticalSize                               : 0x000009DC
+    m_nMinDist                                    : 0x000009E0
+    m_nMaxDist                                    : 0x000009E4
+    m_nOuterMaxDist                               : 0x000009E8
+    m_spawnflags                                  : 0x000009EC
+    m_vecOrigin                                   : 0x00000138
+    m_angRotation                                 : 0x0000012C
+    moveparent                                    : 0x00000148
+    m_flGlowProxySize                             : 0x00000AC4
+    HDRColorScale                                 : 0x00000000
+
+DT_ItemAssaultSuitUseable
+    m_nArmorValue                                 : 0x00003420
+    m_bIsHeavyAssaultSuit                         : 0x00003424
+
+DT_Item
+    m_bShouldGlow                                 : 0x00003214
+
+DT_InfoOverlayAccessor
+    m_iTextureFrameIndex                          : 0x0000098C
+    m_iOverlayID                                  : 0x000009D8
+
+DT_FuncSmokeVolume
+    m_Color1                                      : 0x00000AC4
+    m_Color2                                      : 0x00000AC8
+    m_MaterialName                                : 0x00000ACC
+    m_ParticleDrawWidth                           : 0x00000BCC
+    m_ParticleSpacingDistance                     : 0x00000BD0
+    m_DensityRampSpeed                            : 0x00000BD4
+    m_RotationSpeed                               : 0x00000BD8
+    m_MovementSpeed                               : 0x00000BDC
+    m_Density                                     : 0x00000BE0
+    m_maxDrawDistance                             : 0x00000BE4
+    m_spawnflags                                  : 0x00000BE8
+    m_Collision                                   : 0x0000031C
+        m_vecMins                                 : 0x00000324
+        m_vecMaxs                                 : 0x00000330
+        m_nSolidType                              : 0x0000033E
+        m_usSolidFlags                            : 0x0000033C
+        m_nSurroundType                           : 0x00000346
+        m_triggerBloat                            : 0x0000033F
+        m_vecSpecifiedSurroundingMins             : 0x00000348
+        m_vecSpecifiedSurroundingMaxs             : 0x00000354
+
+DT_FuncRotating
+    m_vecOrigin                                   : 0x00000138
+    m_angRotation[0]                              : 0x0000012C
+    m_angRotation[1]                              : 0x00000130
+    m_angRotation[2]                              : 0x00000134
+    m_flSimulationTime                            : 0x00000268
+
+DT_FuncOccluder
+    m_bActive                                     : 0x000009DC
+    m_nOccluderIndex                              : 0x000009D8
+
+DT_FuncMoveLinear
+    m_vecVelocity                                 : 0x00000114
+    m_fFlags                                      : 0x00000104
+
+DT_Func_LOD
+    m_nDisappearMinDist                           : 0x000009D8
+    m_nDisappearMaxDist                           : 0x000009DC
+
+DT_TEDust
+    m_flSize                                      : 0x0000001C
+    m_flSpeed                                     : 0x00000020
+    m_vecDirection                                : 0x00000024
+
+DT_Func_Dust
+    m_Color                                       : 0x000009D8
+    m_SpawnRate                                   : 0x000009DC
+    m_flSizeMin                                   : 0x000009E0
+    m_flSizeMax                                   : 0x000009E4
+    m_LifetimeMin                                 : 0x000009EC
+    m_LifetimeMax                                 : 0x000009F0
+    m_DustFlags                                   : 0x00000A00
+    m_SpeedMax                                    : 0x000009E8
+    m_DistMax                                     : 0x000009F4
+    m_nModelIndex                                 : 0x00000258
+    m_FallSpeed                                   : 0x000009F8
+    m_bAffectedByWind                             : 0x000009FC
+    m_Collision                                   : 0x0000031C
+        m_vecMins                                 : 0x00000324
+        m_vecMaxs                                 : 0x00000330
+        m_nSolidType                              : 0x0000033E
+        m_usSolidFlags                            : 0x0000033C
+        m_nSurroundType                           : 0x00000346
+        m_triggerBloat                            : 0x0000033F
+        m_vecSpecifiedSurroundingMins             : 0x00000348
+        m_vecSpecifiedSurroundingMaxs             : 0x00000354
+
+DT_FuncConveyor
+    m_flConveyorSpeed                             : 0x000009D8
+
+DT_BreakableSurface
+    m_nNumWide                                    : 0x000009DC
+    m_nNumHigh                                    : 0x000009E0
+    m_flPanelWidth                                : 0x000009E4
+    m_flPanelHeight                               : 0x000009E8
+    m_vNormal                                     : 0x000009EC
+    m_vCorner                                     : 0x000009F8
+    m_bIsBroken                                   : 0x00000A04
+    m_nSurfaceType                                : 0x00000A08
+    m_RawPanelBitVec                              : 0x00000A2C
+
+DT_FuncAreaPortalWindow
+    m_flFadeStartDist                             : 0x000009D8
+    m_flFadeDist                                  : 0x000009DC
+    m_flTranslucencyLimit                         : 0x000009E0
+    m_iBackgroundModelIndex                       : 0x000009E4
+
+DT_CFish
+    m_poolOrigin                                  : 0x000029E0
+    m_x                                           : 0x000029C8
+    m_y                                           : 0x000029CC
+    m_z                                           : 0x000029D0
+    m_angle                                       : 0x000029D8
+    m_nModelIndex                                 : 0x00000258
+    m_lifeState                                   : 0x0000025F
+    m_waterLevel                                  : 0x000029EC
+
+DT_FireSmoke
+    m_flStartScale                                : 0x000009D8
+    m_flScale                                     : 0x000009DC
+    m_flScaleTime                                 : 0x000009E0
+    m_nFlags                                      : 0x000009E4
+    m_nFlameModelIndex                            : 0x000009E8
+    m_nFlameFromAboveModelIndex                   : 0x000009EC
+
+DT_EnvTonemapController
+    m_bUseCustomAutoExposureMin                   : 0x000009D8
+    m_bUseCustomAutoExposureMax                   : 0x000009D9
+    m_bUseCustomBloomScale                        : 0x000009DA
+    m_flCustomAutoExposureMin                     : 0x000009DC
+    m_flCustomAutoExposureMax                     : 0x000009E0
+    m_flCustomBloomScale                          : 0x000009E4
+    m_flCustomBloomScaleMinimum                   : 0x000009E8
+    m_flBloomExponent                             : 0x000009EC
+    m_flBloomSaturation                           : 0x000009F0
+    m_flTonemapPercentTarget                      : 0x000009F4
+    m_flTonemapPercentBrightPixels                : 0x000009F8
+    m_flTonemapMinAvgLum                          : 0x000009FC
+    m_flTonemapRate                               : 0x00000A00
+
+DT_EnvScreenEffect
+    m_flDuration                                  : 0x000009D8
+    m_nType                                       : 0x000009DC
+
+DT_EnvScreenOverlay
+    m_iszOverlayNames[0]                          : 0x000009D8
+    m_iszOverlayNames                             : 0x00000000
+    m_flOverlayTimes[0]                           : 0x000013D0
+    m_flOverlayTimes                              : 0x00000000
+    m_flStartTime                                 : 0x000013F8
+    m_iDesiredOverlay                             : 0x000013FC
+    m_bIsActive                                   : 0x00001400
+
+DT_EnvProjectedTexture
+    m_hTargetEntity                               : 0x000009DC
+    m_bState                                      : 0x000009E0
+    m_bAlwaysUpdate                               : 0x000009E1
+    m_flLightFOV                                  : 0x000009E4
+    m_bEnableShadows                              : 0x000009E8
+    m_bSimpleProjection                           : 0x000009E9
+    m_bLightOnlyTarget                            : 0x000009EA
+    m_bLightWorld                                 : 0x000009EB
+    m_bCameraSpace                                : 0x000009EC
+    m_flBrightnessScale                           : 0x000009F0
+    m_LightColor                                  : 0x000009F4
+    m_flColorTransitionTime                       : 0x00000A08
+    m_flAmbient                                   : 0x00000A0C
+    m_SpotlightTextureName                        : 0x00000A18
+    m_nSpotlightTextureFrame                      : 0x00000B24
+    m_flNearZ                                     : 0x00000A10
+    m_flFarZ                                      : 0x00000A14
+    m_nShadowQuality                              : 0x00000B28
+    m_flProjectionSize                            : 0x00000B38
+    m_flRotation                                  : 0x00000B3C
+    m_iStyle                                      : 0x00000B2C
+
+DT_EnvParticleScript
+    m_flSequenceScale                             : 0x00002A64
+
+DT_FogController
+    m_fog.enable                                  : 0x00000A1C
+    m_fog.blend                                   : 0x00000A1D
+    m_fog.dirPrimary                              : 0x000009DC
+    m_fog.colorPrimary                            : 0x000009E8
+    m_fog.colorSecondary                          : 0x000009EC
+    m_fog.start                                   : 0x000009F8
+    m_fog.end                                     : 0x000009FC
+    m_fog.farz                                    : 0x00000A00
+    m_fog.maxdensity                              : 0x00000A04
+    m_fog.colorPrimaryLerpTo                      : 0x000009F0
+    m_fog.colorSecondaryLerpTo                    : 0x000009F4
+    m_fog.startLerpTo                             : 0x00000A08
+    m_fog.endLerpTo                               : 0x00000A0C
+    m_fog.maxdensityLerpTo                        : 0x00000A10
+    m_fog.lerptime                                : 0x00000A14
+    m_fog.duration                                : 0x00000A18
+    m_fog.HDRColorScale                           : 0x00000A24
+    m_fog.ZoomFogScale                            : 0x00000A20
+
+DT_EnvDOFController
+    m_bDOFEnabled                                 : 0x000009D8
+    m_flNearBlurDepth                             : 0x000009DC
+    m_flNearFocusDepth                            : 0x000009E0
+    m_flFarFocusDepth                             : 0x000009E4
+    m_flFarBlurDepth                              : 0x000009E8
+    m_flNearBlurRadius                            : 0x000009EC
+    m_flFarBlurRadius                             : 0x000009F0
+
+DT_CascadeLight
+    m_shadowDirection                             : 0x000009D8
+    m_envLightShadowDirection                     : 0x000009E4
+    m_bEnabled                                    : 0x000009F0
+    m_bUseLightEnvAngles                          : 0x000009F1
+    m_LightColor                                  : 0x000009F2
+    m_LightColorScale                             : 0x000009F8
+    m_flMaxShadowDist                             : 0x000009FC
+
+DT_EnvAmbientLight
+    m_vecColor                                    : 0x00000B00
+
+DT_EntityParticleTrail
+    m_iMaterialName                               : 0x00000AC0
+    m_hConstraintEntity                           : 0x00000AD8
+    m_Info                                        : 0x00000AC4
+        m_flLifetime                              : 0x00000ACC
+        m_flStartSize                             : 0x00000AD0
+        m_flEndSize                               : 0x00000AD4
+
+DT_EntityFreezing
+    m_vFreezingOrigin                             : 0x000009D8
+    m_flFrozen                                    : 0x00000AAC
+    m_bFinishFreezing                             : 0x00000AB0
+    m_flFrozenPerHitbox                           : 0x000009E4
+
+DT_EntityFlame
+    m_hEntAttached                                : 0x000009D8
+    m_bCheapEffect                                : 0x000009EC
+
+DT_EntityDissolve
+    m_flStartTime                                 : 0x000009DC
+    m_flFadeOutStart                              : 0x000009E0
+    m_flFadeOutLength                             : 0x000009E4
+    m_flFadeOutModelStart                         : 0x000009E8
+    m_flFadeOutModelLength                        : 0x000009EC
+    m_flFadeInStart                               : 0x000009F0
+    m_flFadeInLength                              : 0x000009F4
+    m_nDissolveType                               : 0x000009F8
+    m_vDissolverOrigin                            : 0x00000A00
+    m_nMagnitude                                  : 0x00000A0C
+
+DT_DynamicLight
+    m_Flags                                       : 0x000009D8
+    m_LightStyle                                  : 0x000009D9
+    m_Radius                                      : 0x000009DC
+    m_Exponent                                    : 0x000009E0
+    m_InnerAngle                                  : 0x000009E4
+    m_OuterAngle                                  : 0x000009E8
+    m_SpotRadius                                  : 0x000009EC
+
+DT_ColorCorrectionVolume
+    m_bEnabled                                    : 0x00000A20
+    m_MaxWeight                                   : 0x00000A24
+    m_FadeDuration                                : 0x00000A28
+    m_Weight                                      : 0x00000A2C
+    m_lookupFilename                              : 0x00000A30
+
+DT_ColorCorrection
+    m_vecOrigin                                   : 0x000009D8
+    m_minFalloff                                  : 0x000009E4
+    m_maxFalloff                                  : 0x000009E8
+    m_flCurWeight                                 : 0x000009F8
+    m_flMaxWeight                                 : 0x000009F4
+    m_flFadeInDuration                            : 0x000009EC
+    m_flFadeOutDuration                           : 0x000009F0
+    m_netLookupFilename                           : 0x000009FC
+    m_bEnabled                                    : 0x00000B00
+    m_bMaster                                     : 0x00000B01
+    m_bClientSide                                 : 0x00000B02
+    m_bExclusive                                  : 0x00000B03
+
+DT_BreakableProp
+    m_qPreferredPlayerCarryAngles                 : 0x00002984
+    m_bClientPhysics                              : 0x00002990
+
+DT_BeamSpotlight
+    m_nHaloIndex                                  : 0x000009D8
+    m_bSpotlightOn                                : 0x000009E4
+    m_bHasDynamicLight                            : 0x000009E5
+    m_flSpotlightMaxLength                        : 0x000009E8
+    m_flSpotlightGoalWidth                        : 0x000009EC
+    m_flHDRColorScale                             : 0x000009F0
+    m_nRotationAxis                               : 0x000009DC
+    m_flRotationSpeed                             : 0x000009E0
+
+DT_BaseButton
+    m_usable                                      : 0x00000A08
+
+DT_BaseToggle
+    m_vecFinalDest                                : 0x000009EC
+    m_movementType                                : 0x000009F8
+    m_flMoveTargetTime                            : 0x000009FC
+
+DT_BasePlayer
+    m_iFOV                                        : 0x000031E4
+    m_iFOVStart                                   : 0x000031E8
+    m_flFOVTime                                   : 0x00003208
+    m_iDefaultFOV                                 : 0x0000332C
+    m_hZoomOwner                                  : 0x0000324C
+    m_afPhysicsFlags                              : 0x000032EC
+    m_hVehicle                                    : 0x000032F0
+    m_hUseEntity                                  : 0x00003328
+    m_hGroundEntity                               : 0x00000150
+    m_iHealth                                     : 0x00000100
+    m_lifeState                                   : 0x0000025F
+    m_iBonusProgress                              : 0x00003240
+    m_iBonusChallenge                             : 0x00003244
+    m_flMaxspeed                                  : 0x00003248
+    m_fFlags                                      : 0x00000104
+    m_iObserverMode                               : 0x00003374
+    m_bActiveCameraMan                            : 0x00003378
+    m_bCameraManXRay                              : 0x00003379
+    m_bCameraManOverview                          : 0x0000337A
+    m_bCameraManScoreBoard                        : 0x0000337B
+    m_uCameraManGraphs                            : 0x0000337C
+    m_iDeathPostEffect                            : 0x00003370
+    m_hObserverTarget                             : 0x00003388
+    m_hViewModel[0]                               : 0x000032F8
+    m_hViewModel                                  : 0x00000000
+    m_iCoachingTeam                               : 0x00002F50
+    m_szLastPlaceName                             : 0x000035B0
+    m_vecLadderNormal                             : 0x00003230
+    m_ladderSurfaceProps                          : 0x00003200
+    m_ubEFNoInterpParity                          : 0x000035D4
+    m_hPostProcessCtrl                            : 0x000037A4
+    m_hColorCorrectionCtrl                        : 0x000037A8
+    m_PlayerFog.m_hCtrl                           : 0x000037B0
+    m_vphysicsCollisionState                      : 0x0000325C
+    m_hViewEntity                                 : 0x00003338
+    m_bShouldDrawPlayerWhileUsingViewEntity       : 0x0000333C
+    m_flDuckAmount                                : 0x00002FAC
+    m_flDuckSpeed                                 : 0x00002FB0
+    m_nWaterLevel                                 : 0x0000025E
+    localdata                                     : 0x00000000
+        m_vecViewOffset[0]                        : 0x00000108
+        m_vecViewOffset[1]                        : 0x0000010C
+        m_vecViewOffset[2]                        : 0x00000110
+        m_flFriction                              : 0x00000144
+        m_fOnTarget                               : 0x00003324
+        m_nTickBase                               : 0x0000342C
+        m_nNextThinkTick                          : 0x000000FC
+        m_hLastWeapon                             : 0x000032F4
+        m_vecVelocity[0]                          : 0x00000114
+        m_vecVelocity[1]                          : 0x00000118
+        m_vecVelocity[2]                          : 0x0000011C
+        m_vecBaseVelocity                         : 0x00000120
+        m_hConstraintEntity                       : 0x00003340
+        m_vecConstraintCenter                     : 0x00003344
+        m_flConstraintRadius                      : 0x00003350
+        m_flConstraintWidth                       : 0x00003354
+        m_flConstraintSpeedFactor                 : 0x00003358
+        m_bConstraintPastRadius                   : 0x0000335C
+        m_flDeathTime                             : 0x000033C0
+        m_flNextDecalTime                         : 0x000033C4
+        m_fForceTeam                              : 0x000033C8
+        m_flLaggedMovementValue                   : 0x00003590
+        m_hTonemapController                      : 0x000031CC
+        m_Local                                   : 0x00002FBC
+            m_iHideHUD                            : 0x00003004
+            m_flFOVRate                           : 0x00003000
+            m_bDucked                             : 0x00003044
+            m_bDucking                            : 0x00003045
+            m_flLastDuckTime                      : 0x00003048
+            m_bInDuckJump                         : 0x0000304C
+            m_nDuckTimeMsecs                      : 0x00003008
+            m_nDuckJumpTimeMsecs                  : 0x0000300C
+            m_nJumpTimeMsecs                      : 0x00003010
+            m_flFallVelocity                      : 0x00003014
+            m_viewPunchAngle                      : 0x00003020
+            m_aimPunchAngle                       : 0x0000302C
+            m_aimPunchAngleVel                    : 0x00003038
+            m_bDrawViewmodel                      : 0x0000304D
+            m_bWearingSuit                        : 0x0000304E
+            m_bPoisoned                           : 0x0000304F
+            m_flStepSize                          : 0x0000301C
+            m_bAllowAutoMovement                  : 0x00003050
+            m_skybox3d.scale                      : 0x000030F0
+            m_skybox3d.origin                     : 0x000030F4
+            m_skybox3d.area                       : 0x00003100
+            m_skybox3d.fog.enable                 : 0x00003148
+            m_skybox3d.fog.blend                  : 0x00003149
+            m_skybox3d.fog.dirPrimary             : 0x00003108
+            m_skybox3d.fog.colorPrimary           : 0x00003114
+            m_skybox3d.fog.colorSecondary         : 0x00003118
+            m_skybox3d.fog.start                  : 0x00003124
+            m_skybox3d.fog.end                    : 0x00003128
+            m_skybox3d.fog.maxdensity             : 0x00003130
+            m_skybox3d.fog.HDRColorScale          : 0x00003150
+            m_audio.localSound[0]                 : 0x00003158
+            m_audio.localSound[1]                 : 0x00003164
+            m_audio.localSound[2]                 : 0x00003170
+            m_audio.localSound[3]                 : 0x0000317C
+            m_audio.localSound[4]                 : 0x00003188
+            m_audio.localSound[5]                 : 0x00003194
+            m_audio.localSound[6]                 : 0x000031A0
+            m_audio.localSound[7]                 : 0x000031AC
+            m_audio.soundscapeIndex               : 0x000031B8
+            m_audio.localBits                     : 0x000031BC
+            m_audio.entIndex                      : 0x000031C0
+            m_chAreaBits                          : 0x00002FC0
+            m_chAreaPortalBits                    : 0x00002FE0
+    pl                                            : 0x000031D0
+        deadflag                                  : 0x000031D4
+    m_iAmmo                                       : 0x00002D78
+
+DT_BaseFlex
+    m_blinktoggle                                 : 0x00002BD4
+    m_viewtarget                                  : 0x000029F0
+    m_flexWeight                                  : 0x00002A28
+
+DT_BaseEntity
+    m_flSimulationTime                            : 0x00000268
+    m_cellbits                                    : 0x00000074
+    m_cellX                                       : 0x0000007C
+    m_cellY                                       : 0x00000080
+    m_cellZ                                       : 0x00000084
+    m_vecOrigin                                   : 0x00000138
+    m_angRotation                                 : 0x0000012C
+    m_nModelIndex                                 : 0x00000258
+    m_fEffects                                    : 0x000000F0
+    m_nRenderMode                                 : 0x0000025B
+    m_nRenderFX                                   : 0x0000025A
+    m_clrRender                                   : 0x00000070
+    m_iTeamNum                                    : 0x000000F4
+    m_iPendingTeamNum                             : 0x000000F8
+    m_CollisionGroup                              : 0x00000474
+    m_flElasticity                                : 0x0000039C
+    m_flShadowCastDistance                        : 0x000003A0
+    m_hOwnerEntity                                : 0x0000014C
+    m_hEffectEntity                               : 0x00000998
+    moveparent                                    : 0x00000148
+    m_iParentAttachment                           : 0x000002EC
+    m_iName                                       : 0x00000154
+    movetype                                      : 0x00000000
+    movecollide                                   : 0x00000000
+    m_iTextureFrameIndex                          : 0x0000098C
+    m_bSimulatedEveryTick                         : 0x0000093A
+    m_bAnimatedEveryTick                          : 0x0000093B
+    m_bAlternateSorting                           : 0x0000093C
+    m_bSpotted                                    : 0x0000093D
+    m_bIsAutoaimTarget                            : 0x00000060
+    m_fadeMinDist                                 : 0x000002F4
+    m_fadeMaxDist                                 : 0x000002F8
+    m_flFadeScale                                 : 0x000002FC
+    m_nMinCPULevel                                : 0x00000988
+    m_nMaxCPULevel                                : 0x00000989
+    m_nMinGPULevel                                : 0x0000098A
+    m_nMaxGPULevel                                : 0x0000098B
+    m_flUseLookAtAngle                            : 0x000002CC
+    m_flLastMadeNoiseTime                         : 0x00000020
+    m_flMaxFallVelocity                           : 0x000000DC
+    m_bEligibleForScreenHighlight                 : 0x000009B9
+    AnimTimeMustBeFirst                           : 0x00000000
+        m_flAnimTime                              : 0x00000260
+    m_Collision                                   : 0x0000031C
+        m_vecMins                                 : 0x00000324
+        m_vecMaxs                                 : 0x00000330
+        m_nSolidType                              : 0x0000033E
+        m_usSolidFlags                            : 0x0000033C
+        m_nSurroundType                           : 0x00000346
+        m_triggerBloat                            : 0x0000033F
+        m_vecSpecifiedSurroundingMins             : 0x00000348
+        m_vecSpecifiedSurroundingMaxs             : 0x00000354
+    m_bSpottedBy                                  : 0x0000093E
+    m_bSpottedByMask                              : 0x00000980
+
+DT_BaseDoor
+    m_flWaveHeight                                : 0x00000A08
+
+DT_BaseCombatCharacter
+    m_LastHitGroup                                : 0x00002D74
+    m_hActiveWeapon                               : 0x00002EF8
+    m_flTimeOfLastInjury                          : 0x00002EFC
+    m_nRelativeDirectionOfLastInjury              : 0x00002F00
+    bcc_localdata                                 : 0x00000000
+        m_flNextAttack                            : 0x00002D70
+    bcc_nonlocaldata                              : 0x00000000
+        m_hMyWeapons                              : 0x00002DF8
+    m_hMyWeapons                                  : 0x00002DF8
+    m_hMyWearables                                : 0x00002F04
+
+DT_BaseAnimatingOverlay
+    overlay_vars                                  : 0x00000000
+        m_AnimOverlay                             : 0x00000000
+            lengthproxy                           : 0x00000000
+                lengthprop15                      : 0x00000000
+
+DT_BoneFollower
+    m_modelIndex                                  : 0x000009D8
+    m_solidIndex                                  : 0x000009DC
+
+DT_BaseAnimating
+    m_nSequence                                   : 0x000028BC
+    m_nForceBone                                  : 0x0000268C
+    m_vecForce                                    : 0x00002680
+    m_nSkin                                       : 0x00000A1C
+    m_nBody                                       : 0x00000A20
+    m_nHitboxSet                                  : 0x000009FC
+    m_flModelScale                                : 0x00002748
+    m_flPlaybackRate                              : 0x00000A18
+    m_bClientSideAnimation                        : 0x0000289C
+    m_bClientSideFrameReset                       : 0x000026C0
+    m_bClientSideRagdoll                          : 0x00000279
+    m_nNewSequenceParity                          : 0x00000A44
+    m_nResetEventsParity                          : 0x00000A48
+    m_nMuzzleFlashParity                          : 0x00000A64
+    m_hLightingOrigin                             : 0x00002944
+    m_flFrozen                                    : 0x000026F8
+    m_ScaleType                                   : 0x0000274C
+    m_bSuppressAnimSounds                         : 0x0000294A
+    m_nHighlightColorR                            : 0x00000A38
+    m_nHighlightColorG                            : 0x00000A3C
+    m_nHighlightColorB                            : 0x00000A40
+    m_flPoseParameter                             : 0x00002774
+    m_flEncodedController                         : 0x00000A54
+    serveranimdata                                : 0x00000000
+        m_flCycle                                 : 0x00000A14
+
+DT_AI_BaseNPC
+    m_lifeState                                   : 0x0000025F
+    m_bPerformAvoidance                           : 0x00002F24
+    m_bIsMoving                                   : 0x00002F25
+    m_bFadeCorpse                                 : 0x00002F26
+    m_iDeathPose                                  : 0x00002F14
+    m_iDeathFrame                                 : 0x00002F18
+    m_iSpeedModRadius                             : 0x00002F1C
+    m_iSpeedModSpeed                              : 0x00002F20
+    m_bSpeedModActive                             : 0x00002F27
+    m_bImportanRagdoll                            : 0x00002F28
+    m_flTimePingEffect                            : 0x00002F10
+
+DT_Beam
+    m_nBeamType                                   : 0x000009F4
+    m_nBeamFlags                                  : 0x000009F8
+    m_nNumBeamEnts                                : 0x000009E8
+    m_nHaloIndex                                  : 0x000009F0
+    m_fHaloScale                                  : 0x00000A58
+    m_fWidth                                      : 0x00000A4C
+    m_fEndWidth                                   : 0x00000A50
+    m_fFadeLength                                 : 0x00000A54
+    m_fAmplitude                                  : 0x00000A5C
+    m_fStartFrame                                 : 0x00000A60
+    m_fSpeed                                      : 0x00000A64
+    m_flFrameRate                                 : 0x000009D8
+    m_flHDRColorScale                             : 0x000009DC
+    m_clrRender                                   : 0x00000070
+    m_nRenderFX                                   : 0x0000025A
+    m_nRenderMode                                 : 0x0000025B
+    m_flFrame                                     : 0x00000A68
+    m_nClipStyle                                  : 0x00000A6C
+    m_vecEndPos                                   : 0x00000A70
+    m_nModelIndex                                 : 0x00000258
+    m_vecOrigin                                   : 0x00000138
+    moveparent                                    : 0x00000148
+    m_hAttachEntity                               : 0x000009FC
+    m_nAttachIndex                                : 0x00000A24
+
+DT_BaseViewModel
+    m_nModelIndex                                 : 0x00000258
+    m_hWeapon                                     : 0x000029C8
+    m_nSkin                                       : 0x00000A1C
+    m_nBody                                       : 0x00000A20
+    m_nSequence                                   : 0x000028BC
+    m_nViewModelIndex                             : 0x000029C0
+    m_flPlaybackRate                              : 0x00000A18
+    m_fEffects                                    : 0x000000F0
+    m_nAnimationParity                            : 0x000029C4
+    m_hOwner                                      : 0x000029CC
+    m_nNewSequenceParity                          : 0x00000A44
+    m_nResetEventsParity                          : 0x00000A48
+    m_nMuzzleFlashParity                          : 0x00000A64
+    m_bShouldIgnoreOffsetAndAccuracy              : 0x00002990
+
+DT_BaseGrenade
+    m_flDamage                                    : 0x00002998
+    m_DmgRadius                                   : 0x00002984
+    m_bIsLive                                     : 0x00002981
+    m_hThrower                                    : 0x000029A0
+    m_vecVelocity                                 : 0x00000114
+    m_fFlags                                      : 0x00000104
+
+DT_BaseCombatWeapon
+    m_iViewModelIndex                             : 0x00003220
+    m_iWorldModelIndex                            : 0x00003224
+    m_iWorldDroppedModelIndex                     : 0x00003228
+    m_iState                                      : 0x00003238
+    m_hOwner                                      : 0x00003210
+    m_iClip1                                      : 0x00003244
+    m_iClip2                                      : 0x00003248
+    m_iPrimaryReserveAmmoCount                    : 0x0000324C
+    m_iSecondaryReserveAmmoCount                  : 0x00003250
+    m_hWeaponWorldModel                           : 0x00003234
+    m_iNumEmptyAttacks                            : 0x00003230
+    LocalWeaponData                               : 0x00000000
+        m_iPrimaryAmmoType                        : 0x0000323C
+        m_iSecondaryAmmoType                      : 0x00003240
+        m_nViewModelIndex                         : 0x00003214
+        m_bFlipViewModel                          : 0x000032A4
+        m_iWeaponOrigin                           : 0x000032A8
+        m_iWeaponModule                           : 0x0000322C
+    LocalActiveWeaponData                         : 0x00000000
+        m_flNextPrimaryAttack                     : 0x00003218
+        m_flNextSecondaryAttack                   : 0x0000321C
+        m_nNextThinkTick                          : 0x000000FC
+        m_flTimeWeaponIdle                        : 0x00003254
+
+DT_BaseWeaponWorldModel
+    m_nModelIndex                                 : 0x00000258
+    m_nBody                                       : 0x00000A20
+    m_fEffects                                    : 0x000000F0
+    moveparent                                    : 0x00000148
+    m_hCombatWeaponParent                         : 0x000029F0
+
+
