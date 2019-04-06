@@ -765,6 +765,8 @@ DT_CSGameRulesProxy
         m_numGlobalGifters                        : 0x00000894
         m_numGlobalGiftsPeriodSeconds             : 0x00000898
         m_numBestOfMaps                           : 0x00000994
+        m_iNumConsecutiveCTLoses                  : 0x00000C74
+        m_iNumConsecutiveTerroristLoses           : 0x00000C78
         m_iMatchStats_RoundResults                : 0x000009B0
         m_iMatchStats_PlayersAlive_T              : 0x00000AA0
         m_iMatchStats_PlayersAlive_CT             : 0x00000A28
@@ -780,24 +782,24 @@ DT_CSGameRulesProxy
         m_arrFeaturedGiftersGifts                 : 0x000008AC
         m_arrProhibitedItemIndices                : 0x000008BC
         m_arrTournamentActiveCasterAccounts       : 0x00000984
-        m_SurvivalRules                           : 0x00000CF0
-            m_vecPlayAreaMins                     : 0x00000CF0
-            m_vecPlayAreaMaxs                     : 0x00000CFC
-            m_flSpawnSelectionTimeStart           : 0x00000EE8
-            m_flSpawnSelectionTimeEnd             : 0x00000EEC
-            m_flSpawnSelectionTimeLoadout         : 0x00000EF0
-            m_spawnStage                          : 0x00000EF4
-            m_flTabletHexOriginX                  : 0x00000EF8
-            m_flTabletHexOriginY                  : 0x00000EFC
-            m_flTabletHexSize                     : 0x00000F00
-            m_flSurvivalStartTime                 : 0x00001398
-            m_iPlayerSpawnHexIndices              : 0x00000D08
-            m_SpawnTileState                      : 0x00000E08
-            m_roundData_playerXuids               : 0x00000F08
-            m_roundData_playerPositions           : 0x00001110
-            m_roundData_playerTeams               : 0x00001214
-            m_SurvivalGameRuleDecisionTypes       : 0x00001318
-            m_SurvivalGameRuleDecisionValues      : 0x00001358
+        m_SurvivalRules                           : 0x00000CF8
+            m_vecPlayAreaMins                     : 0x00000CF8
+            m_vecPlayAreaMaxs                     : 0x00000D04
+            m_flSpawnSelectionTimeStart           : 0x00000EF0
+            m_flSpawnSelectionTimeEnd             : 0x00000EF4
+            m_flSpawnSelectionTimeLoadout         : 0x00000EF8
+            m_spawnStage                          : 0x00000EFC
+            m_flTabletHexOriginX                  : 0x00000F00
+            m_flTabletHexOriginY                  : 0x00000F04
+            m_flTabletHexSize                     : 0x00000F08
+            m_flSurvivalStartTime                 : 0x000013A0
+            m_iPlayerSpawnHexIndices              : 0x00000D10
+            m_SpawnTileState                      : 0x00000E10
+            m_roundData_playerXuids               : 0x00000F10
+            m_roundData_playerPositions           : 0x00001118
+            m_roundData_playerTeams               : 0x0000121C
+            m_SurvivalGameRuleDecisionTypes       : 0x00001320
+            m_SurvivalGameRuleDecisionValues      : 0x00001360
 
 DT_TEPlantBomb
     m_vecOrigin                                   : 0x00000014
@@ -887,8 +889,8 @@ DT_CSPlayerResource
     m_iMatchStats_EnemiesFlashed_Total            : 0x00005F18
 
 DT_CSPlayer
-    m_angEyeAngles[0]                             : 0x0000B328
-    m_angEyeAngles[1]                             : 0x0000B32C
+    m_angEyeAngles[0]                             : 0x0000B32C
+    m_angEyeAngles[1]                             : 0x0000B330
     m_iAddonBits                                  : 0x0000A354
     m_iPrimaryAddon                               : 0x0000A358
     m_iSecondaryAddon                             : 0x0000A35C
@@ -896,7 +898,7 @@ DT_CSPlayer
     m_bWaitForNoAttack                            : 0x00003954
     m_bIsRespawningForDMBonus                     : 0x00003955
     m_iPlayerState                                : 0x00003910
-    m_iAccount                                    : 0x0000B310
+    m_iAccount                                    : 0x0000B314
     m_iStartAccount                               : 0x0000A384
     m_totalHitsOnServer                           : 0x0000A388
     m_bInBombZone                                 : 0x0000394C
@@ -904,13 +906,13 @@ DT_CSPlayer
     m_bInNoDefuseArea                             : 0x0000394E
     m_bKilledByTaser                              : 0x00003965
     m_iMoveState                                  : 0x00003968
-    m_iClass                                      : 0x0000B320
-    m_ArmorValue                                  : 0x0000B324
-    m_angEyeAngles                                : 0x0000B328
-    m_bHasDefuser                                 : 0x0000B334
+    m_iClass                                      : 0x0000B324
+    m_ArmorValue                                  : 0x0000B328
+    m_angEyeAngles                                : 0x0000B32C
+    m_bHasDefuser                                 : 0x0000B338
     m_bNightVisionOn                              : 0x0000A379
     m_bHasNightVision                             : 0x0000A37A
-    m_bInHostageRescueZone                        : 0x0000B335
+    m_bInHostageRescueZone                        : 0x0000B339
     m_bIsDefusing                                 : 0x00003914
     m_bIsGrabbingHostage                          : 0x00003915
     m_iBlockingUseActionInProgress                : 0x00003918
@@ -939,40 +941,40 @@ DT_CSPlayer
     m_flGuardianTooFarDistFrac                    : 0x00003958
     m_flDetectedByEnemySensorTime                 : 0x0000395C
     m_bIsPlayerGhost                              : 0x00003A79
-    m_unMusicID                                   : 0x0000B300
-    m_bHasHelmet                                  : 0x0000B318
-    m_bHasHeavyArmor                              : 0x0000B319
-    m_nHeavyAssaultSuitCooldownRemaining          : 0x0000B31C
+    m_unMusicID                                   : 0x0000B304
+    m_bHasHelmet                                  : 0x0000B31C
+    m_bHasHeavyArmor                              : 0x0000B31D
+    m_nHeavyAssaultSuitCooldownRemaining          : 0x0000B320
     m_flFlashDuration                             : 0x0000A3E0
     m_flFlashMaxAlpha                             : 0x0000A3DC
     m_iProgressBarDuration                        : 0x0000A360
     m_flProgressBarStartTime                      : 0x0000A364
     m_hRagdoll                                    : 0x0000A3B0
-    m_cycleLatch                                  : 0x0000B450
-    m_unCurrentEquipmentValue                     : 0x0000B2E0
-    m_unRoundStartEquipmentValue                  : 0x0000B2E2
-    m_unFreezetimeEndEquipmentValue               : 0x0000B2E4
-    m_bIsControllingBot                           : 0x0000B995
-    m_bHasControlledBotThisRound                  : 0x0000B9A4
-    m_bCanControlObservedBot                      : 0x0000B996
-    m_iControlledBotEntIndex                      : 0x0000B998
+    m_cycleLatch                                  : 0x0000B454
+    m_unCurrentEquipmentValue                     : 0x0000B2E4
+    m_unRoundStartEquipmentValue                  : 0x0000B2E6
+    m_unFreezetimeEndEquipmentValue               : 0x0000B2E8
+    m_bIsControllingBot                           : 0x0000B999
+    m_bHasControlledBotThisRound                  : 0x0000B9A8
+    m_bCanControlObservedBot                      : 0x0000B99A
+    m_iControlledBotEntIndex                      : 0x0000B99C
     m_vecAutomoveTargetEnd                        : 0x00003A8C
     m_flAutoMoveStartTime                         : 0x00003A9C
     m_flAutoMoveTargetTime                        : 0x00003AA0
-    m_bIsAssassinationTarget                      : 0x0000B994
-    m_bHud_MiniScoreHidden                        : 0x0000B356
-    m_bHud_RadarHidden                            : 0x0000B357
-    m_nLastKillerIndex                            : 0x0000B358
-    m_nLastConcurrentKilled                       : 0x0000B35C
-    m_nDeathCamMusic                              : 0x0000B360
-    m_bIsHoldingLookAtWeapon                      : 0x0000B8E5
-    m_bIsLookingAtWeapon                          : 0x0000B8E4
+    m_bIsAssassinationTarget                      : 0x0000B998
+    m_bHud_MiniScoreHidden                        : 0x0000B35A
+    m_bHud_RadarHidden                            : 0x0000B35B
+    m_nLastKillerIndex                            : 0x0000B35C
+    m_nLastConcurrentKilled                       : 0x0000B360
+    m_nDeathCamMusic                              : 0x0000B364
+    m_bIsHoldingLookAtWeapon                      : 0x0000B8E9
+    m_bIsLookingAtWeapon                          : 0x0000B8E8
     m_iNumRoundKillsHeadshots                     : 0x0000393C
     m_unTotalRoundDamageDealt                     : 0x00003940
     m_flLowerBodyYawTarget                        : 0x00003A74
     m_bStrafing                                   : 0x00003A78
-    m_flThirdpersonRecoil                         : 0x0000B934
-    m_bHideTargetID                               : 0x0000B938
+    m_flThirdpersonRecoil                         : 0x0000B938
+    m_bHideTargetID                               : 0x0000B93C
     m_bHasParachute                               : 0x0000A38D
     m_bIsSpawnRappelling                          : 0x0000A38E
     m_vecSpawnRappellingRopeOrigin                : 0x0000A390
@@ -988,10 +990,10 @@ DT_CSPlayer
         m_nNumFastDucks                           : 0x0000A374
         m_bDuckOverride                           : 0x0000A378
         m_flVelocityModifier                      : 0x0000A37C
-        m_nQuestProgressReason                    : 0x0000B2DC
-        m_bPlayerDominated                        : 0x0000B458
-        m_bPlayerDominatingMe                     : 0x0000B499
-        m_iWeaponPurchasesThisRound               : 0x0000B4DC
+        m_nQuestProgressReason                    : 0x0000B2E0
+        m_bPlayerDominated                        : 0x0000B45C
+        m_bPlayerDominatingMe                     : 0x0000B49D
+        m_iWeaponPurchasesThisRound               : 0x0000B4E0
     csnonlocaldata                                : 0x00000000
         m_vecOrigin                               : 0x00000138
         m_vecOrigin[2]                            : 0x00000140
@@ -1011,7 +1013,7 @@ DT_CSPlayer
     m_iMatchStats_CashEarned                      : 0x0000A8D4
     m_iMatchStats_UtilityDamage                   : 0x0000A94C
     m_iMatchStats_EnemiesFlashed                  : 0x0000A9C4
-    m_rank                                        : 0x0000B2E8
+    m_rank                                        : 0x0000B2EC
 
 DT_CSRagdoll
     m_vecOrigin                                   : 0x00000138
