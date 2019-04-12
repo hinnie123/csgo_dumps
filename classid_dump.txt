@@ -1,4 +1,4 @@
-enum ClassId
+enum class_id
 {
 	CAI_BaseNPC,
 	CAK47,
