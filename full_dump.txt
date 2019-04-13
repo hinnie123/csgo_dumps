@@ -1,0 +1,1182 @@
+1, #CSGO_Type_Pistol, weapon_deagle
+2, #CSGO_Type_Pistol, weapon_elite
+3, #CSGO_Type_Pistol, weapon_fiveseven
+4, #CSGO_Type_Pistol, weapon_glock
+7, #CSGO_Type_Rifle, weapon_ak47
+8, #CSGO_Type_Rifle, weapon_aug
+9, #CSGO_Type_SniperRifle, weapon_awp
+10, #CSGO_Type_Rifle, weapon_famas
+11, #CSGO_Type_SniperRifle, weapon_g3sg1
+13, #CSGO_Type_Rifle, weapon_galilar
+14, #CSGO_Type_Machinegun, weapon_m249
+16, #CSGO_Type_Rifle, weapon_m4a1
+17, #CSGO_Type_SMG, weapon_mac10
+19, #CSGO_Type_SMG, weapon_p90
+23, #CSGO_Type_SMG, weapon_mp5sd
+24, #CSGO_Type_SMG, weapon_ump45
+25, #CSGO_Type_Shotgun, weapon_xm1014
+26, #CSGO_Type_SMG, weapon_bizon
+27, #CSGO_Type_Shotgun, weapon_mag7
+28, #CSGO_Type_Machinegun, weapon_negev
+29, #CSGO_Type_Shotgun, weapon_sawedoff
+30, #CSGO_Type_Pistol, weapon_tec9
+31, #CSGO_Type_Equipment, weapon_taser
+32, #CSGO_Type_Pistol, weapon_hkp2000
+33, #CSGO_Type_SMG, weapon_mp7
+34, #CSGO_Type_SMG, weapon_mp9
+35, #CSGO_Type_Shotgun, weapon_nova
+36, #CSGO_Type_Pistol, weapon_p250
+38, #CSGO_Type_SniperRifle, weapon_scar20
+39, #CSGO_Type_Rifle, weapon_sg556
+40, #CSGO_Type_SniperRifle, weapon_ssg08
+41, #CSGO_Type_Knife, weapon_knifegg
+42, #CSGO_Type_Knife, weapon_knife
+43, #CSGO_Type_Grenade, weapon_flashbang
+44, #CSGO_Type_Grenade, weapon_hegrenade
+45, #CSGO_Type_Grenade, weapon_smokegrenade
+46, #CSGO_Type_Grenade, weapon_molotov
+47, #CSGO_Type_Grenade, weapon_decoy
+48, #CSGO_Type_Grenade, weapon_incgrenade
+49, #CSGO_Type_C4, weapon_c4
+50, #CSGO_Type_Equipment, item_kevlar
+51, #CSGO_Type_Equipment, item_assaultsuit
+52, #CSGO_Type_Equipment, item_heavyassaultsuit
+54, #CSGO_Type_Equipment, item_nvg
+55, #CSGO_Type_Equipment, item_defuser
+56, #CSGO_Type_Equipment, item_cutters
+57, #CSGO_Type_Equipment, weapon_healthshot
+58, #CSGO_Type_MusicKit, musickit_default
+59, #CSGO_Type_Knife, weapon_knife_t
+60, #CSGO_Type_Rifle, weapon_m4a1_silencer
+61, #CSGO_Type_Pistol, weapon_usp_silencer
+62, #CSGO_Type_recipe, Recipe Trade Up
+63, #CSGO_Type_Pistol, weapon_cz75a
+64, #CSGO_Type_Pistol, weapon_revolver
+68, #CSGO_Type_Grenade, weapon_tagrenade
+69, #CSGO_Type_Knife, weapon_fists
+70, #CSGO_Type_Equipment, weapon_breachcharge
+72, #CSGO_Type_Equipment, weapon_tablet
+74, #CSGO_Type_Knife, weapon_melee
+75, #CSGO_Type_Knife, weapon_axe
+76, #CSGO_Type_Knife, weapon_hammer
+78, #CSGO_Type_Knife, weapon_spanner
+80, #CSGO_Type_Knife, weapon_knife_ghost
+81, #CSGO_Type_Grenade, weapon_firebomb
+82, #CSGO_Type_Grenade, weapon_diversion
+83, #CSGO_Type_Grenade, weapon_frag_grenade
+84, #CSGO_Type_Grenade, weapon_snowball
+500, #CSGO_Type_Knife, weapon_bayonet
+505, #CSGO_Type_Knife, weapon_knife_flip
+506, #CSGO_Type_Knife, weapon_knife_gut
+507, #CSGO_Type_Knife, weapon_knife_karambit
+508, #CSGO_Type_Knife, weapon_knife_m9_bayonet
+509, #CSGO_Type_Knife, weapon_knife_tactical
+512, #CSGO_Type_Knife, weapon_knife_falchion
+514, #CSGO_Type_Knife, weapon_knife_survival_bowie
+515, #CSGO_Type_Knife, weapon_knife_butterfly
+516, #CSGO_Type_Knife, weapon_knife_push
+519, #CSGO_Type_Knife, weapon_knife_ursus
+520, #CSGO_Type_Knife, weapon_knife_gypsy_jackknife
+522, #CSGO_Type_Knife, weapon_knife_stiletto
+523, #CSGO_Type_Knife, weapon_knife_widowmaker
+874, #CSGO_Type_Collectible, Five Year Service Coin
+875, #CSGO_Type_Collectible, DreamHack SteelSeries 2013 CS:GO Champion
+876, #CSGO_Type_Collectible, DreamHack SteelSeries 2013 CS:GO Finalist
+877, #CSGO_Type_Collectible, DreamHack SteelSeries 2013 CS:GO Semifinalist
+878, #CSGO_Type_Collectible, DreamHack SteelSeries 2013 CS:GO Quarterfinalist
+879, #CSGO_Type_Collectible, EMS One Katowice 2014 CS:GO Champion
+880, #CSGO_Type_Collectible, EMS One Katowice 2014 CS:GO Finalist
+881, #CSGO_Type_Collectible, EMS One Katowice 2014 CS:GO Semifinalist
+882, #CSGO_Type_Collectible, EMS One Katowice 2014 CS:GO Quarterfinalist
+883, #CSGO_Type_Collectible, ESL One Cologne 2014 CS:GO Champion
+884, #CSGO_Type_Collectible, ESL One Cologne 2014 CS:GO Finalist
+885, #CSGO_Type_Collectible, ESL One Cologne 2014 CS:GO Semifinalist
+886, #CSGO_Type_Collectible, ESL One Cologne 2014 CS:GO Quarterfinalist
+887, #CSGO_Type_Collectible, ESL One Cologne 2014 Pick 'Em Challenge Bronze
+888, #CSGO_Type_Collectible, ESL One Cologne 2014 Pick 'Em Challenge Silver
+889, #CSGO_Type_Collectible, ESL One Cologne 2014 Pick 'Em Challenge Gold
+890, #CSGO_Type_Collectible, DreamHack Winter 2014 CS:GO Champion
+891, #CSGO_Type_Collectible, DreamHack Winter 2014 CS:GO Finalist
+892, #CSGO_Type_Collectible, DreamHack Winter 2014 CS:GO Semifinalist
+893, #CSGO_Type_Collectible, DreamHack Winter 2014 CS:GO Quarterfinalist
+894, #CSGO_Type_Collectible, DreamHack Winter 2014 Pick 'Em Challenge Bronze
+895, #CSGO_Type_Collectible, DreamHack Winter 2014 Pick 'Em Challenge Silver
+896, #CSGO_Type_Collectible, DreamHack Winter 2014 Pick 'Em Challenge Gold
+897, #CSGO_Type_Collectible, ESL One Katowice 2015 CS:GO Champion
+898, #CSGO_Type_Collectible, ESL One Katowice 2015 CS:GO Finalist
+899, #CSGO_Type_Collectible, ESL One Katowice 2015 CS:GO Semifinalist
+900, #CSGO_Type_Collectible, ESL One Katowice 2015 CS:GO Quarterfinalist
+901, #CSGO_Type_Collectible, ESL One Katowice 2015 Pick 'Em Challenge Bronze
+902, #CSGO_Type_Collectible, ESL One Katowice 2015 Pick 'Em Challenge Silver
+903, #CSGO_Type_Collectible, ESL One Katowice 2015 Pick 'Em Challenge Gold
+904, #CSGO_Type_Collectible, ESL One Cologne 2015 CS:GO Champion
+905, #CSGO_Type_Collectible, ESL One Cologne 2015 CS:GO Finalist
+906, #CSGO_Type_Collectible, ESL One Cologne 2015 CS:GO Semifinalist
+907, #CSGO_Type_Collectible, ESL One Cologne 2015 CS:GO Quarterfinalist
+908, #CSGO_Type_Collectible, ESL One Cologne 2015 Pick 'Em Challenge Bronze
+909, #CSGO_Type_Collectible, ESL One Cologne 2015 Pick 'Em Challenge Silver
+910, #CSGO_Type_Collectible, ESL One Cologne 2015 Pick 'Em Challenge Gold
+911, #CSGO_Type_Collectible, DreamHack Cluj-Napoca 2015 Pick 'Em Challenge Bronze
+912, #CSGO_Type_Collectible, DreamHack Cluj-Napoca 2015 Pick 'Em Challenge Silver
+913, #CSGO_Type_Collectible, DreamHack Cluj-Napoca 2015 Pick 'Em Challenge Gold
+914, #CSGO_Type_Collectible, DreamHack Cluj-Napoca 2015 Fantasy Team Bronze
+915, #CSGO_Type_Collectible, DreamHack Cluj-Napoca 2015 Fantasy Team Silver
+916, #CSGO_Type_Collectible, DreamHack Cluj-Napoca 2015 Fantasy Team Gold
+917, #CSGO_Type_Collectible, DreamHack Cluj-Napoca 2015 CS:GO Champion
+918, #CSGO_Type_Collectible, DreamHack Cluj-Napoca 2015 CS:GO Finalist
+919, #CSGO_Type_Collectible, DreamHack Cluj-Napoca 2015 CS:GO Semifinalist
+920, #CSGO_Type_Collectible, DreamHack Cluj-Napoca 2015 CS:GO Quarterfinalist
+921, #CSGO_Type_Collectible, MLG Columbus 2016 Pick 'Em Challenge Bronze
+922, #CSGO_Type_Collectible, MLG Columbus 2016 Pick 'Em Challenge Silver
+923, #CSGO_Type_Collectible, MLG Columbus 2016 Pick 'Em Challenge Gold
+924, #CSGO_Type_Collectible, MLG Columbus 2016 Fantasy Team Bronze
+925, #CSGO_Type_Collectible, MLG Columbus 2016 Fantasy Team Silver
+926, #CSGO_Type_Collectible, MLG Columbus 2016 Fantasy Team Gold
+927, #CSGO_Type_Collectible, MLG Columbus 2016 CS:GO Champion
+928, #CSGO_Type_Collectible, MLG Columbus 2016 CS:GO Finalist
+929, #CSGO_Type_Collectible, MLG Columbus 2016 CS:GO Semifinalist
+930, #CSGO_Type_Collectible, MLG Columbus 2016 CS:GO Quarterfinalist
+931, #CSGO_Type_Collectible, ESL One Cologne 2016 CS:GO Champion
+932, #CSGO_Type_Collectible, ESL One Cologne 2016 CS:GO Finalist
+933, #CSGO_Type_Collectible, ESL One Cologne 2016 CS:GO Semifinalist
+934, #CSGO_Type_Collectible, ESL One Cologne 2016 CS:GO Quarterfinalist
+935, #CSGO_Type_Collectible, Cologne 2016 Pick 'Em Challenge Bronze
+936, #CSGO_Type_Collectible, Cologne 2016 Pick 'Em Challenge Silver
+937, #CSGO_Type_Collectible, Cologne 2016 Pick 'Em Challenge Gold
+938, #CSGO_Type_Collectible, Cologne 2016 Fantasy Team Challenge Bronze
+939, #CSGO_Type_Collectible, Cologne 2016 Fantasy Team Challenge Silver
+940, #CSGO_Type_Collectible, Cologne 2016 Fantasy Team Challenge Gold
+941, #CSGO_Type_Collectible, ELEAGUE Atlanta 2017 CS:GO Champion
+942, #CSGO_Type_Collectible, ELEAGUE Atlanta 2017 CS:GO Finalist
+943, #CSGO_Type_Collectible, ELEAGUE Atlanta 2017 CS:GO Semifinalist
+944, #CSGO_Type_Collectible, ELEAGUE Atlanta 2017 CS:GO Quarterfinalist
+945, #CSGO_Type_Collectible, Atlanta 2017 Pick 'Em Challenge Bronze
+946, #CSGO_Type_Collectible, Atlanta 2017 Pick 'Em Challenge Silver
+947, #CSGO_Type_Collectible, Atlanta 2017 Pick 'Em Challenge Gold
+948, #CSGO_Type_Collectible, PGL Krakow 2017 CS:GO Champion
+949, #CSGO_Type_Collectible, PGL Krakow 2017 CS:GO Finalist
+950, #CSGO_Type_Collectible, PGL Krakow 2017 CS:GO Semifinalist
+951, #CSGO_Type_Collectible, PGL Krakow 2017 CS:GO Quarterfinalist
+952, #CSGO_Type_Collectible, Krakow 2017 Pick 'Em Challenge Bronze
+953, #CSGO_Type_Collectible, Krakow 2017 Pick 'Em Challenge Silver
+954, #CSGO_Type_Collectible, Krakow 2017 Pick 'Em Challenge Gold
+955, #CSGO_Type_Collectible, ELEAGUE Boston 2018 CS:GO Champion
+956, #CSGO_Type_Collectible, ELEAGUE Boston 2018 CS:GO Finalist
+957, #CSGO_Type_Collectible, ELEAGUE Boston 2018 CS:GO Semifinalist
+958, #CSGO_Type_Collectible, ELEAGUE Boston 2018 CS:GO Quarterfinalist
+959, #CSGO_Type_Collectible, Boston 2018 Pick 'Em Challenge Bronze
+960, #CSGO_Type_Collectible, Boston 2018 Pick 'Em Challenge Silver
+961, #CSGO_Type_Collectible, Boston 2018 Pick 'Em Challenge Gold
+962, #CSGO_Type_Collectible, FACEIT London 2018 CS:GO Champion
+963, #CSGO_Type_Collectible, FACEIT London 2018 CS:GO Finalist
+964, #CSGO_Type_Collectible, FACEIT London 2018 CS:GO Semifinalist
+965, #CSGO_Type_Collectible, FACEIT London 2018 CS:GO Quarterfinalist
+966, #CSGO_Type_Collectible, London 2018 Pick 'Em Challenge Bronze
+967, #CSGO_Type_Collectible, London 2018 Pick 'Em Challenge Silver
+968, #CSGO_Type_Collectible, London 2018 Pick 'Em Challenge Gold
+969, #CSGO_Type_Collectible, Ten Year Service Coin
+970, #CSGO_Type_Collectible, Fortius Quo Fidelius
+971, #CSGO_Type_Collectible, IEM Katowice 2019 CS:GO Champion
+972, #CSGO_Type_Collectible, IEM Katowice 2019 CS:GO Finalist
+973, #CSGO_Type_Collectible, IEM Katowice 2019 CS:GO Semifinalist
+974, #CSGO_Type_Collectible, IEM Katowice 2019 CS:GO Quarterfinalist
+1000, #CSGO_Type_Ticket, Community Season One Spring 2013
+1001, #CSGO_Type_Collectible, Community Season One Spring 2013 Coin 1
+1002, #CSGO_Type_Collectible, Community Season One Spring 2013 Coin 2
+1003, #CSGO_Type_Collectible, Community Season One Spring 2013 Coin 3
+1004, #CSGO_Type_Collectible, Map Token Museum
+1005, #CSGO_Type_Collectible, Map Token Downtown
+1006, #CSGO_Type_Collectible, Map Token Thunder
+1007, #CSGO_Type_Collectible, Map Token Favela
+1008, #CSGO_Type_Collectible, Map Token Motel
+1009, #CSGO_Type_Collectible, Map Token Seaside
+1010, #CSGO_Type_Collectible, Map Token Library
+1012, #CSGO_Type_Ticket, Community Season Two Autumn 2013
+1013, #CSGO_Type_Collectible, Community Season Two Autumn 2013 Coin 1
+1014, #CSGO_Type_Collectible, Community Season Two Autumn 2013 Coin 2
+1015, #CSGO_Type_Collectible, Community Season Two Autumn 2013 Coin 3
+1016, #CSGO_Type_Collectible, Map Token Agency
+1017, #CSGO_Type_Collectible, Map Token Ali
+1018, #CSGO_Type_Collectible, Map Token Cache
+1019, #CSGO_Type_Collectible, Map Token Chinatown
+1020, #CSGO_Type_Collectible, Map Token Gwalior
+1021, #CSGO_Type_Collectible, Map Token Ruins
+1022, #CSGO_Type_Collectible, Map Token Siege
+1023, #CSGO_Type_Ticket, Community Season Three Spring 2014
+1024, #CSGO_Type_Collectible, Community Season Three Spring 2014 Coin 1
+1025, #CSGO_Type_Collectible, Community Season Three Spring 2014 Coin 2
+1026, #CSGO_Type_Collectible, Community Season Three Spring 2014 Coin 3
+1027, #CSGO_Type_Ticket, Community Season Four Summer 2014
+1028, #CSGO_Type_Collectible, Community Season Four Summer 2014 Coin 1
+1029, #CSGO_Type_Collectible, Community Season Four Summer 2014 Coin 2
+1030, #CSGO_Type_Collectible, Community Season Four Summer 2014 Coin 3
+1031, #CSGO_Type_Collectible, Map Token Castle
+1032, #CSGO_Type_Collectible, Map Token Black Gold
+1033, #CSGO_Type_Collectible, Map Token Rush
+1034, #CSGO_Type_Collectible, Map Token Mist
+1035, #CSGO_Type_Collectible, Map Token Insertion
+1036, #CSGO_Type_Collectible, Map Token Overgrown
+1037, #CSGO_Type_Collectible, Map Token Marquis
+1038, #CSGO_Type_Collectible, Map Token Workout
+1039, #CSGO_Type_Collectible, Map Token Backalley
+1040, #CSGO_Type_Collectible, Map Token Season
+1041, #CSGO_Type_Collectible, Map Token Bazaar
+1042, #CSGO_Type_Collectible, Map Token Facade
+1043, #CSGO_Type_Collectible, Map Token Log
+1044, #CSGO_Type_Collectible, Map Token Rails
+1045, #CSGO_Type_Collectible, Map Token Resort
+1046, #CSGO_Type_Collectible, Map Token Zoo
+1047, #CSGO_Type_Collectible, Map Token Santorini
+1048, #CSGO_Type_Collectible, Map Token Coast
+1049, #CSGO_Type_Collectible, Map Token Mikla
+1050, #CSGO_Type_Collectible, Map Token Royal
+1051, #CSGO_Type_Collectible, Map Token Empire
+1052, #CSGO_Type_Collectible, Map Token Tulip
+1053, #CSGO_Type_Collectible, Map Token Cruise
+1054, #CSGO_Type_Collectible, Map Token Subzero
+1055, #CSGO_Type_Collectible, Map Token Biome
+1056, #CSGO_Type_Collectible, Map Token Abbey
+1200, #CSGO_Tool_Name_TagTag, Name Tag
+1203, #CSGO_Tool_WeaponCase_KeyTag, Weapon Case Key
+1204, #CSGO_Tool_WeaponCase_KeyTag, E-Sports Weapon Case Key 1
+1209, #CSGO_Tool_Sticker, sticker
+1210, #CSGO_Tool_GiftTag, Gift - 1 Player
+1211, #CSGO_Tool_GiftTag, Gift - 9 Players
+1212, #CSGO_Tool_WeaponCase_KeyTag, Sticker Crate Key
+1214, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 1
+1215, #CSGO_Tool_GiftTag, Gift - 25 Spectators
+1303, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 2
+1304, #CSGO_Tool_WeaponCase_KeyTag, Community Sticker Capsule 1 Key May 2014
+1305, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 3 May 2014
+1306, #CSGO_Type_Quest, quest
+1307, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 3 June 2014
+1308, #CSGO_Tool_WeaponCase_KeyTag, Community Sticker Capsule 1 Key June 2014
+1309, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 4 July 2014
+1310, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 4 August 2014
+1311, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key September 4
+1313, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 4
+1314, #CSGO_Type_MusicKit, musickit
+1315, #CSGO_Type_Ticket, Community Season Five Summer 2014
+1316, #CSGO_Type_Collectible, Community Season Five Summer 2014 Coin 1
+1317, #CSGO_Type_Collectible, Community Season Five Summer 2014 Coin 2
+1318, #CSGO_Type_Collectible, Community Season Five Summer 2014 Coin 3
+1320, #campaign, campaign magrheb
+1321, #campaign, campaign eurasia
+1322, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 5
+1323, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 6
+1324, #CSGO_Type_Tool, stattrak_swap_tool
+1325, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 7
+1326, #CSGO_Type_Ticket, Community Season Six 2015
+1327, #CSGO_Type_Collectible, Community Season Six 2015 Coin 1
+1328, #CSGO_Type_Collectible, Community Season Six 2015 Coin 2
+1329, #CSGO_Type_Collectible, Community Season Six 2015 Coin 3
+1330, #CSGO_Tool_WeaponCase_KeyTag, Falchion Case Key
+1331, #CSGO_Type_Collectible, prestige coin 2015
+1332, #CSGO_Type_Collectible, prestige coin 2015 level 2
+1333, #CSGO_Tool_WeaponCase_KeyTag, Community Case Key 9
+1334, #CSGO_Tool_WeaponCase_KeyTag, crate_community_10 Key
+1335, #CSGO_Type_Ticket, CommunitySeasonSeven2016
+1336, #CSGO_Type_Collectible, CommunitySeasonSeven2016 Coin 1
+1337, #CSGO_Type_Collectible, CommunitySeasonSeven2016 Coin 2
+1338, #CSGO_Type_Collectible, CommunitySeasonSeven2016 Coin 3
+1339, #CSGO_Type_Collectible, prestige coin 2016
+1340, #CSGO_Type_Collectible, prestige coin 2016 level 2
+1341, #CSGO_Type_Collectible, prestige coin 2016 level 3
+1342, #CSGO_Type_Collectible, prestige coin 2016 level 4
+1343, #CSGO_Type_Collectible, prestige coin 2016 level 5
+1344, #CSGO_Type_Collectible, prestige coin 2016 level 6
+1348, #CSGO_Type_Spray, spray
+1349, #CSGO_Type_Spray, spraypaint
+1352, #CSGO_Type_Ticket, CommunitySeasonEight2017
+4353, #CSGO_Type_Collectible, CommunitySeasonEight2017 Coin 1
+4354, #CSGO_Type_Collectible, CommunitySeasonEight2017 Coin 2
+4355, #CSGO_Type_Collectible, CommunitySeasonEight2017 Coin 3
+4356, #CSGO_Type_Collectible, CommunitySeasonEight2017 Coin 4
+1357, #CSGO_Type_Collectible, prestige coin 2017
+1358, #CSGO_Type_Collectible, prestige coin 2017 level 2
+1359, #CSGO_Type_Collectible, prestige coin 2017 level 3
+1360, #CSGO_Type_Collectible, prestige coin 2017 level 4
+1361, #CSGO_Type_Collectible, prestige coin 2017 level 5
+1362, #CSGO_Type_Collectible, prestige coin 2017 level 6
+1363, #CSGO_Type_Collectible, prestige coin 2017 level 7
+1353, #CSGO_Type_Collectible, Game License
+1367, #CSGO_Type_Collectible, prestige coin 2018
+1368, #CSGO_Type_Collectible, prestige coin 2018 level 2
+1369, #CSGO_Type_Collectible, prestige coin 2018 level 3
+1370, #CSGO_Type_Collectible, prestige coin 2018 level 4
+1371, #CSGO_Type_Collectible, prestige coin 2018 level 5
+1372, #CSGO_Type_Collectible, prestige coin 2018 level 6
+1376, #CSGO_Type_Collectible, prestige coin 2019
+1377, #CSGO_Type_Collectible, prestige coin 2019 level 2
+1378, #CSGO_Type_Collectible, prestige coin 2019 level 3
+1379, #CSGO_Type_Collectible, prestige coin 2019 level 4
+1380, #CSGO_Type_Collectible, prestige coin 2019 level 5
+1381, #CSGO_Type_Collectible, prestige coin 2019 level 6
+4001, #CSGO_Type_WeaponCase, crate_valve_1
+4002, #CSGO_Type_WeaponCase, crate_esports_2013
+4004, #CSGO_Type_WeaponCase, crate_valve_2
+4003, #CSGO_Type_WeaponCase, crate_operation_ii
+4005, #CSGO_Type_WeaponCase, crate_esports_2013_winter
+4006, #CSGO_Type_WeaponCase, crate_dhw13_promo
+4007, #CSGO_Type_WeaponCase, crate_sticker_pack01
+4009, #CSGO_Type_WeaponCase, crate_community_1
+4010, #CSGO_Type_WeaponCase, crate_valve_3
+4011, #CSGO_Type_WeaponCase, crate_community_2
+4012, #CSGO_Type_WeaponCase, crate_sticker_pack02
+4013, #CSGO_Type_WeaponCase, crate_ems14_promo
+4014, #CSGO_Type_WeaponCase, crate_sticker_pack_kat2014_01
+4015, #CSGO_Type_WeaponCase, crate_sticker_pack_kat2014_02
+4016, #CSGO_Type_WeaponCase, crate_sticker_pack_community01
+4017, #CSGO_Type_WeaponCase, crate_community_3
+4018, #CSGO_Type_WeaponCase, crate_community_4
+4019, #CSGO_Type_WeaponCase, crate_esports_2014_summer
+4020, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2014_01
+4021, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2014_02
+4022, #CSGO_Type_WeaponCase, crate_esl14_promo_de_dust2
+4023, #CSGO_Type_WeaponCase, crate_esl14_promo_de_inferno
+4024, #CSGO_Type_WeaponCase, crate_esl14_promo_de_mirage
+4025, #CSGO_Type_WeaponCase, crate_esl14_promo_de_nuke
+4026, #CSGO_Type_WeaponCase, crate_esl14_promo_de_cache
+4027, #CSGO_Type_WeaponCase, crate_esl14_promo_de_cbble
+4028, #CSGO_Type_WeaponCase, crate_esl14_promo_de_overpass
+4029, #CSGO_Type_WeaponCase, crate_operation_vanguard
+4030, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_01
+4031, #CSGO_Type_WeaponCase, crate_dhw14_promo_de_dust2
+4032, #CSGO_Type_WeaponCase, crate_dhw14_promo_de_inferno
+4033, #CSGO_Type_WeaponCase, crate_dhw14_promo_de_mirage
+4034, #CSGO_Type_WeaponCase, crate_dhw14_promo_de_nuke
+4035, #CSGO_Type_WeaponCase, crate_dhw14_promo_de_cache
+4036, #CSGO_Type_WeaponCase, crate_dhw14_promo_de_cbble
+4037, #CSGO_Type_WeaponCase, crate_dhw14_promo_de_overpass
+4038, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_fnatic
+4039, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_cloud9
+4041, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_ninjasinpyjamas
+4042, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_virtuspro
+4043, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_navi
+4045, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_dignitas
+4046, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_bravadogaming
+4047, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_escgaming
+4048, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_hellraisers
+4049, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_myxmg
+4050, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_ibuypower
+4051, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_teamldlc
+4052, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_pentasports
+4053, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_planetkeydynamics
+4054, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_dhw
+4055, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_3dmax
+4056, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_copenhagenwolves
+4057, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_datteam
+4058, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_londonconspiracy
+4059, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_mousesports
+4060, #CSGO_Type_WeaponCase, crate_sticker_pack_dhw2014_flipsid3
+4061, #CSGO_Type_WeaponCase, crate_community_6
+4062, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_3dmax
+4063, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_cloud9
+4064, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_counterlogic
+4065, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_flipsid3
+4066, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_fnatic
+4067, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_hellraisers
+4068, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_keyd
+4069, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_lgb
+4070, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_navi
+4071, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_ninjasinpyjamas
+4072, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_pentasports
+4073, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_teamenvyus
+4074, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_teamsolomid
+4075, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_titan
+4076, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_virtuspro
+4077, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_voxeminor
+4078, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_esl_a
+4079, #CSGO_Type_WeaponCase, crate_eslkatowice2015_promo_de_dust2
+4080, #CSGO_Type_WeaponCase, crate_eslkatowice2015_promo_de_inferno
+4081, #CSGO_Type_WeaponCase, crate_eslkatowice2015_promo_de_mirage
+4082, #CSGO_Type_WeaponCase, crate_eslkatowice2015_promo_de_nuke
+4083, #CSGO_Type_WeaponCase, crate_eslkatowice2015_promo_de_cache
+4084, #CSGO_Type_WeaponCase, crate_eslkatowice2015_promo_de_cbble
+4085, #CSGO_Type_WeaponCase, crate_eslkatowice2015_promo_de_overpass
+4086, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_01
+4087, #CSGO_Type_WeaponCase, crate_sticker_pack_eslkatowice2015_02
+4088, #CSGO_Type_WeaponCase, crate_stattrak_swap_tool
+4089, #CSGO_Type_WeaponCase, crate_community_7
+4090, #CSGO_Type_WeaponCase, crate_sticker_pack_enfu_capsule
+4091, #CSGO_Type_WeaponCase, crate_community_8
+4092, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_fnatic
+4093, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_virtuspro
+4094, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_mousesports
+4095, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_navi
+4096, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_renegades
+4097, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_kinguin
+4098, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_ebettle
+4099, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_cloud9
+4100, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_ninjasinpyjamas
+4101, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_envyus
+4102, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_luminositygaming
+4103, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_solomid
+4104, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_teamimmunity
+4105, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_flipside
+4106, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_titan
+4107, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_clg
+4108, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_esl
+4109, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_legends
+4110, #CSGO_Type_WeaponCase, crate_sticker_pack_eslcologne2015_challengers
+4111, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_group_1
+4112, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_group_2
+4113, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_group_3
+4114, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_group_4
+4115, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_fnatic
+4116, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_luminositygaming
+4117, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_navi
+4118, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_ninjasinpyjamas
+4119, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_envyus
+4120, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_titan
+4121, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_solomid
+4122, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_virtuspro
+4123, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_mousesports
+4124, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_renegades
+4125, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_teamimmunity
+4126, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_ebettle
+4127, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_kinguin
+4128, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_flipside
+4129, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_clg
+4130, #CSGO_Type_WeaponCase, crate_signature_pack_eslcologne2015_cloud9
+4131, #CSGO_Type_WeaponCase, crate_eslcologne2015_promo_de_dust2
+4132, #CSGO_Type_WeaponCase, crate_eslcologne2015_promo_de_mirage
+4133, #CSGO_Type_WeaponCase, crate_eslcologne2015_promo_de_inferno
+4134, #CSGO_Type_WeaponCase, crate_eslcologne2015_promo_de_cbble
+4135, #CSGO_Type_WeaponCase, crate_eslcologne2015_promo_de_overpass
+4136, #CSGO_Type_WeaponCase, crate_eslcologne2015_promo_de_cache
+4137, #CSGO_Type_WeaponCase, crate_eslcologne2015_promo_de_train
+4138, #CSGO_Type_WeaponCase, crate_community_9
+4139, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_nip
+4140, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_dig
+4141, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_clg
+4142, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_vex
+4143, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_flip
+4144, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_liq
+4145, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_mss
+4146, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_navi
+4147, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_vp
+4148, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_c9
+4149, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_g2
+4150, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_tit
+4151, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_tsolo
+4152, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_nv
+4153, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_fntc
+4154, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_lumi
+4155, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_dhc
+4156, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_legends
+4157, #CSGO_Type_WeaponCase, crate_sticker_pack_cluj2015_challengers
+4158, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_group_1
+4159, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_group_2
+4160, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_nip
+4161, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_dig
+4162, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_clg
+4163, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_vex
+4164, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_flip
+4165, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_liq
+4166, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_mss
+4167, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_navi
+4168, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_vp
+4169, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_c9
+4170, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_g2
+4171, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_tit
+4172, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_tsolo
+4173, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_nv
+4174, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_fntc
+4175, #CSGO_Type_WeaponCase, crate_signature_pack_cluj2015_lumi
+4176, #CSGO_Type_WeaponCase, crate_cluj2015_promo_de_dust2
+4177, #CSGO_Type_WeaponCase, crate_cluj2015_promo_de_mirage
+4178, #CSGO_Type_WeaponCase, crate_cluj2015_promo_de_inferno
+4179, #CSGO_Type_WeaponCase, crate_cluj2015_promo_de_cbble
+4180, #CSGO_Type_WeaponCase, crate_cluj2015_promo_de_overpass
+4181, #CSGO_Type_WeaponCase, crate_cluj2015_promo_de_cache
+4182, #CSGO_Type_WeaponCase, crate_cluj2015_promo_de_train
+4183, #CSGO_Type_WeaponCase, crate_sticker_pack_pinups_capsule
+4184, #CSGO_Type_WeaponCase, crate_sticker_pack_slid3_capsule
+4185, #CSGO_Type_WeaponCase, crate_sticker_pack_team_roles_capsule
+4186, #CSGO_Type_WeaponCase, crate_community_10
+4187, #CSGO_Type_WeaponCase, crate_community_11
+5027, #Type_Hands, studded_bloodhound_gloves
+5028, #Type_Hands, t_gloves
+5029, #Type_Hands, ct_gloves
+5030, #Type_Hands, sporty_gloves
+5031, #Type_Hands, slick_gloves
+5032, #Type_Hands, leather_handwraps
+5033, #Type_Hands, motorcycle_gloves
+5034, #Type_Hands, specialist_gloves
+5035, #Type_Hands, studded_hydra_gloves
+6001, #CSGO_Type_Collectible, Collectible Pin - Dust II
+6002, #CSGO_Type_Collectible, Collectible Pin - Guardian Elite
+6003, #CSGO_Type_Collectible, Collectible Pin - Mirage
+6004, #CSGO_Type_Collectible, Collectible Pin - Inferno
+6005, #CSGO_Type_Collectible, Collectible Pin - Italy
+6006, #CSGO_Type_Collectible, Collectible Pin - Victory
+6007, #CSGO_Type_Collectible, Collectible Pin - Militia
+6008, #CSGO_Type_Collectible, Collectible Pin - Nuke
+6009, #CSGO_Type_Collectible, Collectible Pin - Train
+6010, #CSGO_Type_Collectible, Collectible Pin - Guardian
+6011, #CSGO_Type_Collectible, Collectible Pin - Tactics
+6012, #CSGO_Type_Collectible, Collectible Pin - Guardian 2
+6112, #CSGO_Type_Collectible, Commodity Pin - Guardian 2
+6013, #CSGO_Type_Collectible, Collectible Pin - Bravo
+6113, #CSGO_Type_Collectible, Commodity Pin - Bravo
+6014, #CSGO_Type_Collectible, Collectible Pin - Baggage
+6114, #CSGO_Type_Collectible, Commodity Pin - Baggage
+6015, #CSGO_Type_Collectible, Collectible Pin - Phoenix
+6115, #CSGO_Type_Collectible, Commodity Pin - Phoenix
+6016, #CSGO_Type_Collectible, Collectible Pin - Office
+6116, #CSGO_Type_Collectible, Commodity Pin - Office
+6017, #CSGO_Type_Collectible, Collectible Pin - Cobblestone
+6117, #CSGO_Type_Collectible, Commodity Pin - Cobblestone
+6018, #CSGO_Type_Collectible, Collectible Pin - Overpass
+6118, #CSGO_Type_Collectible, Commodity Pin - Overpass
+6019, #CSGO_Type_Collectible, Collectible Pin - Bloodhound
+6119, #CSGO_Type_Collectible, Commodity Pin - Bloodhound
+6020, #CSGO_Type_Collectible, Collectible Pin - Cache
+6120, #CSGO_Type_Collectible, Commodity Pin - Cache
+6021, #CSGO_Type_Collectible, Collectible Pin - Valeria
+6121, #CSGO_Type_Collectible, Commodity Pin - Valeria
+6022, #CSGO_Type_Collectible, Collectible Pin - Chroma
+6122, #CSGO_Type_Collectible, Commodity Pin - Chroma
+6023, #CSGO_Type_Collectible, Collectible Pin - Guardian 3
+6123, #CSGO_Type_Collectible, Commodity Pin - Guardian 3
+6024, #CSGO_Type_Collectible, Collectible Pin - Canals
+6124, #CSGO_Type_Collectible, Commodity Pin - Canals
+6025, #CSGO_Type_Collectible, Collectible Pin - Welcome to the Clutch
+6125, #CSGO_Type_Collectible, Commodity Pin - Welcome to the Clutch
+6026, #CSGO_Type_Collectible, Collectible Pin - Death Sentence
+6126, #CSGO_Type_Collectible, Commodity Pin - Death Sentence
+6027, #CSGO_Type_Collectible, Collectible Pin - Inferno 2
+6127, #CSGO_Type_Collectible, Commodity Pin - Inferno 2
+6028, #CSGO_Type_Collectible, Collectible Pin - Wildfire
+6128, #CSGO_Type_Collectible, Commodity Pin - Wildfire
+6029, #CSGO_Type_Collectible, Collectible Pin - Easy Peasy
+6129, #CSGO_Type_Collectible, Commodity Pin - Easy Peasy
+6030, #CSGO_Type_Collectible, Collectible Pin - Aces High
+6130, #CSGO_Type_Collectible, Commodity Pin - Aces High
+6031, #CSGO_Type_Collectible, Collectible Pin - Hydra
+6131, #CSGO_Type_Collectible, Commodity Pin - Hydra
+6032, #CSGO_Type_Collectible, Collectible Pin - Howl
+6132, #CSGO_Type_Collectible, Commodity Pin - Howl
+6033, #CSGO_Type_Collectible, Collectible Pin - Brigadier General
+6133, #CSGO_Type_Collectible, Commodity Pin - Brigadier General
+6034, #CSGO_Type_Collectible, item 6034
+6035, #CSGO_Type_Collectible, item 6035
+6036, #CSGO_Type_Collectible, item 6036
+6037, #CSGO_Type_Collectible, item 6037
+6038, #CSGO_Type_Collectible, item 6038
+6039, #CSGO_Type_Collectible, item 6039
+6040, #CSGO_Type_Collectible, item 6040
+6041, #CSGO_Type_Collectible, item 6041
+6042, #CSGO_Type_Collectible, item 6042
+6043, #CSGO_Type_Collectible, item 6043
+6044, #CSGO_Type_Collectible, item 6044
+6045, #CSGO_Type_Collectible, item 6045
+6046, #CSGO_Type_Collectible, item 6046
+6047, #CSGO_Type_Collectible, item 6047
+6048, #CSGO_Type_Collectible, item 6048
+6049, #CSGO_Type_Collectible, item 6049
+6050, #CSGO_Type_Collectible, item 6050
+6051, #CSGO_Type_Collectible, item 6051
+6052, #CSGO_Type_Collectible, item 6052
+6053, #CSGO_Type_Collectible, item 6053
+6054, #CSGO_Type_Collectible, item 6054
+6055, #CSGO_Type_Collectible, item 6055
+6056, #CSGO_Type_Collectible, item 6056
+6057, #CSGO_Type_Collectible, item 6057
+6058, #CSGO_Type_Collectible, item 6058
+6059, #CSGO_Type_Collectible, item 6059
+6060, #CSGO_Type_Collectible, item 6060
+6061, #CSGO_Type_Collectible, item 6061
+6062, #CSGO_Type_Collectible, item 6062
+6063, #CSGO_Type_Collectible, item 6063
+6064, #CSGO_Type_Collectible, item 6064
+6065, #CSGO_Type_Collectible, item 6065
+6066, #CSGO_Type_Collectible, item 6066
+6067, #CSGO_Type_Collectible, item 6067
+6068, #CSGO_Type_Collectible, item 6068
+6069, #CSGO_Type_Collectible, item 6069
+6070, #CSGO_Type_Collectible, item 6070
+6071, #CSGO_Type_Collectible, item 6071
+6072, #CSGO_Type_Collectible, item 6072
+6073, #CSGO_Type_Collectible, item 6073
+6074, #CSGO_Type_Collectible, item 6074
+6075, #CSGO_Type_Collectible, item 6075
+6076, #CSGO_Type_Collectible, item 6076
+6077, #CSGO_Type_Collectible, item 6077
+6078, #CSGO_Type_Collectible, item 6078
+6079, #CSGO_Type_Collectible, item 6079
+6080, #CSGO_Type_Collectible, item 6080
+6081, #CSGO_Type_Collectible, item 6081
+6082, #CSGO_Type_Collectible, item 6082
+6083, #CSGO_Type_Collectible, item 6083
+6084, #CSGO_Type_Collectible, item 6084
+6085, #CSGO_Type_Collectible, item 6085
+6086, #CSGO_Type_Collectible, item 6086
+6087, #CSGO_Type_Collectible, item 6087
+6088, #CSGO_Type_Collectible, item 6088
+6101, #CSGO_Type_Collectible, Commodity Pin - Dust II
+6102, #CSGO_Type_Collectible, Commodity Pin - Guardian Elite
+6103, #CSGO_Type_Collectible, Commodity Pin - Mirage
+6104, #CSGO_Type_Collectible, Commodity Pin - Inferno
+6105, #CSGO_Type_Collectible, Commodity Pin - Italy
+6106, #CSGO_Type_Collectible, Commodity Pin - Victory
+6107, #CSGO_Type_Collectible, Commodity Pin - Militia
+6108, #CSGO_Type_Collectible, Commodity Pin - Nuke
+6109, #CSGO_Type_Collectible, Commodity Pin - Train
+6110, #CSGO_Type_Collectible, Commodity Pin - Guardian
+6111, #CSGO_Type_Collectible, Commodity Pin - Tactics
+7000, #CSGO_Tool_WeaponCase_KeyTag, community_11 Key
+20000, #CSGO_Type_WeaponCase, coupon - bossyburger
+20001, #CSGO_Type_WeaponCase, coupon - catcall
+20002, #CSGO_Type_WeaponCase, coupon - chickenstrike
+20003, #CSGO_Type_WeaponCase, coupon - ctbanana
+20004, #CSGO_Type_WeaponCase, coupon - dontworryimpro
+20005, #CSGO_Type_WeaponCase, coupon - fightlikeagirl
+20006, #CSGO_Type_WeaponCase, coupon - handmadeflash
+20007, #CSGO_Type_WeaponCase, coupon - kawaiikiller
+20008, #CSGO_Type_WeaponCase, coupon - neluthebear
+20009, #CSGO_Type_WeaponCase, coupon - oneshotonekill
+20010, #CSGO_Type_WeaponCase, coupon - shootingstar
+20012, #CSGO_Type_WeaponCase, coupon - warpenguin
+20013, #CSGO_Type_WeaponCase, coupon - windywalking
+20014, #CSGO_Type_WeaponCase, coupon - blitzkrieg
+20015, #CSGO_Type_WeaponCase, coupon - pigeonmaster
+20016, #CSGO_Type_WeaponCase, coupon - terrorized
+20017, #CSGO_Type_WeaponCase, coupon - tilldeathdouspart
+20018, #CSGO_Type_WeaponCase, coupon - stayfrosty
+20019, #CSGO_Type_WeaponCase, coupon - toncat
+20020, #CSGO_Type_WeaponCase, coupon - danielsadowski_01
+20021, #CSGO_Type_WeaponCase, coupon - noisia_01
+20022, #CSGO_Type_WeaponCase, coupon - robertallaire_01
+20023, #CSGO_Type_WeaponCase, coupon - seanmurray_01
+20024, #CSGO_Type_WeaponCase, coupon - feedme_01
+20025, #CSGO_Type_WeaponCase, coupon - dren_01
+20026, #CSGO_Type_WeaponCase, coupon - austinwintory_01
+20027, #CSGO_Type_WeaponCase, coupon - sasha_01
+20028, #CSGO_Type_WeaponCase, coupon - skog_01
+20029, #CSGO_Type_WeaponCase, coupon - doomed
+20030, #CSGO_Type_WeaponCase, coupon - queenofpain
+20031, #CSGO_Type_WeaponCase, coupon - trickorthreat
+20032, #CSGO_Type_WeaponCase, coupon - trickortreat
+20033, #CSGO_Type_WeaponCase, coupon - witch
+20034, #CSGO_Type_WeaponCase, coupon - zombielover
+20035, #CSGO_Type_WeaponCase, coupon - blood_broiler
+20036, #CSGO_Type_WeaponCase, coupon - dinked
+20037, #CSGO_Type_WeaponCase, coupon - drugwarveteran
+20038, #CSGO_Type_WeaponCase, coupon - hohoho
+20039, #CSGO_Type_WeaponCase, coupon - massivepear
+20040, #CSGO_Type_WeaponCase, coupon - mylittlefriend
+20041, #CSGO_Type_WeaponCase, coupon - pandamonium
+20042, #CSGO_Type_WeaponCase, coupon - pieceofcake
+20043, #CSGO_Type_WeaponCase, coupon - saschicken
+20044, #CSGO_Type_WeaponCase, coupon - thuglife
+20045, #CSGO_Type_WeaponCase, coupon - trekt
+20046, #CSGO_Type_WeaponCase, coupon - warowl
+20047, #CSGO_Type_WeaponCase, coupon - workforfood
+20048, #CSGO_Type_WeaponCase, coupon - phoenix_foil
+20049, #CSGO_Type_WeaponCase, coupon - bombsquad_foil
+20050, #CSGO_Type_WeaponCase, coupon - midnightriders_01
+20051, #CSGO_Type_WeaponCase, coupon - danielsadowski_02
+20052, #CSGO_Type_WeaponCase, coupon - hotlinemiami_01
+20053, #CSGO_Type_WeaponCase, coupon - mattlange_01
+20054, #CSGO_Type_WeaponCase, coupon - mateomessina_01
+20055, #CSGO_Type_WeaponCase, coupon - damjanmravunac_01
+20056, #CSGO_Type_WeaponCase, coupon - flickshot
+20057, #CSGO_Type_WeaponCase, coupon - headshot_guarantee
+20058, #CSGO_Type_WeaponCase, coupon - eco_rush
+20059, #CSGO_Type_WeaponCase, coupon - just_trolling
+20061, #CSGO_Type_WeaponCase, coupon - firestarter_holo
+20062, #CSGO_Type_WeaponCase, coupon - lucky_cat_foil
+20063, #CSGO_Type_WeaponCase, coupon - robot_head
+20064, #CSGO_Type_WeaponCase, coupon - witchcraft
+20065, #CSGO_Type_WeaponCase, coupon - wanna_fight
+20066, #CSGO_Type_WeaponCase, coupon - hostage_rescue
+20067, #CSGO_Type_WeaponCase, coupon - hamster_hawk
+20068, #CSGO_Type_WeaponCase, coupon - headless_chicken
+20069, #CSGO_Type_WeaponCase, coupon - proxy_01
+20070, #CSGO_Type_WeaponCase, coupon - kitheory_01
+20071, #CSGO_Type_WeaponCase, coupon - troelsfolmann_01
+20072, #CSGO_Type_WeaponCase, coupon - kellybailey_01
+20073, #CSGO_Type_WeaponCase, coupon - skog_02
+20074, #CSGO_Type_WeaponCase, coupon - enfu_sticker_capsule
+20075, #CSGO_Type_WeaponCase, coupon - awp_country
+20076, #CSGO_Type_WeaponCase, coupon - chi_bomb
+20077, #CSGO_Type_WeaponCase, coupon - fox
+20078, #CSGO_Type_WeaponCase, coupon - knifeclub
+20079, #CSGO_Type_WeaponCase, coupon - cs_on_the_mind
+20080, #CSGO_Type_WeaponCase, coupon - ninja_defuse
+20081, #CSGO_Type_WeaponCase, coupon - pros_dont_fake
+20082, #CSGO_Type_WeaponCase, coupon - kawaiikiller_t
+20083, #CSGO_Type_WeaponCase, coupon - baackstabber
+20084, #CSGO_Type_WeaponCase, coupon - delicious_tears
+20085, #CSGO_Type_WeaponCase, coupon - danielsadowski_03
+20086, #CSGO_Type_WeaponCase, coupon - awolnation_01
+20087, #CSGO_Type_WeaponCase, coupon - mordfustang_01
+20088, #CSGO_Type_WeaponCase, coupon - michaelbross_01
+20089, #CSGO_Type_WeaponCase, coupon - ianhultquist_01
+20090, #CSGO_Type_WeaponCase, coupon - newbeatfund_01
+20091, #CSGO_Type_WeaponCase, coupon - beartooth_01
+20092, #CSGO_Type_WeaponCase, coupon - lenniemoore_01
+20093, #CSGO_Type_WeaponCase, coupon - darude_01
+20094, #CSGO_Type_WeaponCase, coupon - proxy_01_stattrak
+20095, #CSGO_Type_WeaponCase, coupon - kitheory_01_stattrak
+20096, #CSGO_Type_WeaponCase, coupon - troelsfolmann_01_stattrak
+20097, #CSGO_Type_WeaponCase, coupon - kellybailey_01_stattrak
+20098, #CSGO_Type_WeaponCase, coupon - skog_02_stattrak
+20099, #CSGO_Type_WeaponCase, coupon - danielsadowski_03_stattrak
+20100, #CSGO_Type_WeaponCase, coupon - awolnation_01_stattrak
+20101, #CSGO_Type_WeaponCase, coupon - mordfustang_01_stattrak
+20102, #CSGO_Type_WeaponCase, coupon - michaelbross_01_stattrak
+20103, #CSGO_Type_WeaponCase, coupon - ianhultquist_01_stattrak
+20104, #CSGO_Type_WeaponCase, coupon - newbeatfund_01_stattrak
+20105, #CSGO_Type_WeaponCase, coupon - beartooth_01_stattrak
+20106, #CSGO_Type_WeaponCase, coupon - lenniemoore_01_stattrak
+20107, #CSGO_Type_WeaponCase, coupon - darude_01_stattrak
+20108, #CSGO_Type_WeaponCase, coupon - danielsadowski_01_stattrak
+20109, #CSGO_Type_WeaponCase, coupon - noisia_01_stattrak
+20110, #CSGO_Type_WeaponCase, coupon - robertallaire_01_stattrak
+20111, #CSGO_Type_WeaponCase, coupon - seanmurray_01_stattrak
+20112, #CSGO_Type_WeaponCase, coupon - feedme_01_stattrak
+20113, #CSGO_Type_WeaponCase, coupon - dren_01_stattrak
+20114, #CSGO_Type_WeaponCase, coupon - austinwintory_01_stattrak
+20115, #CSGO_Type_WeaponCase, coupon - sasha_01_stattrak
+20116, #CSGO_Type_WeaponCase, coupon - skog_01_stattrak
+20117, #CSGO_Type_WeaponCase, coupon - midnightriders_01_stattrak
+20118, #CSGO_Type_WeaponCase, coupon - danielsadowski_02_stattrak
+20119, #CSGO_Type_WeaponCase, coupon - hotlinemiami_01_stattrak
+20120, #CSGO_Type_WeaponCase, coupon - mattlange_01_stattrak
+20121, #CSGO_Type_WeaponCase, coupon - mateomessina_01_stattrak
+20122, #CSGO_Type_WeaponCase, coupon - damjanmravunac_01_stattrak
+20123, #CSGO_Type_WeaponCase, coupon - pinups_sticker_capsule
+20124, #CSGO_Type_WeaponCase, coupon - slid3_sticker_capsule
+20125, #CSGO_Type_WeaponCase, coupon - team_roles_sticker_capsule
+20126, #CSGO_Type_WeaponCase, coupon - pins_series_1
+20127, #CSGO_Type_WeaponCase, coupon - sugarface_sticker_capsule
+20128, #CSGO_Type_WeaponCase, coupon - bestiary_sticker_capsule
+20129, #CSGO_Type_WeaponCase, coupon - crate_sprays_vcap1
+20130, #CSGO_Type_WeaponCase, coupon - crate_sprays_community_1
+20131, #CSGO_Type_WeaponCase, coupon - pins_series_2
+20133, #CSGO_Type_WeaponCase, coupon - radicals_stattrak_musickit_capsule
+20134, #CSGO_Type_WeaponCase, coupon - illuminate_capsule_01
+20135, #CSGO_Type_WeaponCase, coupon - illuminate_capsule_02
+20136, #CSGO_Type_WeaponCase, coupon - illuminate_sprays_capsule_01
+20137, #CSGO_Type_WeaponCase, coupon - comm2018_01_sticker_capsule
+20138, #CSGO_Type_WeaponCase, coupon - pins_series_3
+20139, #CSGO_Type_WeaponCase, coupon - skillgroup_sticker_capsule
+20140, #CSGO_Type_WeaponCase, coupon - theverkkars_01
+20141, #CSGO_Type_WeaponCase, coupon - theverkkars_01_stattrak
+20142, #CSGO_Type_WeaponCase, coupon - feral_predators_sticker_capsule
+4188, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_nip
+4189, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_splc
+4190, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_clg
+4191, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_gamb
+4192, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_flip
+4193, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_liq
+4194, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_mss
+4195, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_navi
+4196, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_vp
+4197, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_c9
+4198, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_g2
+4199, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_faze
+4200, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_astr
+4201, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_nv
+4202, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_fntc
+4203, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_lumi
+4204, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_mlg
+4205, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_legends
+4206, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_challengers
+4207, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_group_1
+4208, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_group_2
+4209, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_nip
+4210, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_splc
+4211, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_clg
+4212, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_gamb
+4213, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_flip
+4214, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_liq
+4215, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_mss
+4216, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_navi
+4217, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_vp
+4218, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_c9
+4219, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_g2
+4220, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_faze
+4221, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_astr
+4222, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_nv
+4223, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_fntc
+4224, #CSGO_Type_WeaponCase, crate_signature_pack_columbus2016_lumi
+4225, #CSGO_Type_WeaponCase, crate_columbus2016_promo_de_dust2
+4226, #CSGO_Type_WeaponCase, crate_columbus2016_promo_de_mirage
+4227, #CSGO_Type_WeaponCase, crate_columbus2016_promo_de_inferno
+4228, #CSGO_Type_WeaponCase, crate_columbus2016_promo_de_cbble
+4229, #CSGO_Type_WeaponCase, crate_columbus2016_promo_de_overpass
+4230, #CSGO_Type_WeaponCase, crate_columbus2016_promo_de_cache
+4231, #CSGO_Type_WeaponCase, crate_columbus2016_promo_de_train
+4232, #CSGO_Type_WeaponCase, crate_columbus2016_promo_de_nuke
+4237, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_nip
+4238, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_optc
+4239, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_clg
+4240, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_gamb
+4241, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_flip
+4242, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_liq
+4243, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_mss
+4244, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_navi
+4245, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_vp
+4246, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_sk
+4247, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_g2
+4248, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_faze
+4249, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_astr
+4250, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_nv
+4251, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_fntc
+4252, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_dig
+4253, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_esl
+4254, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_legends
+4255, #CSGO_Type_WeaponCase, crate_sticker_pack_cologne2016_challengers
+4256, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_group_1
+4257, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_group_2
+4258, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_nip
+4259, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_optc
+4260, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_clg
+4261, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_gamb
+4262, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_flip
+4263, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_liq
+4264, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_mss
+4265, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_navi
+4266, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_vp
+4267, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_sk
+4268, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_g2
+4269, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_faze
+4270, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_astr
+4271, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_nv
+4272, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_fntc
+4273, #CSGO_Type_WeaponCase, crate_signature_pack_cologne2016_dig
+4274, #CSGO_Type_WeaponCase, crate_cologne2016_promo_de_dust2
+4275, #CSGO_Type_WeaponCase, crate_cologne2016_promo_de_mirage
+4276, #CSGO_Type_WeaponCase, crate_cologne2016_promo_de_cbble
+4277, #CSGO_Type_WeaponCase, crate_cologne2016_promo_de_overpass
+4278, #CSGO_Type_WeaponCase, crate_cologne2016_promo_de_cache
+4279, #CSGO_Type_WeaponCase, crate_cologne2016_promo_de_train
+4280, #CSGO_Type_WeaponCase, crate_cologne2016_promo_de_nuke
+4289, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_astr
+4290, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_nv
+4291, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_faze
+4292, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_flip
+4293, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_fntc
+4294, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_g2
+4295, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_gamb
+4296, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_god
+4297, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_hlr
+4298, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_mss
+4299, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_navi
+4300, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_nor
+4301, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_optc
+4302, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_sk
+4303, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_liq
+4304, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_vp
+4305, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_eleague
+4306, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_astr
+4307, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_nv
+4308, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_faze
+4309, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_flip
+4310, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_fntc
+4311, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_g2
+4312, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_gamb
+4313, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_god
+4314, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_hlr
+4315, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_mss
+4316, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_navi
+4317, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_nor
+4318, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_optc
+4319, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_sk
+4320, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_liq
+4321, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_vp
+4322, #CSGO_Type_WeaponCase, crate_graffiti_pack_atlanta2017_eleague
+4323, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_legends
+4324, #CSGO_Type_WeaponCase, crate_sticker_pack_atlanta2017_challengers
+4325, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_group_1
+4326, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_group_2
+4327, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_astr
+4328, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_nv
+4329, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_faze
+4330, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_flip
+4331, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_fntc
+4332, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_g2
+4333, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_gamb
+4334, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_god
+4335, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_hlr
+4336, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_mss
+4337, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_navi
+4338, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_nor
+4339, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_optc
+4340, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_sk
+4341, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_liq
+4342, #CSGO_Type_WeaponCase, crate_signature_pack_atlanta2017_vp
+4343, #CSGO_Type_WeaponCase, crate_atlanta2017_bundle_of_all
+4344, #CSGO_Type_WeaponCase, crate_atlanta2017_promo_de_dust2
+4345, #CSGO_Type_WeaponCase, crate_atlanta2017_promo_de_mirage
+4346, #CSGO_Type_WeaponCase, crate_atlanta2017_promo_de_cbble
+4347, #CSGO_Type_WeaponCase, crate_atlanta2017_promo_de_overpass
+4348, #CSGO_Type_WeaponCase, crate_atlanta2017_promo_de_cache
+4349, #CSGO_Type_WeaponCase, crate_atlanta2017_promo_de_train
+4350, #CSGO_Type_WeaponCase, crate_atlanta2017_promo_de_nuke
+4357, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_astr
+4358, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_vp
+4359, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_fntc
+4360, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_sk
+4361, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_navi
+4362, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_gamb
+4363, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_nor
+4364, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_faze
+4365, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_mss
+4366, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_g2
+4367, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_big
+4368, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_c9
+4369, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_penta
+4370, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_flip
+4371, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_imt
+4372, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_vega
+4373, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_pgl
+4374, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_astr
+4375, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_vp
+4376, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_fntc
+4377, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_sk
+4378, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_navi
+4379, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_gamb
+4380, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_nor
+4381, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_faze
+4382, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_mss
+4383, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_g2
+4384, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_big
+4385, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_c9
+4386, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_penta
+4387, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_flip
+4388, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_imt
+4389, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_vega
+4390, #CSGO_Type_WeaponCase, crate_graffiti_pack_krakow2017_pgl
+4391, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_legends
+4392, #CSGO_Type_WeaponCase, crate_sticker_pack_krakow2017_challengers
+4393, #CSGO_Type_WeaponCase, crate_signature_pack_krakow2017_group_1
+4394, #CSGO_Type_WeaponCase, crate_signature_pack_krakow2017_group_2
+4395, #CSGO_Type_WeaponCase, crate_krakow2017_bundle_of_all
+4396, #CSGO_Type_WeaponCase, crate_krakow2017_promo_de_inferno
+4397, #CSGO_Type_WeaponCase, crate_krakow2017_promo_de_mirage
+4398, #CSGO_Type_WeaponCase, crate_krakow2017_promo_de_cbble
+4399, #CSGO_Type_WeaponCase, crate_krakow2017_promo_de_overpass
+4400, #CSGO_Type_WeaponCase, crate_krakow2017_promo_de_cache
+4401, #CSGO_Type_WeaponCase, crate_krakow2017_promo_de_train
+4402, #CSGO_Type_WeaponCase, crate_krakow2017_promo_de_nuke
+4406, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_gamb
+4407, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_thv
+4408, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_astr
+4409, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_vp
+4410, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_fntc
+4411, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_sk
+4412, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_big
+4413, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_nor
+4414, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_g2
+4415, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_c9
+4416, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_flip
+4417, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_navi
+4418, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_mss
+4419, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_spr
+4420, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_faze
+4421, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_vega
+4422, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_spc
+4423, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_liq
+4424, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_avg
+4425, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_ren
+4426, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_nv
+4427, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_mfg
+4428, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_qb
+4429, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_tyl
+4472, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_flg
+4430, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_eleague
+4431, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_gamb
+4432, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_thv
+4433, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_astr
+4434, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_vp
+4435, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_fntc
+4436, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_sk
+4437, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_big
+4438, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_nor
+4439, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_g2
+4440, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_c9
+4441, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_flip
+4442, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_navi
+4443, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_mss
+4444, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_spr
+4445, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_faze
+4446, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_vega
+4447, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_spc
+4448, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_liq
+4449, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_avg
+4450, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_ren
+4451, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_nv
+4452, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_mfg
+4453, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_qb
+4454, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_tyl
+4473, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_flg
+4455, #CSGO_Type_WeaponCase, crate_graffiti_pack_boston2018_eleague
+4456, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_legends
+4478, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_legends_ntv
+4457, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_challengers
+4458, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_contenders
+4474, #CSGO_Type_WeaponCase, crate_sticker_pack_boston2018_contenders_flg
+4459, #CSGO_Type_WeaponCase, crate_signature_pack_boston2018_group_legends
+4479, #CSGO_Type_WeaponCase, crate_signature_pack_boston2018_group_legends_ntv
+4460, #CSGO_Type_WeaponCase, crate_signature_pack_boston2018_group_challengers
+4461, #CSGO_Type_WeaponCase, crate_signature_pack_boston2018_group_contenders
+4475, #CSGO_Type_WeaponCase, crate_signature_pack_boston2018_group_contenders_flg
+4462, #CSGO_Type_WeaponCase, crate_boston2018_bundle_of_all
+4476, #CSGO_Type_WeaponCase, crate_boston2018_bundle_of_all_flg
+4480, #CSGO_Type_WeaponCase, crate_boston2018_bundle_of_all_ntv
+4463, #CSGO_Type_WeaponCase, crate_boston2018_promo_de_inferno
+4464, #CSGO_Type_WeaponCase, crate_boston2018_promo_de_mirage
+4465, #CSGO_Type_WeaponCase, crate_boston2018_promo_de_cbble
+4466, #CSGO_Type_WeaponCase, crate_boston2018_promo_de_overpass
+4467, #CSGO_Type_WeaponCase, crate_boston2018_promo_de_cache
+4468, #CSGO_Type_WeaponCase, crate_boston2018_promo_de_train
+4469, #CSGO_Type_WeaponCase, crate_boston2018_promo_de_nuke
+4483, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_c9
+4484, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_faze
+4485, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_navi
+4486, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_mibr
+4487, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_mss
+4488, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_wins
+4489, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_g2
+4490, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_fntc
+4491, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_gamb
+4492, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_vega
+4493, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_spc
+4494, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_big
+4495, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_astr
+4496, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_liq
+4497, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_nor
+4498, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_vp
+4499, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_nip
+4500, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_col
+4501, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_hlr
+4502, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_ren
+4503, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_optc
+4504, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_rog
+4505, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_spir
+4506, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_tyl
+4507, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_faceit
+4508, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_c9
+4509, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_faze
+4510, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_navi
+4511, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_mibr
+4512, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_mss
+4513, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_wins
+4514, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_g2
+4515, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_fntc
+4516, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_gamb
+4517, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_vega
+4518, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_spc
+4519, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_big
+4520, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_astr
+4521, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_liq
+4522, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_nor
+4523, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_vp
+4524, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_nip
+4525, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_col
+4526, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_hlr
+4527, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_ren
+4528, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_optc
+4529, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_rog
+4530, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_spir
+4531, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_tyl
+4532, #CSGO_Type_WeaponCase, crate_graffiti_pack_london2018_faceit
+4533, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_legends
+4534, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_challengers
+4535, #CSGO_Type_WeaponCase, crate_sticker_pack_london2018_contenders
+4536, #CSGO_Type_WeaponCase, crate_signature_pack_london2018_group_legends
+4537, #CSGO_Type_WeaponCase, crate_signature_pack_london2018_group_challengers
+4538, #CSGO_Type_WeaponCase, crate_signature_pack_london2018_group_contenders
+4539, #CSGO_Type_WeaponCase, crate_london2018_bundle_of_all
+4540, #CSGO_Type_WeaponCase, crate_london2018_promo_de_inferno
+4541, #CSGO_Type_WeaponCase, crate_london2018_promo_de_mirage
+4542, #CSGO_Type_WeaponCase, crate_london2018_promo_de_dust2
+4543, #CSGO_Type_WeaponCase, crate_london2018_promo_de_overpass
+4544, #CSGO_Type_WeaponCase, crate_london2018_promo_de_cache
+4545, #CSGO_Type_WeaponCase, crate_london2018_promo_de_train
+4546, #CSGO_Type_WeaponCase, crate_london2018_promo_de_nuke
+4554, #CSGO_Type_Ticket, tournament_pass_katowice2019
+4555, #CSGO_Type_Collectible, tournament_journal_katowice2019
+4556, #CSGO_Type_Collectible, tournament_journal_katowice2019_silver
+4557, #CSGO_Type_Collectible, tournament_journal_katowice2019_gold
+4558, #CSGO_Type_Collectible, tournament_journal_katowice2019_crystal
+4559, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_astr
+4560, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_avg
+4561, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_big
+4562, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_c9
+4563, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_col
+4564, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_ence
+4565, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_faze
+4566, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_fntc
+4567, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_furi
+4568, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_g2
+4569, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_gray
+4570, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_hlr
+4571, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_mibr
+4572, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_navi
+4573, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_nip
+4574, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_nrg
+4575, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_ren
+4576, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_liq
+4577, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_spir
+4578, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_tyl
+4579, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_vega
+4580, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_vici
+4581, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_vita
+4582, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_wins
+4583, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_iem
+4584, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_legends
+4585, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_challengers
+4586, #CSGO_Type_WeaponCase, crate_sticker_pack_katowice2019_contenders
+4587, #CSGO_Type_WeaponCase, crate_signature_pack_katowice2019_group_legends
+4588, #CSGO_Type_WeaponCase, crate_signature_pack_katowice2019_group_challengers
+4589, #CSGO_Type_WeaponCase, crate_signature_pack_katowice2019_group_contenders
+4590, #CSGO_Type_WeaponCase, crate_katowice2019_promo_de_inferno
+4591, #CSGO_Type_WeaponCase, crate_katowice2019_promo_de_mirage
+4592, #CSGO_Type_WeaponCase, crate_katowice2019_promo_de_dust2
+4593, #CSGO_Type_WeaponCase, crate_katowice2019_promo_de_overpass
+4594, #CSGO_Type_WeaponCase, crate_katowice2019_promo_de_cache
+4595, #CSGO_Type_WeaponCase, crate_katowice2019_promo_de_train
+4596, #CSGO_Type_WeaponCase, crate_katowice2019_promo_de_nuke
+4235, #CSGO_Type_WeaponCase, crate_pins_series_1
+4284, #CSGO_Type_WeaponCase, crate_pins_series_2
+4481, #CSGO_Type_WeaponCase, crate_pins_series_3
+1347, #CSGO_Tool_WeaponCase_KeyTag, community_12 Key
+4233, #CSGO_Type_WeaponCase, crate_community_12
+1350, #CSGO_Tool_WeaponCase_KeyTag, community_13 Key
+4236, #CSGO_Type_WeaponCase, crate_community_13
+1351, #CSGO_Tool_WeaponCase_KeyTag, gamma_2 Key
+4281, #CSGO_Type_WeaponCase, crate_gamma_2
+4234, #CSGO_Type_WeaponCase, crate_sprays_community_1
+4285, #CSGO_Type_WeaponCase, crate_sprays_vcap1
+4282, #CSGO_Type_WeaponCase, crate_sticker_pack_sugarface_capsule
+4283, #CSGO_Type_WeaponCase, crate_sticker_pack_bestiary_capsule
+4287, #CSGO_Type_WeaponCase, crate_musickit_radicals_stattrak_capsule
+1356, #CSGO_Tool_WeaponCase_KeyTag, community_15 Key
+4288, #CSGO_Type_WeaponCase, crate_community_15
+1364, #CSGO_Tool_WeaponCase_KeyTag, community_16 Key
+4351, #CSGO_Type_WeaponCase, crate_community_16
+1365, #CSGO_Tool_WeaponCase_KeyTag, community_17 Key
+4352, #CSGO_Type_WeaponCase, crate_community_17
+1366, #CSGO_Tool_WeaponCase_KeyTag, community_18 Key
+4403, #CSGO_Type_WeaponCase, crate_community_18
+4404, #CSGO_Type_WeaponCase, crate_sticker_pack_illuminate_capsule_01
+4405, #CSGO_Type_WeaponCase, crate_sticker_pack_illuminate_capsule_02
+4286, #CSGO_Type_WeaponCase, crate_sprays_illuminate1
+4477, #CSGO_Type_WeaponCase, crate_sticker_pack_chickens_capsule
+4470, #CSGO_Type_WeaponCase, crate_sticker_pack_comm2018_01_capsule
+4547, #CSGO_Type_WeaponCase, crate_sticker_pack_skillgroup_capsule
+4599, #CSGO_Type_WeaponCase, crate_sticker_pack_feral_predators_capsule
+1373, #CSGO_Tool_WeaponCase_KeyTag, community_19 Key
+4471, #CSGO_Type_WeaponCase, crate_community_19
+1374, #CSGO_Tool_WeaponCase_KeyTag, community_20 Key
+4482, #CSGO_Type_WeaponCase, crate_community_20
+1375, #CSGO_Tool_WeaponCase_KeyTag, community_21 Key
+4548, #CSGO_Type_WeaponCase, crate_community_21
+1383, #CSGO_Tool_WeaponCase_KeyTag, community_22 Key
+4598, #CSGO_Type_WeaponCase, crate_community_22
