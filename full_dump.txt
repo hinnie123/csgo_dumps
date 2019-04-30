@@ -236,6 +236,7 @@
 1054, #CSGO_Type_Collectible, Map Token Subzero
 1055, #CSGO_Type_Collectible, Map Token Biome
 1056, #CSGO_Type_Collectible, Map Token Abbey
+1057, #CSGO_Type_Collectible, Map Token Ruby
 1200, #CSGO_Tool_Name_TagTag, Name Tag
 1203, #CSGO_Tool_WeaponCase_KeyTag, Weapon Case Key
 1204, #CSGO_Tool_WeaponCase_KeyTag, E-Sports Weapon Case Key 1
