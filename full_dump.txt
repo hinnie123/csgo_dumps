@@ -26,6 +26,7 @@
 34, #CSGO_Type_SMG, weapon_mp9
 35, #CSGO_Type_Shotgun, weapon_nova
 36, #CSGO_Type_Pistol, weapon_p250
+37, #CSGO_Type_Equipment, weapon_shield
 38, #CSGO_Type_SniperRifle, weapon_scar20
 39, #CSGO_Type_Rifle, weapon_sg556
 40, #CSGO_Type_SniperRifle, weapon_ssg08
@@ -65,6 +66,7 @@
 82, #CSGO_Type_Grenade, weapon_diversion
 83, #CSGO_Type_Grenade, weapon_frag_grenade
 84, #CSGO_Type_Grenade, weapon_snowball
+85, #CSGO_Type_Equipment, weapon_bumpmine
 500, #CSGO_Type_Knife, weapon_bayonet
 505, #CSGO_Type_Knife, weapon_knife_flip
 506, #CSGO_Type_Knife, weapon_knife_gut
