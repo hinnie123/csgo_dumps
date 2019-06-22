@@ -770,6 +770,7 @@
 20140, #CSGO_Type_WeaponCase, coupon - theverkkars_01
 20141, #CSGO_Type_WeaponCase, coupon - theverkkars_01_stattrak
 20142, #CSGO_Type_WeaponCase, coupon - feral_predators_sticker_capsule
+20143, #CSGO_Type_WeaponCase, coupon - chicken_sticker_capsule
 4188, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_nip
 4189, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_splc
 4190, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_clg
@@ -1171,7 +1172,6 @@
 4404, #CSGO_Type_WeaponCase, crate_sticker_pack_illuminate_capsule_01
 4405, #CSGO_Type_WeaponCase, crate_sticker_pack_illuminate_capsule_02
 4286, #CSGO_Type_WeaponCase, crate_sprays_illuminate1
-4477, #CSGO_Type_WeaponCase, crate_sticker_pack_chickens_capsule
 4470, #CSGO_Type_WeaponCase, crate_sticker_pack_comm2018_01_capsule
 4547, #CSGO_Type_WeaponCase, crate_sticker_pack_skillgroup_capsule
 4599, #CSGO_Type_WeaponCase, crate_sticker_pack_feral_predators_capsule
@@ -1183,3 +1183,4 @@
 4548, #CSGO_Type_WeaponCase, crate_community_21
 1383, #CSGO_Tool_WeaponCase_KeyTag, community_22 Key
 4598, #CSGO_Type_WeaponCase, crate_community_22
+4477, #CSGO_Type_WeaponCase, crate_sticker_pack_chicken_capsule
