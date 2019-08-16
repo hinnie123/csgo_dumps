@@ -182,6 +182,10 @@
 972, #CSGO_Type_Collectible, IEM Katowice 2019 CS:GO Finalist
 973, #CSGO_Type_Collectible, IEM Katowice 2019 CS:GO Semifinalist
 974, #CSGO_Type_Collectible, IEM Katowice 2019 CS:GO Quarterfinalist
+975, #CSGO_Type_Collectible, StarLadder Berlin 2019 CS:GO Champion
+976, #CSGO_Type_Collectible, StarLadder Berlin 2019 CS:GO Finalist
+977, #CSGO_Type_Collectible, StarLadder Berlin 2019 CS:GO Semifinalist
+978, #CSGO_Type_Collectible, StarLadder Berlin 2019 CS:GO Quarterfinalist
 1000, #CSGO_Type_Ticket, Community Season One Spring 2013
 1001, #CSGO_Type_Collectible, Community Season One Spring 2013 Coin 1
 1002, #CSGO_Type_Collectible, Community Season One Spring 2013 Coin 2
@@ -1148,6 +1152,51 @@
 4594, #CSGO_Type_WeaponCase, crate_katowice2019_promo_de_cache
 4595, #CSGO_Type_WeaponCase, crate_katowice2019_promo_de_train
 4596, #CSGO_Type_WeaponCase, crate_katowice2019_promo_de_nuke
+4622, #CSGO_Type_Ticket, tournament_pass_berlin2019
+4627, #CSGO_Type_Ticket, tournament_pass_berlin2019_pack
+4628, #CSGO_Type_Ticket, tournament_pass_berlin2019_charge
+4623, #CSGO_Type_Collectible, tournament_journal_berlin2019
+4624, #CSGO_Type_Collectible, tournament_journal_berlin2019_silver
+4625, #CSGO_Type_Collectible, tournament_journal_berlin2019_gold
+4626, #CSGO_Type_Collectible, tournament_journal_berlin2019_crystal
+4629, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_astr
+4630, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_ence
+4631, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_mibr
+4632, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_navi
+4633, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_nip
+4634, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_faze
+4635, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_liq
+4636, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_ren
+4637, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_col
+4638, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_hlr
+4639, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_avg
+4640, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_g2
+4641, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_vita
+4642, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_gray
+4643, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_mss
+4644, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_forz
+4645, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_nrg
+4646, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_tyl
+4647, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_furi
+4648, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_cr4z
+4649, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_syma
+4650, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_nor
+4651, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_drea
+4652, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_intz
+4653, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_star
+4654, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_legends
+4655, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_challengers
+4656, #CSGO_Type_WeaponCase, crate_sticker_pack_berlin2019_contenders
+4657, #CSGO_Type_WeaponCase, crate_signature_pack_berlin2019_group_legends
+4658, #CSGO_Type_WeaponCase, crate_signature_pack_berlin2019_group_challengers
+4659, #CSGO_Type_WeaponCase, crate_signature_pack_berlin2019_group_contenders
+4660, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_inferno
+4661, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_mirage
+4662, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_dust2
+4663, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_overpass
+4664, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_train
+4665, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_nuke
+4666, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_vertigo
 4235, #CSGO_Type_WeaponCase, crate_pins_series_1
 4284, #CSGO_Type_WeaponCase, crate_pins_series_2
 4481, #CSGO_Type_WeaponCase, crate_pins_series_3
