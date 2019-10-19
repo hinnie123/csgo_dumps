@@ -68,6 +68,7 @@
 84, #CSGO_Type_Grenade, weapon_snowball
 85, #CSGO_Type_Equipment, weapon_bumpmine
 500, #CSGO_Type_Knife, weapon_bayonet
+503, #CSGO_Type_Knife, weapon_knife_css
 505, #CSGO_Type_Knife, weapon_knife_flip
 506, #CSGO_Type_Knife, weapon_knife_gut
 507, #CSGO_Type_Knife, weapon_knife_karambit
@@ -776,6 +777,9 @@
 20141, #CSGO_Type_WeaponCase, coupon - theverkkars_01_stattrak
 20142, #CSGO_Type_WeaponCase, coupon - feral_predators_sticker_capsule
 20143, #CSGO_Type_WeaponCase, coupon - chicken_sticker_capsule
+20144, #CSGO_Type_WeaponCase, coupon - crate_xray_p250
+20145, #CSGO_Type_WeaponCase, coupon - cs20_sticker_capsule
+4668, #CSGO_Type_WeaponCase, crate_xray_p250
 4188, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_nip
 4189, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_splc
 4190, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_clg
@@ -1234,3 +1238,6 @@
 1383, #CSGO_Tool_WeaponCase_KeyTag, community_22 Key
 4598, #CSGO_Type_WeaponCase, crate_community_22
 4477, #CSGO_Type_WeaponCase, crate_sticker_pack_chicken_capsule
+1385, #CSGO_Tool_WeaponCase_KeyTag, community_24 Key
+4669, #CSGO_Type_WeaponCase, crate_community_24
+4670, #CSGO_Type_WeaponCase, crate_sticker_pack_cs20_capsule

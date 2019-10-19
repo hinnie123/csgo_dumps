@@ -68,6 +68,7 @@ enum item_definition_index : short
 	weapon_snowball,
 	weapon_bumpmine,
 	weapon_bayonet = 500,
+	weapon_knife_css = 503,
 	weapon_knife_flip = 505,
 	weapon_knife_gut,
 	weapon_knife_karambit,
