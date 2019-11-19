@@ -78,10 +78,14 @@
 514, #CSGO_Type_Knife, weapon_knife_survival_bowie
 515, #CSGO_Type_Knife, weapon_knife_butterfly
 516, #CSGO_Type_Knife, weapon_knife_push
+517, #CSGO_Type_Knife, weapon_knife_cord
+518, #CSGO_Type_Knife, weapon_knife_canis
 519, #CSGO_Type_Knife, weapon_knife_ursus
 520, #CSGO_Type_Knife, weapon_knife_gypsy_jackknife
+521, #CSGO_Type_Knife, weapon_knife_outdoor
 522, #CSGO_Type_Knife, weapon_knife_stiletto
 523, #CSGO_Type_Knife, weapon_knife_widowmaker
+525, #CSGO_Type_Knife, weapon_knife_skeleton
 874, #CSGO_Type_Collectible, Five Year Service Coin
 875, #CSGO_Type_Collectible, DreamHack SteelSeries 2013 CS:GO Champion
 876, #CSGO_Type_Collectible, DreamHack SteelSeries 2013 CS:GO Finalist
@@ -245,6 +249,8 @@
 1056, #CSGO_Type_Collectible, Map Token Abbey
 1057, #CSGO_Type_Collectible, Map Token Ruby
 1058, #CSGO_Type_Collectible, Map Token Breach
+1059, #CSGO_Type_Collectible, Map Token Studio
+1060, #CSGO_Type_Collectible, Map Token Jungle
 1200, #CSGO_Tool_Name_TagTag, Name Tag
 1203, #CSGO_Tool_WeaponCase_KeyTag, Weapon Case Key
 1204, #CSGO_Tool_WeaponCase_KeyTag, E-Sports Weapon Case Key 1
@@ -321,6 +327,7 @@
 1379, #CSGO_Type_Collectible, prestige coin 2019 level 4
 1380, #CSGO_Type_Collectible, prestige coin 2019 level 5
 1381, #CSGO_Type_Collectible, prestige coin 2019 level 6
+4607, #CSGO_Type_Ticket, xpgrant
 4001, #CSGO_Type_WeaponCase, crate_valve_1
 4002, #CSGO_Type_WeaponCase, crate_esports_2013
 4004, #CSGO_Type_WeaponCase, crate_valve_2
@@ -514,6 +521,8 @@
 5033, #Type_Hands, motorcycle_gloves
 5034, #Type_Hands, specialist_gloves
 5035, #Type_Hands, studded_hydra_gloves
+5036, #Type_CustomPlayer, customplayer_t_map_based
+5037, #Type_CustomPlayer, customplayer_ct_map_based
 6001, #CSGO_Type_Collectible, Collectible Pin - Dust II
 6002, #CSGO_Type_Collectible, Collectible Pin - Guardian Elite
 6003, #CSGO_Type_Collectible, Collectible Pin - Mirage
@@ -1201,6 +1210,14 @@
 4664, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_train
 4665, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_nuke
 4666, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_vertigo
+4549, #CSGO_Type_Ticket, CommunitySeasonNine2019
+4550, #CSGO_Type_Collectible, CommunitySeasonNine2019 Coin 1
+4551, #CSGO_Type_Collectible, CommunitySeasonNine2019 Coin 2
+4552, #CSGO_Type_Collectible, CommunitySeasonNine2019 Coin 3
+4553, #CSGO_Type_Collectible, CommunitySeasonNine2019 Coin 4
+4671, #CSGO_Type_Ticket, CommunitySeasonNine2019_PlusStars1
+4672, #CSGO_Type_Ticket, CommunitySeasonNine2019_PlusStars10
+4673, #CSGO_Type_Ticket, CommunitySeasonNine2019_PlusStars100
 4235, #CSGO_Type_WeaponCase, crate_pins_series_1
 4284, #CSGO_Type_WeaponCase, crate_pins_series_2
 4481, #CSGO_Type_WeaponCase, crate_pins_series_3
@@ -1229,15 +1246,132 @@
 4470, #CSGO_Type_WeaponCase, crate_sticker_pack_comm2018_01_capsule
 4547, #CSGO_Type_WeaponCase, crate_sticker_pack_skillgroup_capsule
 4599, #CSGO_Type_WeaponCase, crate_sticker_pack_feral_predators_capsule
+4600, #CSGO_Type_WeaponCase, crate_sticker_pack_shattered_web
 1373, #CSGO_Tool_WeaponCase_KeyTag, community_19 Key
 4471, #CSGO_Type_WeaponCase, crate_community_19
 1374, #CSGO_Tool_WeaponCase_KeyTag, community_20 Key
 4482, #CSGO_Type_WeaponCase, crate_community_20
+5038, #Type_CustomPlayer, customplayer_tm_anarchist
+5039, #Type_CustomPlayer, customplayer_tm_anarchist_varianta
+5040, #Type_CustomPlayer, customplayer_tm_anarchist_variantb
+5041, #Type_CustomPlayer, customplayer_tm_anarchist_variantc
+5042, #Type_CustomPlayer, customplayer_tm_anarchist_variantd
+5043, #Type_CustomPlayer, customplayer_tm_pirate
+5044, #Type_CustomPlayer, customplayer_tm_pirate_varianta
+5045, #Type_CustomPlayer, customplayer_tm_pirate_variantb
+5046, #Type_CustomPlayer, customplayer_tm_pirate_variantc
+5047, #Type_CustomPlayer, customplayer_tm_pirate_variantd
+5048, #Type_CustomPlayer, customplayer_tm_professional
+5049, #Type_CustomPlayer, customplayer_tm_professional_var1
+5050, #Type_CustomPlayer, customplayer_tm_professional_var2
+5051, #Type_CustomPlayer, customplayer_tm_professional_var3
+5052, #Type_CustomPlayer, customplayer_tm_professional_var4
+5053, #Type_CustomPlayer, customplayer_tm_separatist
+5054, #Type_CustomPlayer, customplayer_tm_separatist_varianta
+5055, #Type_CustomPlayer, customplayer_tm_separatist_variantb
+5056, #Type_CustomPlayer, customplayer_tm_separatist_variantc
+5057, #Type_CustomPlayer, customplayer_tm_separatist_variantd
+5058, #Type_CustomPlayer, customplayer_ctm_gign
+5059, #Type_CustomPlayer, customplayer_ctm_gign_varianta
+5060, #Type_CustomPlayer, customplayer_ctm_gign_variantb
+5061, #Type_CustomPlayer, customplayer_ctm_gign_variantc
+5062, #Type_CustomPlayer, customplayer_ctm_gign_variantd
+5063, #Type_CustomPlayer, customplayer_ctm_gsg9
+5064, #Type_CustomPlayer, customplayer_ctm_gsg9_varianta
+5065, #Type_CustomPlayer, customplayer_ctm_gsg9_variantb
+5066, #Type_CustomPlayer, customplayer_ctm_gsg9_variantc
+5067, #Type_CustomPlayer, customplayer_ctm_gsg9_variantd
+5068, #Type_CustomPlayer, customplayer_ctm_idf
+5069, #Type_CustomPlayer, customplayer_ctm_idf_variantb
+5070, #Type_CustomPlayer, customplayer_ctm_idf_variantc
+5071, #Type_CustomPlayer, customplayer_ctm_idf_variantd
+5072, #Type_CustomPlayer, customplayer_ctm_idf_variante
+5073, #Type_CustomPlayer, customplayer_ctm_idf_variantf
+5074, #Type_CustomPlayer, customplayer_ctm_swat
+5075, #Type_CustomPlayer, customplayer_ctm_swat_varianta
+5076, #Type_CustomPlayer, customplayer_ctm_swat_variantb
+5077, #Type_CustomPlayer, customplayer_ctm_swat_variantc
+5078, #Type_CustomPlayer, customplayer_ctm_swat_variantd
+5079, #Type_CustomPlayer, customplayer_ctm_sas_varianta
+5080, #Type_CustomPlayer, customplayer_ctm_sas_variantb
+5081, #Type_CustomPlayer, customplayer_ctm_sas_variantc
+5082, #Type_CustomPlayer, customplayer_ctm_sas_variantd
+5083, #Type_CustomPlayer, customplayer_ctm_st6
+5084, #Type_CustomPlayer, customplayer_ctm_st6_varianta
+5085, #Type_CustomPlayer, customplayer_ctm_st6_variantb
+5086, #Type_CustomPlayer, customplayer_ctm_st6_variantc
+5087, #Type_CustomPlayer, customplayer_ctm_st6_variantd
+5088, #Type_CustomPlayer, customplayer_tm_balkan_variante
+5089, #Type_CustomPlayer, customplayer_tm_balkan_varianta
+5090, #Type_CustomPlayer, customplayer_tm_balkan_variantb
+5091, #Type_CustomPlayer, customplayer_tm_balkan_variantc
+5092, #Type_CustomPlayer, customplayer_tm_balkan_variantd
+5093, #Type_CustomPlayer, customplayer_tm_jumpsuit_varianta
+5094, #Type_CustomPlayer, customplayer_tm_jumpsuit_variantb
+5095, #Type_CustomPlayer, customplayer_tm_jumpsuit_variantc
+5096, #Type_CustomPlayer, customplayer_tm_phoenix_heavy
+5097, #Type_CustomPlayer, customplayer_ctm_heavy
+5100, #Type_CustomPlayer, customplayer_tm_leet_varianta
+5101, #Type_CustomPlayer, customplayer_tm_leet_variantb
+5102, #Type_CustomPlayer, customplayer_tm_leet_variantc
+5103, #Type_CustomPlayer, customplayer_tm_leet_variantd
+5104, #Type_CustomPlayer, customplayer_tm_leet_variante
+5105, #Type_CustomPlayer, customplayer_tm_leet_variantg
+5106, #Type_CustomPlayer, customplayer_tm_leet_varianth
+5107, #Type_CustomPlayer, customplayer_tm_leet_varianti
+5108, #Type_CustomPlayer, customplayer_tm_leet_variantf
+5200, #Type_CustomPlayer, customplayer_tm_phoenix
+5201, #Type_CustomPlayer, customplayer_tm_phoenix_varianta
+5202, #Type_CustomPlayer, customplayer_tm_phoenix_variantb
+5203, #Type_CustomPlayer, customplayer_tm_phoenix_variantc
+5204, #Type_CustomPlayer, customplayer_tm_phoenix_variantd
+5205, #Type_CustomPlayer, customplayer_tm_phoenix_varianth
+5206, #Type_CustomPlayer, customplayer_tm_phoenix_variantf
+5207, #Type_CustomPlayer, customplayer_tm_phoenix_variantg
+5300, #Type_CustomPlayer, customplayer_ctm_fbi
+5301, #Type_CustomPlayer, customplayer_ctm_fbi_varianta
+5302, #Type_CustomPlayer, customplayer_ctm_fbi_variantc
+5303, #Type_CustomPlayer, customplayer_ctm_fbi_variantd
+5304, #Type_CustomPlayer, customplayer_ctm_fbi_variante
+5305, #Type_CustomPlayer, customplayer_ctm_fbi_variantf
+5306, #Type_CustomPlayer, customplayer_ctm_fbi_variantg
+5307, #Type_CustomPlayer, customplayer_ctm_fbi_varianth
+5308, #Type_CustomPlayer, customplayer_ctm_fbi_variantb
+5400, #Type_CustomPlayer, customplayer_ctm_st6_variantk
+5401, #Type_CustomPlayer, customplayer_ctm_st6_variante
+5402, #Type_CustomPlayer, customplayer_ctm_st6_variantg
+5403, #Type_CustomPlayer, customplayer_ctm_st6_variantm
+5404, #Type_CustomPlayer, customplayer_ctm_st6_varianti
+5500, #Type_CustomPlayer, customplayer_tm_balkan_variantf
+5501, #Type_CustomPlayer, customplayer_tm_balkan_varianti
+5502, #Type_CustomPlayer, customplayer_tm_balkan_variantg
+5503, #Type_CustomPlayer, customplayer_tm_balkan_variantj
+5504, #Type_CustomPlayer, customplayer_tm_balkan_varianth
+5600, #Type_CustomPlayer, customplayer_ctm_sas
+5601, #Type_CustomPlayer, customplayer_ctm_sas_variantf
+6404, #CSGO_Type_WeaponCase, character_operator_dossier_op09_rare
+6405, #CSGO_Type_WeaponCase, character_operator_dossier_op09_mythical
+6406, #CSGO_Type_WeaponCase, character_operator_dossier_op09_legendary
+6407, #CSGO_Type_WeaponCase, character_operator_dossier_op09_ancient
 1375, #CSGO_Tool_WeaponCase_KeyTag, community_21 Key
 4548, #CSGO_Type_WeaponCase, crate_community_21
 1383, #CSGO_Tool_WeaponCase_KeyTag, community_22 Key
 4598, #CSGO_Type_WeaponCase, crate_community_22
+4601, #CSGO_Type_WeaponCase, selfopeningitem_set_overpass
+4602, #CSGO_Type_WeaponCase, selfopeningitem_set_cobblestone
+4603, #CSGO_Type_WeaponCase, selfopeningitem_set_cache
+4604, #CSGO_Type_WeaponCase, selfopeningitem_set_gods_and_monsters
+4605, #CSGO_Type_WeaponCase, selfopeningitem_set_chopshop
+4606, #CSGO_Type_WeaponCase, selfopeningitem_set_kimono
+4608, #CSGO_Type_WeaponCase, selfopeningitem_set_canals
+4611, #CSGO_Type_WeaponCase, selfopeningitem_set_norse
+4612, #CSGO_Type_WeaponCase, selfopeningitem_set_stmarc
+4621, #CSGO_Type_WeaponCase, selfopeningitem_crate_spray_std2_1
+4618, #CSGO_Type_WeaponCase, selfopeningitem_crate_spray_std2_2
+4667, #CSGO_Type_WeaponCase, selfopeningitem_crate_sticker_pack_shattered_web
 4477, #CSGO_Type_WeaponCase, crate_sticker_pack_chicken_capsule
+1384, #CSGO_Tool_WeaponCase_KeyTag, community_23 Key
+4620, #CSGO_Type_WeaponCase, crate_community_23
 1385, #CSGO_Tool_WeaponCase_KeyTag, community_24 Key
 4669, #CSGO_Type_WeaponCase, crate_community_24
 4670, #CSGO_Type_WeaponCase, crate_sticker_pack_cs20_capsule

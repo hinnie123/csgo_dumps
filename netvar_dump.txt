@@ -167,19 +167,19 @@ DT_TEEffectDispatch
         m_vAngles                                 : 0x00000034
         m_vNormal                                 : 0x00000028
         m_fFlags                                  : 0x00000040
-        m_flMagnitude                             : 0x0000004C
-        m_flScale                                 : 0x00000048
-        m_nAttachmentIndex                        : 0x00000054
-        m_nSurfaceProp                            : 0x00000058
-        m_iEffectName                             : 0x00000070
-        m_nMaterial                               : 0x0000005C
-        m_nDamageType                             : 0x00000060
-        m_nHitBox                                 : 0x00000064
+        m_flMagnitude                             : 0x00000050
+        m_flScale                                 : 0x0000004C
+        m_nAttachmentIndex                        : 0x00000058
+        m_nSurfaceProp                            : 0x0000005C
+        m_iEffectName                             : 0x00000074
+        m_nMaterial                               : 0x00000060
+        m_nDamageType                             : 0x00000064
+        m_nHitBox                                 : 0x00000068
         entindex                                  : 0x00000010
-        m_nOtherEntIndex                          : 0x00000068
-        m_nColor                                  : 0x0000006C
-        m_flRadius                                : 0x00000050
-        m_bPositionsAreRelativeToEntity           : 0x0000006D
+        m_nOtherEntIndex                          : 0x0000006C
+        m_nColor                                  : 0x00000070
+        m_flRadius                                : 0x00000054
+        m_bPositionsAreRelativeToEntity           : 0x00000071
 
 DT_TEDynamicLight
     m_vecOrigin                                   : 0x00000010
@@ -531,70 +531,76 @@ DT_EconEntity
                         lengthprop32              : 0x00000000
 
 DT_WeaponXM1014
-    m_reloadState                                 : 0x00003394
+    m_reloadState                                 : 0x000033B4
 
 DT_WeaponTaser
-    m_fFireTime                                   : 0x000033B0
+    m_fFireTime                                   : 0x000033D0
 
 DT_WeaponTablet
-    m_flUpgradeExpirationTime[0]                  : 0x00003398
+    m_flUpgradeExpirationTime[0]                  : 0x000033B8
     m_flUpgradeExpirationTime                     : 0x00000000
-    m_vecLocalHexFlags[0]                         : 0x000033A4
+    m_vecLocalHexFlags[0]                         : 0x000033C8
     m_vecLocalHexFlags                            : 0x00000000
-    m_nContractKillGridIndex                      : 0x0000344C
-    m_nContractKillGridHighResIndex               : 0x00003450
-    m_bTabletReceptionIsBlocked                   : 0x00003454
-    m_flScanProgress                              : 0x00003458
-    m_flBootTime                                  : 0x0000345C
-    m_flShowMapTime                               : 0x00003460
-    m_vecNotificationIds[0]                       : 0x00003464
+    m_nContractKillGridIndex                      : 0x00003470
+    m_nContractKillGridHighResIndex               : 0x00003474
+    m_bTabletReceptionIsBlocked                   : 0x00003478
+    m_flScanProgress                              : 0x0000347C
+    m_flBootTime                                  : 0x00003480
+    m_flShowMapTime                               : 0x00003484
+    m_vecNotificationIds[0]                       : 0x00003494
     m_vecNotificationIds                          : 0x00000000
-    m_vecNotificationTimestamps[0]                : 0x00003484
+    m_vecNotificationTimestamps[0]                : 0x000034B4
     m_vecNotificationTimestamps                   : 0x00000000
-    m_vecPlayerPositionHistory[0]                 : 0x000034A4
+    m_vecPlayerPositionHistory[0]                 : 0x000034D8
     m_vecPlayerPositionHistory                    : 0x00000000
-    m_nLastPurchaseIndex                          : 0x000035C4
+    m_nLastPurchaseIndex                          : 0x000034D4
+    m_vecNearestMetalCratePos                     : 0x00003488
 
 DT_WeaponSawedoff
-    m_reloadState                                 : 0x00003394
+    m_reloadState                                 : 0x000033B4
 
 DT_WeaponNOVA
-    m_reloadState                                 : 0x00003394
+    m_reloadState                                 : 0x000033B4
 
 DT_WeaponMelee
-    m_flThrowAt                                   : 0x00003390
+    m_flThrowAt                                   : 0x000033B0
 
 DT_WeaponM3
-    m_reloadState                                 : 0x00003394
+    m_reloadState                                 : 0x000033B4
 
 DT_WeaponFists
-    m_bPlayingUninterruptableAct                  : 0x00003390
+    m_bPlayingUninterruptableAct                  : 0x000033B0
 
 DT_WeaponCSBaseGun
-    m_zoomLevel                                   : 0x00003390
-    m_iBurstShotsRemaining                        : 0x00003394
+    m_zoomLevel                                   : 0x000033B0
+    m_iBurstShotsRemaining                        : 0x000033B4
 
 DT_WeaponCSBase
-    m_weaponMode                                  : 0x000032EC
-    m_fAccuracyPenalty                            : 0x00003304
-    m_fLastShotTime                               : 0x00003360
-    m_iRecoilIndex                                : 0x00003310
-    m_flRecoilIndex                               : 0x00003314
-    m_hPrevOwner                                  : 0x0000333C
-    m_bBurstMode                                  : 0x00003318
-    m_flPostponeFireReadyTime                     : 0x0000331C
-    m_bReloadVisuallyComplete                     : 0x00003320
-    m_bSilencerOn                                 : 0x00003321
-    m_flDoneSwitchingSilencer                     : 0x00003324
-    m_iOriginalTeamNumber                         : 0x0000332C
-    m_iIronSightMode                              : 0x0000337C
+    m_weaponMode                                  : 0x000032F8
+    m_fAccuracyPenalty                            : 0x00003310
+    m_fLastShotTime                               : 0x00003384
+    m_iRecoilIndex                                : 0x0000331C
+    m_flRecoilIndex                               : 0x00003320
+    m_hPrevOwner                                  : 0x00003360
+    m_bBurstMode                                  : 0x00003324
+    m_flPostponeFireReadyTime                     : 0x00003328
+    m_bReloadVisuallyComplete                     : 0x0000332C
+    m_bSilencerOn                                 : 0x0000332D
+    m_flDoneSwitchingSilencer                     : 0x00003330
+    m_iOriginalTeamNumber                         : 0x00003338
+    m_iIronSightMode                              : 0x000033A0
 
 DT_WeaponC4
-    m_bStartedArming                              : 0x000033C0
-    m_bBombPlacedAnimation                        : 0x000033C8
-    m_fArmedTime                                  : 0x000033C4
-    m_bShowC4LED                                  : 0x000033C9
-    m_bIsPlantingViaUse                           : 0x000033CA
+    m_bStartedArming                              : 0x000033D0
+    m_bBombPlacedAnimation                        : 0x000033D8
+    m_fArmedTime                                  : 0x000033D4
+    m_bShowC4LED                                  : 0x000033D9
+    m_bIsPlantingViaUse                           : 0x000033DA
+
+DT_BumpMineProjectile
+    m_nParentBoneIndex                            : 0x000029B4
+    m_vecParentBonePos                            : 0x000029B8
+    m_bArmed                                      : 0x000029C4
 
 DT_BreachChargeProjectile
     m_bShouldExplode                              : 0x000029B0
@@ -603,22 +609,22 @@ DT_BreachChargeProjectile
     m_vecParentBonePos                            : 0x000029BC
 
 DT_WeaponBaseItem
-    m_bRedraw                                     : 0x0000339C
+    m_bRedraw                                     : 0x000033BC
 
 DT_BaseCSGrenade
-    m_bRedraw                                     : 0x00003390
-    m_bIsHeldByPlayer                             : 0x00003391
-    m_bPinPulled                                  : 0x00003392
-    m_fThrowTime                                  : 0x00003394
-    m_bLoopingSoundPlaying                        : 0x00003398
-    m_flThrowStrength                             : 0x0000339C
+    m_bRedraw                                     : 0x000033B0
+    m_bIsHeldByPlayer                             : 0x000033B1
+    m_bPinPulled                                  : 0x000033B2
+    m_fThrowTime                                  : 0x000033B4
+    m_bLoopingSoundPlaying                        : 0x000033B8
+    m_flThrowStrength                             : 0x000033BC
 
 DT_SmokeGrenadeProjectile
-    m_bDidSmokeEffect                             : 0x000029E4
-    m_nSmokeEffectTickBegin                       : 0x000029E0
+    m_bDidSmokeEffect                             : 0x000029F4
+    m_nSmokeEffectTickBegin                       : 0x000029F0
 
 DT_MolotovProjectile
-    m_bIsIncGrenade                               : 0x000029E0
+    m_bIsIncGrenade                               : 0x000029F0
 
 DT_ItemDogtags
     m_OwningPlayer                                : 0x00003420
@@ -679,6 +685,7 @@ DT_InfoMapRegion
     m_szLocToken                                  : 0x000009DC
 
 DT_Inferno
+    m_nFireEffectTickBegin                        : 0x000013B4
     m_fireCount                                   : 0x000013A8
     m_fireXDelta                                  : 0x000009E4
     m_fireYDelta                                  : 0x00000B74
@@ -692,6 +699,13 @@ DT_CChicken
 DT_Drone
     m_hMoveToThisEntity                           : 0x000029D8
     m_hDeliveryCargo                              : 0x000029DC
+    m_bPilotTakeoverAllowed                       : 0x000029E0
+    m_hPotentialCargo                             : 0x000029E4
+    m_hCurrentPilot                               : 0x000029E8
+    m_vecTagPositions[0]                          : 0x000029EC
+    m_vecTagPositions                             : 0x00000000
+    m_vecTagIncrements[0]                         : 0x00002B0C
+    m_vecTagIncrements                            : 0x00000000
 
 DT_FootstepControl
     m_source                                      : 0x00000A10
@@ -839,7 +853,7 @@ DT_CSPlayerResource
     m_iPlayerVIP                                  : 0x00001660
     m_bombsiteCenterA                             : 0x00001664
     m_bombsiteCenterB                             : 0x00001670
-    m_bEndMatchNextMapAllVoted                    : 0x00006164
+    m_bEndMatchNextMapAllVoted                    : 0x00006268
     m_bHostageAlive                               : 0x0000167C
     m_isHostageFollowingSomeone                   : 0x00001688
     m_iHostageEntityIDs                           : 0x00001694
@@ -862,158 +876,168 @@ DT_CSPlayerResource
     m_iControlledByPlayer                         : 0x00002124
     m_iBotDifficulty                              : 0x000042A8
     m_szClan                                      : 0x000043AC
-    m_iTotalCashSpent                             : 0x000047BC
-    m_iGunGameLevel                               : 0x000048C0
-    m_iCashSpentThisRound                         : 0x000049C4
-    m_nEndMatchNextMapVotes                       : 0x00006060
-    m_nActiveCoinRank                             : 0x00004AC8
-    m_nMusicID                                    : 0x00004BCC
-    m_nPersonaDataPublicLevel                     : 0x00004CD0
-    m_nPersonaDataPublicCommendsLeader            : 0x00004DD4
-    m_nPersonaDataPublicCommendsTeacher           : 0x00004ED8
-    m_nPersonaDataPublicCommendsFriendly          : 0x00004FDC
-    m_iMatchStats_Kills_Total                     : 0x000050E0
-    m_iMatchStats_5k_Total                        : 0x000055F4
-    m_iMatchStats_4k_Total                        : 0x000054F0
-    m_iMatchStats_3k_Total                        : 0x000053EC
-    m_iMatchStats_Damage_Total                    : 0x000056F8
-    m_iMatchStats_EquipmentValue_Total            : 0x000057FC
-    m_iMatchStats_KillReward_Total                : 0x00005900
-    m_iMatchStats_LiveTime_Total                  : 0x00005A04
-    m_iMatchStats_Deaths_Total                    : 0x000052E8
-    m_iMatchStats_Assists_Total                   : 0x000051E4
-    m_iMatchStats_HeadShotKills_Total             : 0x00005B08
-    m_iMatchStats_Objective_Total                 : 0x00005C0C
-    m_iMatchStats_CashEarned_Total                : 0x00005D10
-    m_iMatchStats_UtilityDamage_Total             : 0x00005E14
-    m_iMatchStats_EnemiesFlashed_Total            : 0x00005F18
+    m_nCharacterDefIndex                          : 0x000047BC
+    m_iTotalCashSpent                             : 0x000048C0
+    m_iGunGameLevel                               : 0x000049C4
+    m_iCashSpentThisRound                         : 0x00004AC8
+    m_nEndMatchNextMapVotes                       : 0x00006164
+    m_nActiveCoinRank                             : 0x00004BCC
+    m_nMusicID                                    : 0x00004CD0
+    m_nPersonaDataPublicLevel                     : 0x00004DD4
+    m_nPersonaDataPublicCommendsLeader            : 0x00004ED8
+    m_nPersonaDataPublicCommendsTeacher           : 0x00004FDC
+    m_nPersonaDataPublicCommendsFriendly          : 0x000050E0
+    m_iMatchStats_Kills_Total                     : 0x000051E4
+    m_iMatchStats_5k_Total                        : 0x000056F8
+    m_iMatchStats_4k_Total                        : 0x000055F4
+    m_iMatchStats_3k_Total                        : 0x000054F0
+    m_iMatchStats_Damage_Total                    : 0x000057FC
+    m_iMatchStats_EquipmentValue_Total            : 0x00005900
+    m_iMatchStats_KillReward_Total                : 0x00005A04
+    m_iMatchStats_LiveTime_Total                  : 0x00005B08
+    m_iMatchStats_Deaths_Total                    : 0x000053EC
+    m_iMatchStats_Assists_Total                   : 0x000052E8
+    m_iMatchStats_HeadShotKills_Total             : 0x00005C0C
+    m_iMatchStats_Objective_Total                 : 0x00005D10
+    m_iMatchStats_CashEarned_Total                : 0x00005E14
+    m_iMatchStats_UtilityDamage_Total             : 0x00005F18
+    m_iMatchStats_EnemiesFlashed_Total            : 0x0000601C
 
 DT_CSPlayer
-    m_angEyeAngles[0]                             : 0x0000B32C
-    m_angEyeAngles[1]                             : 0x0000B330
-    m_iAddonBits                                  : 0x0000A354
-    m_iPrimaryAddon                               : 0x0000A358
-    m_iSecondaryAddon                             : 0x0000A35C
-    m_iThrowGrenadeCounter                        : 0x00003950
-    m_bWaitForNoAttack                            : 0x00003954
-    m_bIsRespawningForDMBonus                     : 0x00003955
-    m_iPlayerState                                : 0x00003910
-    m_iAccount                                    : 0x0000B314
-    m_iStartAccount                               : 0x0000A384
-    m_totalHitsOnServer                           : 0x0000A388
-    m_bInBombZone                                 : 0x0000394C
-    m_bInBuyZone                                  : 0x0000394D
-    m_bInNoDefuseArea                             : 0x0000394E
-    m_bKilledByTaser                              : 0x00003965
-    m_iMoveState                                  : 0x00003968
-    m_iClass                                      : 0x0000B324
-    m_ArmorValue                                  : 0x0000B328
-    m_angEyeAngles                                : 0x0000B32C
-    m_bHasDefuser                                 : 0x0000B338
-    m_bNightVisionOn                              : 0x0000A379
-    m_bHasNightVision                             : 0x0000A37A
-    m_bInHostageRescueZone                        : 0x0000B339
-    m_bIsDefusing                                 : 0x00003914
-    m_bIsGrabbingHostage                          : 0x00003915
-    m_iBlockingUseActionInProgress                : 0x00003918
-    m_bIsScoped                                   : 0x0000390A
-    m_bIsWalking                                  : 0x0000390B
-    m_nIsAutoMounting                             : 0x00003A7C
-    m_bResumeZoom                                 : 0x0000390C
-    m_fImmuneToGunGameDamageTime                  : 0x00003920
-    m_bGunGameImmunity                            : 0x00003928
-    m_bHasMovedSinceSpawn                         : 0x00003929
-    m_bMadeFinalGunGameProgressiveKill            : 0x0000392A
-    m_iGunGameProgressiveWeaponIndex              : 0x0000392C
-    m_iNumGunGameTRKillPoints                     : 0x00003930
-    m_iNumGunGameKillsWithCurrentWeapon           : 0x00003934
-    m_iNumRoundKills                              : 0x00003938
-    m_fMolotovUseTime                             : 0x00003944
-    m_fMolotovDamageTime                          : 0x00003948
-    m_szArmsModel                                 : 0x0000396F
-    m_hCarriedHostage                             : 0x0000A3B8
-    m_hCarriedHostageProp                         : 0x0000A3BC
-    m_bIsRescuing                                 : 0x0000391C
-    m_flGroundAccelLinearFracLastTime             : 0x0000A380
-    m_bCanMoveDuringFreezePeriod                  : 0x0000396C
-    m_isCurrentGunGameLeader                      : 0x0000396D
-    m_isCurrentGunGameTeamLeader                  : 0x0000396E
-    m_flGuardianTooFarDistFrac                    : 0x00003958
-    m_flDetectedByEnemySensorTime                 : 0x0000395C
-    m_bIsPlayerGhost                              : 0x00003A79
-    m_unMusicID                                   : 0x0000B304
-    m_bHasHelmet                                  : 0x0000B31C
-    m_bHasHeavyArmor                              : 0x0000B31D
-    m_nHeavyAssaultSuitCooldownRemaining          : 0x0000B320
-    m_flFlashDuration                             : 0x0000A3E0
-    m_flFlashMaxAlpha                             : 0x0000A3DC
-    m_iProgressBarDuration                        : 0x0000A360
-    m_flProgressBarStartTime                      : 0x0000A364
-    m_hRagdoll                                    : 0x0000A3B0
-    m_cycleLatch                                  : 0x0000B454
-    m_unCurrentEquipmentValue                     : 0x0000B2E4
-    m_unRoundStartEquipmentValue                  : 0x0000B2E6
-    m_unFreezetimeEndEquipmentValue               : 0x0000B2E8
-    m_bIsControllingBot                           : 0x0000B999
-    m_bHasControlledBotThisRound                  : 0x0000B9A8
-    m_bCanControlObservedBot                      : 0x0000B99A
-    m_iControlledBotEntIndex                      : 0x0000B99C
-    m_vecAutomoveTargetEnd                        : 0x00003A8C
-    m_flAutoMoveStartTime                         : 0x00003A9C
-    m_flAutoMoveTargetTime                        : 0x00003AA0
-    m_bIsAssassinationTarget                      : 0x0000B998
-    m_bHud_MiniScoreHidden                        : 0x0000B35A
-    m_bHud_RadarHidden                            : 0x0000B35B
-    m_nLastKillerIndex                            : 0x0000B35C
-    m_nLastConcurrentKilled                       : 0x0000B360
-    m_nDeathCamMusic                              : 0x0000B364
-    m_bIsHoldingLookAtWeapon                      : 0x0000B8E9
-    m_bIsLookingAtWeapon                          : 0x0000B8E8
-    m_iNumRoundKillsHeadshots                     : 0x0000393C
-    m_unTotalRoundDamageDealt                     : 0x00003940
-    m_flLowerBodyYawTarget                        : 0x00003A74
-    m_bStrafing                                   : 0x00003A78
-    m_flThirdpersonRecoil                         : 0x0000B938
-    m_bHideTargetID                               : 0x0000B93C
-    m_bHasParachute                               : 0x0000A38D
-    m_bIsSpawnRappelling                          : 0x0000A38E
-    m_vecSpawnRappellingRopeOrigin                : 0x0000A390
-    m_nSurvivalTeam                               : 0x0000A3A0
-    m_hSurvivalAssassinationTarget                : 0x0000A3A4
-    m_flHealthShotBoostExpirationTime             : 0x0000A3A8
+    m_angEyeAngles[0]                             : 0x0000B36C
+    m_angEyeAngles[1]                             : 0x0000B370
+    m_iAddonBits                                  : 0x0000A364
+    m_iPrimaryAddon                               : 0x0000A368
+    m_iSecondaryAddon                             : 0x0000A36C
+    m_iThrowGrenadeCounter                        : 0x00003958
+    m_bWaitForNoAttack                            : 0x0000395C
+    m_bIsRespawningForDMBonus                     : 0x0000395D
+    m_iPlayerState                                : 0x00003918
+    m_iAccount                                    : 0x0000B354
+    m_iStartAccount                               : 0x0000A394
+    m_totalHitsOnServer                           : 0x0000A398
+    m_bInBombZone                                 : 0x00003954
+    m_bInBuyZone                                  : 0x00003955
+    m_bInNoDefuseArea                             : 0x00003956
+    m_bKilledByTaser                              : 0x0000396D
+    m_iMoveState                                  : 0x00003970
+    m_iClass                                      : 0x0000B364
+    m_ArmorValue                                  : 0x0000B368
+    m_angEyeAngles                                : 0x0000B36C
+    m_bHasDefuser                                 : 0x0000B378
+    m_bNightVisionOn                              : 0x0000A389
+    m_bHasNightVision                             : 0x0000A38A
+    m_bInHostageRescueZone                        : 0x0000B379
+    m_bIsDefusing                                 : 0x0000391C
+    m_bIsGrabbingHostage                          : 0x0000391D
+    m_iBlockingUseActionInProgress                : 0x00003920
+    m_bIsScoped                                   : 0x00003914
+    m_bIsWalking                                  : 0x00003915
+    m_nIsAutoMounting                             : 0x00003A84
+    m_bResumeZoom                                 : 0x00003916
+    m_fImmuneToGunGameDamageTime                  : 0x00003928
+    m_bGunGameImmunity                            : 0x00003930
+    m_bHasMovedSinceSpawn                         : 0x00003931
+    m_bMadeFinalGunGameProgressiveKill            : 0x00003932
+    m_iGunGameProgressiveWeaponIndex              : 0x00003934
+    m_iNumGunGameTRKillPoints                     : 0x00003938
+    m_iNumGunGameKillsWithCurrentWeapon           : 0x0000393C
+    m_iNumRoundKills                              : 0x00003940
+    m_fMolotovUseTime                             : 0x0000394C
+    m_fMolotovDamageTime                          : 0x00003950
+    m_szArmsModel                                 : 0x00003977
+    m_hCarriedHostage                             : 0x0000A3E8
+    m_hCarriedHostageProp                         : 0x0000A3EC
+    m_bIsRescuing                                 : 0x00003924
+    m_flGroundAccelLinearFracLastTime             : 0x0000A390
+    m_bCanMoveDuringFreezePeriod                  : 0x00003974
+    m_isCurrentGunGameLeader                      : 0x00003975
+    m_isCurrentGunGameTeamLeader                  : 0x00003976
+    m_flGuardianTooFarDistFrac                    : 0x00003960
+    m_flDetectedByEnemySensorTime                 : 0x00003964
+    m_bIsPlayerGhost                              : 0x00003A81
+    m_bHasParachute                               : 0x0000B340
+    m_unMusicID                                   : 0x0000B344
+    m_bHasHelmet                                  : 0x0000B35C
+    m_bHasHeavyArmor                              : 0x0000B35D
+    m_nHeavyAssaultSuitCooldownRemaining          : 0x0000B360
+    m_flFlashDuration                             : 0x0000A410
+    m_flFlashMaxAlpha                             : 0x0000A40C
+    m_iProgressBarDuration                        : 0x0000A370
+    m_flProgressBarStartTime                      : 0x0000A374
+    m_hRagdoll                                    : 0x0000A3DC
+    m_hPlayerPing                                 : 0x0000A3E0
+    m_cycleLatch                                  : 0x0000B47C
+    m_unCurrentEquipmentValue                     : 0x0000B320
+    m_unRoundStartEquipmentValue                  : 0x0000B322
+    m_unFreezetimeEndEquipmentValue               : 0x0000B324
+    m_bIsControllingBot                           : 0x0000B9C1
+    m_bHasControlledBotThisRound                  : 0x0000B9D0
+    m_bCanControlObservedBot                      : 0x0000B9C2
+    m_iControlledBotEntIndex                      : 0x0000B9C4
+    m_vecAutomoveTargetEnd                        : 0x00003A94
+    m_flAutoMoveStartTime                         : 0x00003AA4
+    m_flAutoMoveTargetTime                        : 0x00003AA8
+    m_bIsAssassinationTarget                      : 0x0000B9C0
+    m_bHud_MiniScoreHidden                        : 0x0000B39A
+    m_bHud_RadarHidden                            : 0x0000B39B
+    m_nLastKillerIndex                            : 0x0000B39C
+    m_nLastConcurrentKilled                       : 0x0000B3A0
+    m_nDeathCamMusic                              : 0x0000B3A4
+    m_bIsHoldingLookAtWeapon                      : 0x0000B911
+    m_bIsLookingAtWeapon                          : 0x0000B910
+    m_iNumRoundKillsHeadshots                     : 0x00003944
+    m_unTotalRoundDamageDealt                     : 0x00003948
+    m_flLowerBodyYawTarget                        : 0x00003A7C
+    m_bStrafing                                   : 0x00003A80
+    m_flThirdpersonRecoil                         : 0x0000B960
+    m_bHideTargetID                               : 0x0000B964
+    m_bIsSpawnRappelling                          : 0x0000A39D
+    m_vecSpawnRappellingRopeOrigin                : 0x0000A3A0
+    m_nSurvivalTeam                               : 0x0000A3B0
+    m_hSurvivalAssassinationTarget                : 0x0000A3B4
+    m_flHealthShotBoostExpirationTime             : 0x0000A3B8
+    m_flLastExoJumpTime                           : 0x00003AAC
     cslocaldata                                   : 0x00000000
         m_vecOrigin                               : 0x00000138
         m_vecOrigin[2]                            : 0x00000140
-        m_flStamina                               : 0x0000A368
-        m_iDirection                              : 0x0000A36C
-        m_iShotsFired                             : 0x0000A370
-        m_nNumFastDucks                           : 0x0000A374
-        m_bDuckOverride                           : 0x0000A378
-        m_flVelocityModifier                      : 0x0000A37C
-        m_nQuestProgressReason                    : 0x0000B2E0
-        m_bPlayerDominated                        : 0x0000B45C
-        m_bPlayerDominatingMe                     : 0x0000B49D
-        m_iWeaponPurchasesThisRound               : 0x0000B4E0
+        m_flStamina                               : 0x0000A378
+        m_iDirection                              : 0x0000A37C
+        m_iShotsFired                             : 0x0000A380
+        m_nNumFastDucks                           : 0x0000A384
+        m_bDuckOverride                           : 0x0000A388
+        m_flVelocityModifier                      : 0x0000A38C
+        m_unActiveQuestId                         : 0x0000B318
+        m_nQuestProgressReason                    : 0x0000B31C
+        m_bPlayerDominated                        : 0x0000B484
+        m_bPlayerDominatingMe                     : 0x0000B4C5
+        m_iWeaponPurchasesThisRound               : 0x0000B508
     csnonlocaldata                                : 0x00000000
         m_vecOrigin                               : 0x00000138
         m_vecOrigin[2]                            : 0x00000140
     csteamdata                                    : 0x00000000
-        m_iWeaponPurchasesThisMatch               : 0x0000AA3C
-        m_EquippedLoadoutItemDefIndices           : 0x0000B214
-    m_iMatchStats_Kills                           : 0x0000A424
-    m_iMatchStats_Damage                          : 0x0000A49C
-    m_iMatchStats_EquipmentValue                  : 0x0000A514
-    m_iMatchStats_MoneySaved                      : 0x0000A58C
-    m_iMatchStats_KillReward                      : 0x0000A604
-    m_iMatchStats_LiveTime                        : 0x0000A67C
-    m_iMatchStats_Deaths                          : 0x0000A6F4
-    m_iMatchStats_Assists                         : 0x0000A76C
-    m_iMatchStats_HeadShotKills                   : 0x0000A7E4
-    m_iMatchStats_Objective                       : 0x0000A85C
-    m_iMatchStats_CashEarned                      : 0x0000A8D4
-    m_iMatchStats_UtilityDamage                   : 0x0000A94C
-    m_iMatchStats_EnemiesFlashed                  : 0x0000A9C4
-    m_rank                                        : 0x0000B2EC
+        m_iWeaponPurchasesThisMatch               : 0x0000AA6C
+        m_EquippedLoadoutItemDefIndices           : 0x0000B244
+    m_iMatchStats_Kills                           : 0x0000A454
+    m_iMatchStats_Damage                          : 0x0000A4CC
+    m_iMatchStats_EquipmentValue                  : 0x0000A544
+    m_iMatchStats_MoneySaved                      : 0x0000A5BC
+    m_iMatchStats_KillReward                      : 0x0000A634
+    m_iMatchStats_LiveTime                        : 0x0000A6AC
+    m_iMatchStats_Deaths                          : 0x0000A724
+    m_iMatchStats_Assists                         : 0x0000A79C
+    m_iMatchStats_HeadShotKills                   : 0x0000A814
+    m_iMatchStats_Objective                       : 0x0000A88C
+    m_iMatchStats_CashEarned                      : 0x0000A904
+    m_iMatchStats_UtilityDamage                   : 0x0000A97C
+    m_iMatchStats_EnemiesFlashed                  : 0x0000A9F4
+    m_rank                                        : 0x0000B328
+    m_passiveItems                                : 0x0000B340
+
+DT_PlayerPing
+    m_hPlayer                                     : 0x000009E4
+    m_hPingedEntity                               : 0x000009E8
+    m_iType                                       : 0x000009EC
 
 DT_CSRagdoll
     m_vecOrigin                                   : 0x00000138
@@ -1052,6 +1076,9 @@ DT_CHostage
 DT_BaseCSGrenadeProjectile
     m_vInitialVelocity                            : 0x000029B0
     m_nBounces                                    : 0x000029BC
+    m_nExplodeEffectIndex                         : 0x000029C0
+    m_nExplodeEffectTickBegin                     : 0x000029C4
+    m_vecExplodeEffectOrigin                      : 0x000029C8
 
 DT_HandleTest
     m_Handle                                      : 0x000009D8
@@ -1154,6 +1181,7 @@ DT_DangerZone
 
 DT_DangerZoneController
     m_bDangerZoneControllerEnabled                : 0x000009D8
+    m_bMissionControlledExplosions                : 0x000009D9
     m_flStartTime                                 : 0x000009F4
     m_flFinalExpansionTime                        : 0x000009F8
     m_vecEndGameCircleStart                       : 0x000009DC
@@ -1552,15 +1580,15 @@ DT_FuncSmokeVolume
     m_Density                                     : 0x00000BE0
     m_maxDrawDistance                             : 0x00000BE4
     m_spawnflags                                  : 0x00000BE8
-    m_Collision                                   : 0x0000031C
-        m_vecMins                                 : 0x00000324
-        m_vecMaxs                                 : 0x00000330
-        m_nSolidType                              : 0x0000033E
-        m_usSolidFlags                            : 0x0000033C
-        m_nSurroundType                           : 0x00000346
-        m_triggerBloat                            : 0x0000033F
-        m_vecSpecifiedSurroundingMins             : 0x00000348
-        m_vecSpecifiedSurroundingMaxs             : 0x00000354
+    m_Collision                                   : 0x00000320
+        m_vecMins                                 : 0x00000328
+        m_vecMaxs                                 : 0x00000334
+        m_nSolidType                              : 0x00000342
+        m_usSolidFlags                            : 0x00000340
+        m_nSurroundType                           : 0x0000034A
+        m_triggerBloat                            : 0x00000343
+        m_vecSpecifiedSurroundingMins             : 0x0000034C
+        m_vecSpecifiedSurroundingMaxs             : 0x00000358
 
 DT_FuncRotating
     m_vecOrigin                                   : 0x00000138
@@ -1599,15 +1627,15 @@ DT_Func_Dust
     m_nModelIndex                                 : 0x00000258
     m_FallSpeed                                   : 0x000009F8
     m_bAffectedByWind                             : 0x000009FC
-    m_Collision                                   : 0x0000031C
-        m_vecMins                                 : 0x00000324
-        m_vecMaxs                                 : 0x00000330
-        m_nSolidType                              : 0x0000033E
-        m_usSolidFlags                            : 0x0000033C
-        m_nSurroundType                           : 0x00000346
-        m_triggerBloat                            : 0x0000033F
-        m_vecSpecifiedSurroundingMins             : 0x00000348
-        m_vecSpecifiedSurroundingMaxs             : 0x00000354
+    m_Collision                                   : 0x00000320
+        m_vecMins                                 : 0x00000328
+        m_vecMaxs                                 : 0x00000334
+        m_nSolidType                              : 0x00000342
+        m_usSolidFlags                            : 0x00000340
+        m_nSurroundType                           : 0x0000034A
+        m_triggerBloat                            : 0x00000343
+        m_vecSpecifiedSurroundingMins             : 0x0000034C
+        m_vecSpecifiedSurroundingMaxs             : 0x00000358
 
 DT_FuncConveyor
     m_flConveyorSpeed                             : 0x000009D8
@@ -1957,7 +1985,7 @@ DT_BaseEntity
     m_iTeamNum                                    : 0x000000F4
     m_iPendingTeamNum                             : 0x000000F8
     m_CollisionGroup                              : 0x00000474
-    m_flElasticity                                : 0x0000039C
+    m_flElasticity                                : 0x00000300
     m_flShadowCastDistance                        : 0x000003A0
     m_hOwnerEntity                                : 0x0000014C
     m_hEffectEntity                               : 0x00000998
@@ -1985,15 +2013,15 @@ DT_BaseEntity
     m_bEligibleForScreenHighlight                 : 0x000009B9
     AnimTimeMustBeFirst                           : 0x00000000
         m_flAnimTime                              : 0x00000260
-    m_Collision                                   : 0x0000031C
-        m_vecMins                                 : 0x00000324
-        m_vecMaxs                                 : 0x00000330
-        m_nSolidType                              : 0x0000033E
-        m_usSolidFlags                            : 0x0000033C
-        m_nSurroundType                           : 0x00000346
-        m_triggerBloat                            : 0x0000033F
-        m_vecSpecifiedSurroundingMins             : 0x00000348
-        m_vecSpecifiedSurroundingMaxs             : 0x00000354
+    m_Collision                                   : 0x00000320
+        m_vecMins                                 : 0x00000328
+        m_vecMaxs                                 : 0x00000334
+        m_nSolidType                              : 0x00000342
+        m_usSolidFlags                            : 0x00000340
+        m_nSurroundType                           : 0x0000034A
+        m_triggerBloat                            : 0x00000343
+        m_vecSpecifiedSurroundingMins             : 0x0000034C
+        m_vecSpecifiedSurroundingMaxs             : 0x00000358
     m_bSpottedBy                                  : 0x0000093E
     m_bSpottedByMask                              : 0x00000980
 
