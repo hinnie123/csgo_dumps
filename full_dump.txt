@@ -252,6 +252,7 @@
 1059, #CSGO_Type_Collectible, Map Token Studio
 1060, #CSGO_Type_Collectible, Map Token Jungle
 1200, #CSGO_Tool_Name_TagTag, Name Tag
+1201, #CSGO_Type_Tool, casket
 1203, #CSGO_Tool_WeaponCase_KeyTag, Weapon Case Key
 1204, #CSGO_Tool_WeaponCase_KeyTag, E-Sports Weapon Case Key 1
 1209, #CSGO_Tool_Sticker, sticker
@@ -327,6 +328,12 @@
 1379, #CSGO_Type_Collectible, prestige coin 2019 level 4
 1380, #CSGO_Type_Collectible, prestige coin 2019 level 5
 1381, #CSGO_Type_Collectible, prestige coin 2019 level 6
+4674, #CSGO_Type_Collectible, prestige coin 2020
+4675, #CSGO_Type_Collectible, prestige coin 2020 level 2
+4676, #CSGO_Type_Collectible, prestige coin 2020 level 3
+4677, #CSGO_Type_Collectible, prestige coin 2020 level 4
+4678, #CSGO_Type_Collectible, prestige coin 2020 level 5
+4679, #CSGO_Type_Collectible, prestige coin 2020 level 6
 4607, #CSGO_Type_Ticket, xpgrant
 4001, #CSGO_Type_WeaponCase, crate_valve_1
 4002, #CSGO_Type_WeaponCase, crate_esports_2013
@@ -788,6 +795,9 @@
 20143, #CSGO_Type_WeaponCase, coupon - chicken_sticker_capsule
 20144, #CSGO_Type_WeaponCase, coupon - crate_xray_p250
 20145, #CSGO_Type_WeaponCase, coupon - cs20_sticker_capsule
+20146, #CSGO_Type_WeaponCase, coupon - halo_sticker_capsule
+20147, #CSGO_Type_WeaponCase, coupon - scarlxrd_01
+20148, #CSGO_Type_WeaponCase, coupon - scarlxrd_01_stattrak
 4668, #CSGO_Type_WeaponCase, crate_xray_p250
 4188, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_nip
 4189, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_splc
@@ -1247,6 +1257,7 @@
 4547, #CSGO_Type_WeaponCase, crate_sticker_pack_skillgroup_capsule
 4599, #CSGO_Type_WeaponCase, crate_sticker_pack_feral_predators_capsule
 4600, #CSGO_Type_WeaponCase, crate_sticker_pack_shattered_web
+4597, #CSGO_Type_WeaponCase, crate_sticker_pack_halo_capsule
 1373, #CSGO_Tool_WeaponCase_KeyTag, community_19 Key
 4471, #CSGO_Type_WeaponCase, crate_community_19
 1374, #CSGO_Tool_WeaponCase_KeyTag, community_20 Key
