@@ -972,14 +972,14 @@ DT_CSPlayer
     m_unCurrentEquipmentValue                     : 0x0000B320
     m_unRoundStartEquipmentValue                  : 0x0000B322
     m_unFreezetimeEndEquipmentValue               : 0x0000B324
-    m_bIsControllingBot                           : 0x0000B9C1
-    m_bHasControlledBotThisRound                  : 0x0000B9D0
-    m_bCanControlObservedBot                      : 0x0000B9C2
-    m_iControlledBotEntIndex                      : 0x0000B9C4
+    m_bIsControllingBot                           : 0x0000B9D9
+    m_bHasControlledBotThisRound                  : 0x0000B9E8
+    m_bCanControlObservedBot                      : 0x0000B9DA
+    m_iControlledBotEntIndex                      : 0x0000B9DC
     m_vecAutomoveTargetEnd                        : 0x00003A94
     m_flAutoMoveStartTime                         : 0x00003AA4
     m_flAutoMoveTargetTime                        : 0x00003AA8
-    m_bIsAssassinationTarget                      : 0x0000B9C0
+    m_bIsAssassinationTarget                      : 0x0000B9D8
     m_bHud_MiniScoreHidden                        : 0x0000B39A
     m_bHud_RadarHidden                            : 0x0000B39B
     m_nLastKillerIndex                            : 0x0000B39C
@@ -991,8 +991,8 @@ DT_CSPlayer
     m_unTotalRoundDamageDealt                     : 0x00003948
     m_flLowerBodyYawTarget                        : 0x00003A7C
     m_bStrafing                                   : 0x00003A80
-    m_flThirdpersonRecoil                         : 0x0000B960
-    m_bHideTargetID                               : 0x0000B964
+    m_flThirdpersonRecoil                         : 0x0000B978
+    m_bHideTargetID                               : 0x0000B97C
     m_bIsSpawnRappelling                          : 0x0000A39D
     m_vecSpawnRappellingRopeOrigin                : 0x0000A3A0
     m_nSurvivalTeam                               : 0x0000A3B0
@@ -1034,6 +1034,7 @@ DT_CSPlayer
     m_iMatchStats_EnemiesFlashed                  : 0x0000A9F4
     m_rank                                        : 0x0000B328
     m_passiveItems                                : 0x0000B340
+    m_vecPlayerPatchEconIndices                   : 0x0000B960
 
 DT_PlayerPing
     m_hPlayer                                     : 0x000009E4

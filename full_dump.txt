@@ -256,6 +256,7 @@
 1203, #CSGO_Tool_WeaponCase_KeyTag, Weapon Case Key
 1204, #CSGO_Tool_WeaponCase_KeyTag, E-Sports Weapon Case Key 1
 1209, #CSGO_Tool_Sticker, sticker
+4609, #CSGO_Tool_Patch, patch
 1210, #CSGO_Tool_GiftTag, Gift - 1 Player
 1211, #CSGO_Tool_GiftTag, Gift - 9 Players
 1212, #CSGO_Tool_WeaponCase_KeyTag, Sticker Crate Key
@@ -798,6 +799,7 @@
 20146, #CSGO_Type_WeaponCase, coupon - halo_sticker_capsule
 20147, #CSGO_Type_WeaponCase, coupon - scarlxrd_01
 20148, #CSGO_Type_WeaponCase, coupon - scarlxrd_01_stattrak
+20149, #CSGO_Type_WeaponCase, coupon - crate_patch_pack01
 4668, #CSGO_Type_WeaponCase, crate_xray_p250
 4188, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_nip
 4189, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_splc
@@ -1386,3 +1388,4 @@
 1385, #CSGO_Tool_WeaponCase_KeyTag, community_24 Key
 4669, #CSGO_Type_WeaponCase, crate_community_24
 4670, #CSGO_Type_WeaponCase, crate_sticker_pack_cs20_capsule
+4610, #CSGO_Type_WeaponCase, crate_patch_pack01
