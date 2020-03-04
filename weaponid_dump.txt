@@ -14,6 +14,7 @@ enum item_definition_index : short
 	weapon_m4a1 = 16,
 	weapon_mac10,
 	weapon_p90 = 19,
+	weapon_zone_repulsor,
 	weapon_mp5sd = 23,
 	weapon_ump45,
 	weapon_xm1014,

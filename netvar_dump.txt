@@ -1870,27 +1870,27 @@ DT_BasePlayer
     m_iBonusChallenge                             : 0x00003244
     m_flMaxspeed                                  : 0x00003248
     m_fFlags                                      : 0x00000104
-    m_iObserverMode                               : 0x00003374
-    m_bActiveCameraMan                            : 0x00003378
-    m_bCameraManXRay                              : 0x00003379
-    m_bCameraManOverview                          : 0x0000337A
-    m_bCameraManScoreBoard                        : 0x0000337B
-    m_uCameraManGraphs                            : 0x0000337C
-    m_iDeathPostEffect                            : 0x00003370
-    m_hObserverTarget                             : 0x00003388
+    m_iObserverMode                               : 0x00003378
+    m_bActiveCameraMan                            : 0x0000337C
+    m_bCameraManXRay                              : 0x0000337D
+    m_bCameraManOverview                          : 0x0000337E
+    m_bCameraManScoreBoard                        : 0x0000337F
+    m_uCameraManGraphs                            : 0x00003380
+    m_iDeathPostEffect                            : 0x00003374
+    m_hObserverTarget                             : 0x0000338C
     m_hViewModel[0]                               : 0x000032F8
     m_hViewModel                                  : 0x00000000
     m_iCoachingTeam                               : 0x00002F50
-    m_szLastPlaceName                             : 0x000035B0
+    m_szLastPlaceName                             : 0x000035B4
     m_vecLadderNormal                             : 0x00003230
     m_ladderSurfaceProps                          : 0x00003200
-    m_ubEFNoInterpParity                          : 0x000035D4
-    m_hPostProcessCtrl                            : 0x000037A4
-    m_hColorCorrectionCtrl                        : 0x000037A8
-    m_PlayerFog.m_hCtrl                           : 0x000037B0
+    m_ubEFNoInterpParity                          : 0x000035D8
+    m_hPostProcessCtrl                            : 0x000037A8
+    m_hColorCorrectionCtrl                        : 0x000037AC
+    m_PlayerFog.m_hCtrl                           : 0x000037B4
     m_vphysicsCollisionState                      : 0x0000325C
-    m_hViewEntity                                 : 0x00003338
-    m_bShouldDrawPlayerWhileUsingViewEntity       : 0x0000333C
+    m_hViewEntity                                 : 0x0000333C
+    m_bShouldDrawPlayerWhileUsingViewEntity       : 0x00003340
     m_flDuckAmount                                : 0x00002FAC
     m_flDuckSpeed                                 : 0x00002FB0
     m_nWaterLevel                                 : 0x0000025E
@@ -1900,23 +1900,23 @@ DT_BasePlayer
         m_vecViewOffset[2]                        : 0x00000110
         m_flFriction                              : 0x00000144
         m_fOnTarget                               : 0x00003324
-        m_nTickBase                               : 0x0000342C
+        m_nTickBase                               : 0x00003430
         m_nNextThinkTick                          : 0x000000FC
         m_hLastWeapon                             : 0x000032F4
         m_vecVelocity[0]                          : 0x00000114
         m_vecVelocity[1]                          : 0x00000118
         m_vecVelocity[2]                          : 0x0000011C
         m_vecBaseVelocity                         : 0x00000120
-        m_hConstraintEntity                       : 0x00003340
-        m_vecConstraintCenter                     : 0x00003344
-        m_flConstraintRadius                      : 0x00003350
-        m_flConstraintWidth                       : 0x00003354
-        m_flConstraintSpeedFactor                 : 0x00003358
-        m_bConstraintPastRadius                   : 0x0000335C
-        m_flDeathTime                             : 0x000033C0
-        m_flNextDecalTime                         : 0x000033C4
-        m_fForceTeam                              : 0x000033C8
-        m_flLaggedMovementValue                   : 0x00003590
+        m_hConstraintEntity                       : 0x00003344
+        m_vecConstraintCenter                     : 0x00003348
+        m_flConstraintRadius                      : 0x00003354
+        m_flConstraintWidth                       : 0x00003358
+        m_flConstraintSpeedFactor                 : 0x0000335C
+        m_bConstraintPastRadius                   : 0x00003360
+        m_flDeathTime                             : 0x000033C4
+        m_flNextDecalTime                         : 0x000033C8
+        m_fForceTeam                              : 0x000033CC
+        m_flLaggedMovementValue                   : 0x00003594
         m_hTonemapController                      : 0x000031CC
         m_Local                                   : 0x00002FBC
             m_iHideHUD                            : 0x00003004

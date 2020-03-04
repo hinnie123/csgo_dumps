@@ -12,6 +12,7 @@
 16, #CSGO_Type_Rifle, weapon_m4a1
 17, #CSGO_Type_SMG, weapon_mac10
 19, #CSGO_Type_SMG, weapon_p90
+20, #CSGO_Type_Equipment, weapon_zone_repulsor
 23, #CSGO_Type_SMG, weapon_mp5sd
 24, #CSGO_Type_SMG, weapon_ump45
 25, #CSGO_Type_Shotgun, weapon_xm1014
