@@ -587,7 +587,8 @@
 6132, #CSGO_Type_Collectible, Commodity Pin - Howl
 6033, #CSGO_Type_Collectible, Collectible Pin - Brigadier General
 6133, #CSGO_Type_Collectible, Commodity Pin - Brigadier General
-6034, #CSGO_Type_Collectible, item 6034
+6034, #CSGO_Type_Collectible, Collectible Pin - alyx_10
+6134, #CSGO_Type_Collectible, Commodity Pin - alyx_10
 6035, #CSGO_Type_Collectible, item 6035
 6036, #CSGO_Type_Collectible, item 6036
 6037, #CSGO_Type_Collectible, item 6037
@@ -653,6 +654,17 @@
 6109, #CSGO_Type_Collectible, Commodity Pin - Train
 6110, #CSGO_Type_Collectible, Commodity Pin - Guardian
 6111, #CSGO_Type_Collectible, Commodity Pin - Tactics
+4682, #CSGO_Type_Collectible, Commodity Pin - alyx_04
+4683, #CSGO_Type_Collectible, Commodity Pin - alyx_07
+4684, #CSGO_Type_Collectible, Commodity Pin - alyx_09
+4685, #CSGO_Type_Collectible, Commodity Pin - alyx_05
+4686, #CSGO_Type_Collectible, Commodity Pin - alyx_12
+4687, #CSGO_Type_Collectible, Commodity Pin - alyx_01
+4688, #CSGO_Type_Collectible, Commodity Pin - alyx_02
+4689, #CSGO_Type_Collectible, Commodity Pin - alyx_03
+4690, #CSGO_Type_Collectible, Commodity Pin - alyx_06
+4691, #CSGO_Type_Collectible, Commodity Pin - alyx_08
+4692, #CSGO_Type_Collectible, Commodity Pin - alyx_11
 7000, #CSGO_Tool_WeaponCase_KeyTag, community_11 Key
 20000, #CSGO_Type_WeaponCase, coupon - bossyburger
 20001, #CSGO_Type_WeaponCase, coupon - catcall
@@ -801,6 +813,9 @@
 20147, #CSGO_Type_WeaponCase, coupon - scarlxrd_01
 20148, #CSGO_Type_WeaponCase, coupon - scarlxrd_01_stattrak
 20149, #CSGO_Type_WeaponCase, coupon - crate_patch_pack01
+20152, #CSGO_Type_WeaponCase, coupon - pins_hlalyx
+20153, #CSGO_Type_WeaponCase, coupon - hlalyx_sticker_capsule
+20154, #CSGO_Type_WeaponCase, coupon - crate_patch_pack_hlalyx
 4668, #CSGO_Type_WeaponCase, crate_xray_p250
 4188, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_nip
 4189, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_splc
@@ -1234,6 +1249,7 @@
 4235, #CSGO_Type_WeaponCase, crate_pins_series_1
 4284, #CSGO_Type_WeaponCase, crate_pins_series_2
 4481, #CSGO_Type_WeaponCase, crate_pins_series_3
+4693, #CSGO_Type_WeaponCase, crate_pins_hlalyx
 1347, #CSGO_Tool_WeaponCase_KeyTag, community_12 Key
 4233, #CSGO_Type_WeaponCase, crate_community_12
 1350, #CSGO_Tool_WeaponCase_KeyTag, community_13 Key
@@ -1390,3 +1406,5 @@
 4669, #CSGO_Type_WeaponCase, crate_community_24
 4670, #CSGO_Type_WeaponCase, crate_sticker_pack_cs20_capsule
 4610, #CSGO_Type_WeaponCase, crate_patch_pack01
+4615, #CSGO_Type_WeaponCase, crate_patch_pack_hlalyx
+4694, #CSGO_Type_WeaponCase, crate_sticker_pack_hlalyx_capsule
