@@ -481,12 +481,12 @@ DT_Precipitation
     m_nPrecipType                                 : 0x00000A00
 
 DT_BaseAttributableItem
-    m_OriginalOwnerXuidLow                        : 0x000031B0
-    m_OriginalOwnerXuidHigh                       : 0x000031B4
-    m_nFallbackPaintKit                           : 0x000031B8
-    m_nFallbackSeed                               : 0x000031BC
-    m_flFallbackWear                              : 0x000031C0
-    m_nFallbackStatTrak                           : 0x000031C4
+    m_OriginalOwnerXuidLow                        : 0x000031C0
+    m_OriginalOwnerXuidHigh                       : 0x000031C4
+    m_nFallbackPaintKit                           : 0x000031C8
+    m_nFallbackSeed                               : 0x000031CC
+    m_flFallbackWear                              : 0x000031D0
+    m_nFallbackStatTrak                           : 0x000031D4
     m_AttributeManager                            : 0x00002D80
         m_hOuter                                  : 0x00002D9C
         m_ProviderType                            : 0x00002DA4
@@ -506,12 +506,12 @@ DT_BaseAttributableItem
                         lengthprop32              : 0x00000000
 
 DT_EconEntity
-    m_OriginalOwnerXuidLow                        : 0x000031B0
-    m_OriginalOwnerXuidHigh                       : 0x000031B4
-    m_nFallbackPaintKit                           : 0x000031B8
-    m_nFallbackSeed                               : 0x000031BC
-    m_flFallbackWear                              : 0x000031C0
-    m_nFallbackStatTrak                           : 0x000031C4
+    m_OriginalOwnerXuidLow                        : 0x000031C0
+    m_OriginalOwnerXuidHigh                       : 0x000031C4
+    m_nFallbackPaintKit                           : 0x000031C8
+    m_nFallbackSeed                               : 0x000031CC
+    m_flFallbackWear                              : 0x000031D0
+    m_nFallbackStatTrak                           : 0x000031D4
     m_AttributeManager                            : 0x00002D80
         m_hOuter                                  : 0x00002D9C
         m_ProviderType                            : 0x00002DA4
@@ -531,71 +531,71 @@ DT_EconEntity
                         lengthprop32              : 0x00000000
 
 DT_WeaponXM1014
-    m_reloadState                                 : 0x000033C4
+    m_reloadState                                 : 0x000033D4
 
 DT_WeaponTaser
-    m_fFireTime                                   : 0x000033E0
+    m_fFireTime                                   : 0x000033F0
 
 DT_WeaponTablet
-    m_flUpgradeExpirationTime[0]                  : 0x000033C8
+    m_flUpgradeExpirationTime[0]                  : 0x000033D8
     m_flUpgradeExpirationTime                     : 0x00000000
-    m_vecLocalHexFlags[0]                         : 0x000033D8
+    m_vecLocalHexFlags[0]                         : 0x000033E8
     m_vecLocalHexFlags                            : 0x00000000
-    m_nContractKillGridIndex                      : 0x00003480
-    m_nContractKillGridHighResIndex               : 0x00003484
-    m_bTabletReceptionIsBlocked                   : 0x00003488
-    m_flScanProgress                              : 0x0000348C
-    m_flBootTime                                  : 0x00003490
-    m_flShowMapTime                               : 0x00003494
-    m_vecNotificationIds[0]                       : 0x000034A4
+    m_nContractKillGridIndex                      : 0x00003490
+    m_nContractKillGridHighResIndex               : 0x00003494
+    m_bTabletReceptionIsBlocked                   : 0x00003498
+    m_flScanProgress                              : 0x0000349C
+    m_flBootTime                                  : 0x000034A0
+    m_flShowMapTime                               : 0x000034A4
+    m_vecNotificationIds[0]                       : 0x000034B4
     m_vecNotificationIds                          : 0x00000000
-    m_vecNotificationTimestamps[0]                : 0x000034C4
+    m_vecNotificationTimestamps[0]                : 0x000034D4
     m_vecNotificationTimestamps                   : 0x00000000
-    m_vecPlayerPositionHistory[0]                 : 0x000034E8
+    m_vecPlayerPositionHistory[0]                 : 0x000034F8
     m_vecPlayerPositionHistory                    : 0x00000000
-    m_nLastPurchaseIndex                          : 0x000034E4
-    m_vecNearestMetalCratePos                     : 0x00003498
+    m_nLastPurchaseIndex                          : 0x000034F4
+    m_vecNearestMetalCratePos                     : 0x000034A8
 
 DT_WeaponSawedoff
-    m_reloadState                                 : 0x000033C4
+    m_reloadState                                 : 0x000033D4
 
 DT_WeaponNOVA
-    m_reloadState                                 : 0x000033C4
+    m_reloadState                                 : 0x000033D4
 
 DT_WeaponMelee
-    m_flThrowAt                                   : 0x000033C0
+    m_flThrowAt                                   : 0x000033D0
 
 DT_WeaponM3
-    m_reloadState                                 : 0x000033C4
+    m_reloadState                                 : 0x000033D4
 
 DT_WeaponFists
-    m_bPlayingUninterruptableAct                  : 0x000033C0
+    m_bPlayingUninterruptableAct                  : 0x000033D0
 
 DT_WeaponCSBaseGun
-    m_zoomLevel                                   : 0x000033C0
-    m_iBurstShotsRemaining                        : 0x000033C4
+    m_zoomLevel                                   : 0x000033D0
+    m_iBurstShotsRemaining                        : 0x000033D4
 
 DT_WeaponCSBase
-    m_weaponMode                                  : 0x00003308
-    m_fAccuracyPenalty                            : 0x00003320
-    m_fLastShotTime                               : 0x00003394
-    m_iRecoilIndex                                : 0x0000332C
-    m_flRecoilIndex                               : 0x00003330
-    m_hPrevOwner                                  : 0x00003370
-    m_bBurstMode                                  : 0x00003334
-    m_flPostponeFireReadyTime                     : 0x00003338
-    m_bReloadVisuallyComplete                     : 0x0000333C
-    m_bSilencerOn                                 : 0x0000333D
-    m_flDoneSwitchingSilencer                     : 0x00003340
-    m_iOriginalTeamNumber                         : 0x00003348
-    m_iIronSightMode                              : 0x000033B0
+    m_weaponMode                                  : 0x00003318
+    m_fAccuracyPenalty                            : 0x00003330
+    m_fLastShotTime                               : 0x000033A8
+    m_iRecoilIndex                                : 0x00003340
+    m_flRecoilIndex                               : 0x00003344
+    m_hPrevOwner                                  : 0x00003384
+    m_bBurstMode                                  : 0x00003348
+    m_flPostponeFireReadyTime                     : 0x0000334C
+    m_bReloadVisuallyComplete                     : 0x00003350
+    m_bSilencerOn                                 : 0x00003351
+    m_flDoneSwitchingSilencer                     : 0x00003354
+    m_iOriginalTeamNumber                         : 0x0000335C
+    m_iIronSightMode                              : 0x000033C4
 
 DT_WeaponC4
-    m_bStartedArming                              : 0x000033E0
-    m_bBombPlacedAnimation                        : 0x000033E8
-    m_fArmedTime                                  : 0x000033E4
-    m_bShowC4LED                                  : 0x000033E9
-    m_bIsPlantingViaUse                           : 0x000033EA
+    m_bStartedArming                              : 0x000033F0
+    m_bBombPlacedAnimation                        : 0x000033F8
+    m_fArmedTime                                  : 0x000033F4
+    m_bShowC4LED                                  : 0x000033F9
+    m_bIsPlantingViaUse                           : 0x000033FA
 
 DT_BumpMineProjectile
     m_nParentBoneIndex                            : 0x000029B4
@@ -609,15 +609,15 @@ DT_BreachChargeProjectile
     m_vecParentBonePos                            : 0x000029BC
 
 DT_WeaponBaseItem
-    m_bRedraw                                     : 0x000033CC
+    m_bRedraw                                     : 0x000033DC
 
 DT_BaseCSGrenade
-    m_bRedraw                                     : 0x000033C0
-    m_bIsHeldByPlayer                             : 0x000033C1
-    m_bPinPulled                                  : 0x000033C2
-    m_fThrowTime                                  : 0x000033C4
-    m_bLoopingSoundPlaying                        : 0x000033C8
-    m_flThrowStrength                             : 0x000033CC
+    m_bRedraw                                     : 0x000033D0
+    m_bIsHeldByPlayer                             : 0x000033D1
+    m_bPinPulled                                  : 0x000033D2
+    m_fThrowTime                                  : 0x000033D4
+    m_bLoopingSoundPlaying                        : 0x000033D8
+    m_flThrowStrength                             : 0x000033DC
 
 DT_SmokeGrenadeProjectile
     m_bDidSmokeEffect                             : 0x000029F4
@@ -627,8 +627,8 @@ DT_MolotovProjectile
     m_bIsIncGrenade                               : 0x000029F0
 
 DT_ItemDogtags
-    m_OwningPlayer                                : 0x00003430
-    m_KillingPlayer                               : 0x00003434
+    m_OwningPlayer                                : 0x00003440
+    m_KillingPlayer                               : 0x00003444
 
 DT_PhysPropLootCrate
     m_bRenderInPSPM                               : 0x000029F4
@@ -1560,11 +1560,11 @@ DT_LightGlow
     HDRColorScale                                 : 0x00000000
 
 DT_ItemAssaultSuitUseable
-    m_nArmorValue                                 : 0x00003430
-    m_bIsHeavyAssaultSuit                         : 0x00003434
+    m_nArmorValue                                 : 0x00003440
+    m_bIsHeavyAssaultSuit                         : 0x00003444
 
 DT_Item
-    m_bShouldGlow                                 : 0x00003220
+    m_bShouldGlow                                 : 0x00003230
 
 DT_InfoOverlayAccessor
     m_iTextureFrameIndex                          : 0x0000098C
@@ -2143,29 +2143,29 @@ DT_BaseGrenade
     m_fFlags                                      : 0x00000104
 
 DT_BaseCombatWeapon
-    m_iViewModelIndex                             : 0x00003230
-    m_iWorldModelIndex                            : 0x00003234
-    m_iWorldDroppedModelIndex                     : 0x00003238
-    m_iState                                      : 0x00003248
-    m_hOwner                                      : 0x00003220
-    m_iClip1                                      : 0x00003254
-    m_iClip2                                      : 0x00003258
-    m_iPrimaryReserveAmmoCount                    : 0x0000325C
-    m_iSecondaryReserveAmmoCount                  : 0x00003260
-    m_hWeaponWorldModel                           : 0x00003244
-    m_iNumEmptyAttacks                            : 0x00003240
+    m_iViewModelIndex                             : 0x00003240
+    m_iWorldModelIndex                            : 0x00003244
+    m_iWorldDroppedModelIndex                     : 0x00003248
+    m_iState                                      : 0x00003258
+    m_hOwner                                      : 0x00003230
+    m_iClip1                                      : 0x00003264
+    m_iClip2                                      : 0x00003268
+    m_iPrimaryReserveAmmoCount                    : 0x0000326C
+    m_iSecondaryReserveAmmoCount                  : 0x00003270
+    m_hWeaponWorldModel                           : 0x00003254
+    m_iNumEmptyAttacks                            : 0x00003250
     LocalWeaponData                               : 0x00000000
-        m_iPrimaryAmmoType                        : 0x0000324C
-        m_iSecondaryAmmoType                      : 0x00003250
-        m_nViewModelIndex                         : 0x00003224
-        m_bFlipViewModel                          : 0x000032B4
-        m_iWeaponOrigin                           : 0x000032B8
-        m_iWeaponModule                           : 0x0000323C
+        m_iPrimaryAmmoType                        : 0x0000325C
+        m_iSecondaryAmmoType                      : 0x00003260
+        m_nViewModelIndex                         : 0x00003234
+        m_bFlipViewModel                          : 0x000032C4
+        m_iWeaponOrigin                           : 0x000032C8
+        m_iWeaponModule                           : 0x0000324C
     LocalActiveWeaponData                         : 0x00000000
-        m_flNextPrimaryAttack                     : 0x00003228
-        m_flNextSecondaryAttack                   : 0x0000322C
+        m_flNextPrimaryAttack                     : 0x00003238
+        m_flNextSecondaryAttack                   : 0x0000323C
         m_nNextThinkTick                          : 0x000000FC
-        m_flTimeWeaponIdle                        : 0x00003264
+        m_flTimeWeaponIdle                        : 0x00003274
 
 DT_BaseWeaponWorldModel
     m_nModelIndex                                 : 0x00000258
