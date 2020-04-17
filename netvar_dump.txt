@@ -853,7 +853,7 @@ DT_CSPlayerResource
     m_iPlayerVIP                                  : 0x00001660
     m_bombsiteCenterA                             : 0x00001664
     m_bombsiteCenterB                             : 0x00001670
-    m_bEndMatchNextMapAllVoted                    : 0x000062EC
+    m_bEndMatchNextMapAllVoted                    : 0x00006B8C
     m_bHostageAlive                               : 0x0000167C
     m_isHostageFollowingSomeone                   : 0x00001688
     m_iHostageEntityIDs                           : 0x00001694
@@ -880,7 +880,7 @@ DT_CSPlayerResource
     m_iTotalCashSpent                             : 0x000048C0
     m_iGunGameLevel                               : 0x000049C4
     m_iCashSpentThisRound                         : 0x00004AC8
-    m_nEndMatchNextMapVotes                       : 0x000061E8
+    m_nEndMatchNextMapVotes                       : 0x00006A88
     m_nActiveCoinRank                             : 0x00004BCC
     m_nMusicID                                    : 0x00004CD0
     m_nPersonaDataPublicLevel                     : 0x00004DD4
@@ -888,21 +888,22 @@ DT_CSPlayerResource
     m_nPersonaDataPublicCommendsTeacher           : 0x00004FDC
     m_nPersonaDataPublicCommendsFriendly          : 0x000050E0
     m_bHasCommunicationAbuseMute                  : 0x000051E4
-    m_iMatchStats_Kills_Total                     : 0x00005268
-    m_iMatchStats_5k_Total                        : 0x0000577C
-    m_iMatchStats_4k_Total                        : 0x00005678
-    m_iMatchStats_3k_Total                        : 0x00005574
-    m_iMatchStats_Damage_Total                    : 0x00005880
-    m_iMatchStats_EquipmentValue_Total            : 0x00005984
-    m_iMatchStats_KillReward_Total                : 0x00005A88
-    m_iMatchStats_LiveTime_Total                  : 0x00005B8C
-    m_iMatchStats_Deaths_Total                    : 0x00005470
-    m_iMatchStats_Assists_Total                   : 0x0000536C
-    m_iMatchStats_HeadShotKills_Total             : 0x00005C90
-    m_iMatchStats_Objective_Total                 : 0x00005D94
-    m_iMatchStats_CashEarned_Total                : 0x00005E98
-    m_iMatchStats_UtilityDamage_Total             : 0x00005F9C
-    m_iMatchStats_EnemiesFlashed_Total            : 0x000060A0
+    m_szCrosshairCodes                            : 0x00005225
+    m_iMatchStats_Kills_Total                     : 0x00005B08
+    m_iMatchStats_5k_Total                        : 0x0000601C
+    m_iMatchStats_4k_Total                        : 0x00005F18
+    m_iMatchStats_3k_Total                        : 0x00005E14
+    m_iMatchStats_Damage_Total                    : 0x00006120
+    m_iMatchStats_EquipmentValue_Total            : 0x00006224
+    m_iMatchStats_KillReward_Total                : 0x00006328
+    m_iMatchStats_LiveTime_Total                  : 0x0000642C
+    m_iMatchStats_Deaths_Total                    : 0x00005D10
+    m_iMatchStats_Assists_Total                   : 0x00005C0C
+    m_iMatchStats_HeadShotKills_Total             : 0x00006530
+    m_iMatchStats_Objective_Total                 : 0x00006634
+    m_iMatchStats_CashEarned_Total                : 0x00006738
+    m_iMatchStats_UtilityDamage_Total             : 0x0000683C
+    m_iMatchStats_EnemiesFlashed_Total            : 0x00006940
 
 DT_CSPlayer
     m_angEyeAngles[0]                             : 0x0000B36C

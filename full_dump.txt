@@ -818,6 +818,8 @@
 20152, #CSGO_Type_WeaponCase, coupon - pins_hlalyx
 20153, #CSGO_Type_WeaponCase, coupon - hlalyx_sticker_capsule
 20154, #CSGO_Type_WeaponCase, coupon - crate_patch_pack_hlalyx
+20169, #CSGO_Type_WeaponCase, coupon - masterminds_musickit_capsule
+20170, #CSGO_Type_WeaponCase, coupon - masterminds_stattrak_musickit_capsule
 4668, #CSGO_Type_WeaponCase, crate_xray_p250
 4188, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_nip
 4189, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_splc
@@ -1263,6 +1265,8 @@
 4282, #CSGO_Type_WeaponCase, crate_sticker_pack_sugarface_capsule
 4283, #CSGO_Type_WeaponCase, crate_sticker_pack_bestiary_capsule
 4287, #CSGO_Type_WeaponCase, crate_musickit_radicals_stattrak_capsule
+4696, #CSGO_Type_WeaponCase, crate_musickit_masterminds_capsule
+4697, #CSGO_Type_WeaponCase, crate_musickit_masterminds_stattrak_capsule
 1356, #CSGO_Tool_WeaponCase_KeyTag, community_15 Key
 4288, #CSGO_Type_WeaponCase, crate_community_15
 1364, #CSGO_Tool_WeaponCase_KeyTag, community_16 Key
