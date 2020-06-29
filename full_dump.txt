@@ -820,6 +820,9 @@
 20154, #CSGO_Type_WeaponCase, coupon - crate_patch_pack_hlalyx
 20169, #CSGO_Type_WeaponCase, coupon - masterminds_musickit_capsule
 20170, #CSGO_Type_WeaponCase, coupon - masterminds_stattrak_musickit_capsule
+20171, #CSGO_Type_WeaponCase, coupon - warhammer_sticker_capsule
+20172, #CSGO_Type_WeaponCase, coupon - amontobin_01
+20173, #CSGO_Type_WeaponCase, coupon - amontobin_01_stattrak
 4668, #CSGO_Type_WeaponCase, crate_xray_p250
 4188, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_nip
 4189, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_splc
@@ -1283,6 +1286,7 @@
 4599, #CSGO_Type_WeaponCase, crate_sticker_pack_feral_predators_capsule
 4600, #CSGO_Type_WeaponCase, crate_sticker_pack_shattered_web
 4597, #CSGO_Type_WeaponCase, crate_sticker_pack_halo_capsule
+4616, #CSGO_Type_WeaponCase, crate_sticker_pack_warhammer
 1373, #CSGO_Tool_WeaponCase_KeyTag, community_19 Key
 4471, #CSGO_Type_WeaponCase, crate_community_19
 1374, #CSGO_Tool_WeaponCase_KeyTag, community_20 Key
