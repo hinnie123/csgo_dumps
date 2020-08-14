@@ -598,15 +598,15 @@ DT_WeaponC4
     m_bIsPlantingViaUse                           : 0x000033FA
 
 DT_BumpMineProjectile
-    m_nParentBoneIndex                            : 0x000029B4
-    m_vecParentBonePos                            : 0x000029B8
-    m_bArmed                                      : 0x000029C4
+    m_nParentBoneIndex                            : 0x000029D4
+    m_vecParentBonePos                            : 0x000029D8
+    m_bArmed                                      : 0x000029E4
 
 DT_BreachChargeProjectile
-    m_bShouldExplode                              : 0x000029B0
-    m_weaponThatThrewMe                           : 0x000029B4
-    m_nParentBoneIndex                            : 0x000029B8
-    m_vecParentBonePos                            : 0x000029BC
+    m_bShouldExplode                              : 0x000029D0
+    m_weaponThatThrewMe                           : 0x000029D4
+    m_nParentBoneIndex                            : 0x000029D8
+    m_vecParentBonePos                            : 0x000029DC
 
 DT_WeaponBaseItem
     m_bRedraw                                     : 0x000033DC
@@ -620,11 +620,11 @@ DT_BaseCSGrenade
     m_flThrowStrength                             : 0x000033DC
 
 DT_SmokeGrenadeProjectile
-    m_bDidSmokeEffect                             : 0x000029F4
-    m_nSmokeEffectTickBegin                       : 0x000029F0
+    m_bDidSmokeEffect                             : 0x00002A14
+    m_nSmokeEffectTickBegin                       : 0x00002A10
 
 DT_MolotovProjectile
-    m_bIsIncGrenade                               : 0x000029F0
+    m_bIsIncGrenade                               : 0x00002A10
 
 DT_ItemDogtags
     m_OwningPlayer                                : 0x00003440
@@ -1077,11 +1077,11 @@ DT_CHostage
     m_leader                                      : 0x00002F20
 
 DT_BaseCSGrenadeProjectile
-    m_vInitialVelocity                            : 0x000029B0
-    m_nBounces                                    : 0x000029BC
-    m_nExplodeEffectIndex                         : 0x000029C0
-    m_nExplodeEffectTickBegin                     : 0x000029C4
-    m_vecExplodeEffectOrigin                      : 0x000029C8
+    m_vInitialVelocity                            : 0x000029D0
+    m_nBounces                                    : 0x000029DC
+    m_nExplodeEffectIndex                         : 0x000029E0
+    m_nExplodeEffectTickBegin                     : 0x000029E4
+    m_vecExplodeEffectOrigin                      : 0x000029E8
 
 DT_HandleTest
     m_Handle                                      : 0x000009D8

@@ -254,6 +254,8 @@
 1060, #CSGO_Type_Collectible, Map Token Jungle
 1061, #CSGO_Type_Collectible, Map Token Anubis
 1062, #CSGO_Type_Collectible, Map Token Chlorine
+1063, #CSGO_Type_Collectible, Map Token Mutiny
+1064, #CSGO_Type_Collectible, Map Token Swamp
 1200, #CSGO_Tool_Name_TagTag, Name Tag
 1201, #CSGO_Type_Tool, casket
 1203, #CSGO_Tool_WeaponCase_KeyTag, Weapon Case Key
@@ -1420,3 +1422,5 @@
 4694, #CSGO_Type_WeaponCase, crate_sticker_pack_hlalyx_capsule
 1386, #CSGO_Tool_WeaponCase_KeyTag, community_25 Key
 4695, #CSGO_Type_WeaponCase, crate_community_25
+1387, #CSGO_Tool_WeaponCase_KeyTag, community_26 Key
+4698, #CSGO_Type_WeaponCase, crate_community_26
