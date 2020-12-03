@@ -729,8 +729,8 @@ DT_CSGameRulesProxy
         m_totalRoundsPlayed                       : 0x00000064
         m_nOvertimePlaying                        : 0x00000068
         m_timeUntilNextPhaseStarts                : 0x0000005C
-        m_flCMMItemDropRevealStartTime            : 0x00000870
-        m_flCMMItemDropRevealEndTime              : 0x00000874
+        m_flCMMItemDropRevealStartTime            : 0x00000878
+        m_flCMMItemDropRevealEndTime              : 0x0000087C
         m_fRoundStartTime                         : 0x0000004C
         m_bGameRestart                            : 0x00000054
         m_flRestartRoundTime                      : 0x00000050
@@ -741,79 +741,85 @@ DT_CSGameRulesProxy
         m_bMapHasRescueZone                       : 0x00000072
         m_bMapHasBuyZone                          : 0x00000073
         m_bIsQueuedMatchmaking                    : 0x00000074
-        m_bIsValveDS                              : 0x00000075
-        m_bIsQuestEligible                        : 0x00000879
-        m_bLogoMap                                : 0x00000076
-        m_bPlayAllStepSoundsOnServer              : 0x00000077
-        m_iNumGunGameProgressiveWeaponsCT         : 0x00000078
-        m_iNumGunGameProgressiveWeaponsT          : 0x0000007C
-        m_iSpectatorSlotCount                     : 0x00000080
-        m_bBombDropped                            : 0x0000099C
-        m_bBombPlanted                            : 0x0000099D
-        m_iRoundWinStatus                         : 0x000009A0
-        m_eRoundWinReason                         : 0x000009A4
-        m_flDMBonusStartTime                      : 0x0000044C
-        m_flDMBonusTimeLength                     : 0x00000450
-        m_unDMBonusWeaponLoadoutSlot              : 0x00000454
-        m_bDMBonusActive                          : 0x00000456
-        m_bTCantBuy                               : 0x000009A8
-        m_bCTCantBuy                              : 0x000009A9
-        m_flGuardianBuyUntilTime                  : 0x000009AC
-        m_MatchDevice                             : 0x00000444
-        m_bHasMatchStarted                        : 0x00000448
-        m_nNextMapInMapgroup                      : 0x00000458
-        m_nEndMatchMapVoteWinner                  : 0x00000C70
-        m_bIsDroppingItems                        : 0x00000878
-        m_iActiveAssassinationTargetMissionID     : 0x00000C18
+        m_nQueuedMatchmakingMode                  : 0x00000078
+        m_bIsValveDS                              : 0x0000007C
+        m_bIsQuestEligible                        : 0x00000881
+        m_bLogoMap                                : 0x0000007D
+        m_bPlayAllStepSoundsOnServer              : 0x0000007E
+        m_iNumGunGameProgressiveWeaponsCT         : 0x00000080
+        m_iNumGunGameProgressiveWeaponsT          : 0x00000084
+        m_iSpectatorSlotCount                     : 0x00000088
+        m_bBombDropped                            : 0x000009A4
+        m_bBombPlanted                            : 0x000009A5
+        m_iRoundWinStatus                         : 0x000009A8
+        m_eRoundWinReason                         : 0x000009AC
+        m_flDMBonusStartTime                      : 0x00000454
+        m_flDMBonusTimeLength                     : 0x00000458
+        m_unDMBonusWeaponLoadoutSlot              : 0x0000045C
+        m_bDMBonusActive                          : 0x0000045E
+        m_bTCantBuy                               : 0x000009B0
+        m_bCTCantBuy                              : 0x000009B1
+        m_flGuardianBuyUntilTime                  : 0x000009B4
+        m_MatchDevice                             : 0x0000044C
+        m_bHasMatchStarted                        : 0x00000450
+        m_nNextMapInMapgroup                      : 0x00000460
+        m_nEndMatchMapVoteWinner                  : 0x00000C78
+        m_bIsDroppingItems                        : 0x00000880
+        m_iActiveAssassinationTargetMissionID     : 0x00000C20
         m_fMatchStartTime                         : 0x00000048
-        m_szTournamentEventName                   : 0x0000045C
-        m_szTournamentEventStage                  : 0x00000560
-        m_szTournamentPredictionsTxt              : 0x00000768
-        m_nTournamentPredictionsPct               : 0x0000086C
-        m_szMatchStatTxt                          : 0x00000664
-        m_nGuardianModeWaveNumber                 : 0x0000087C
-        m_nGuardianModeSpecialKillsRemaining      : 0x00000880
-        m_nGuardianModeSpecialWeaponNeeded        : 0x00000884
-        m_nHalloweenMaskListSeed                  : 0x00000998
-        m_numGlobalGiftsGiven                     : 0x00000890
-        m_numGlobalGifters                        : 0x00000894
-        m_numGlobalGiftsPeriodSeconds             : 0x00000898
-        m_numBestOfMaps                           : 0x00000994
-        m_iNumConsecutiveCTLoses                  : 0x00000C74
-        m_iNumConsecutiveTerroristLoses           : 0x00000C78
-        m_iMatchStats_RoundResults                : 0x000009B0
-        m_iMatchStats_PlayersAlive_T              : 0x00000AA0
-        m_iMatchStats_PlayersAlive_CT             : 0x00000A28
-        m_GGProgressiveWeaponOrderCT              : 0x00000084
-        m_GGProgressiveWeaponOrderT               : 0x00000174
-        m_GGProgressiveWeaponKillUpgradeOrderCT   : 0x00000264
-        m_GGProgressiveWeaponKillUpgradeOrderT    : 0x00000354
-        m_TeamRespawnWaveTimes                    : 0x00000B18
-        m_flNextRespawnWave                       : 0x00000B98
-        m_nEndMatchMapGroupVoteTypes              : 0x00000C20
-        m_nEndMatchMapGroupVoteOptions            : 0x00000C48
-        m_arrFeaturedGiftersAccounts              : 0x0000089C
-        m_arrFeaturedGiftersGifts                 : 0x000008AC
-        m_arrProhibitedItemIndices                : 0x000008BC
-        m_arrTournamentActiveCasterAccounts       : 0x00000984
-        m_SurvivalRules                           : 0x00000CF8
-            m_vecPlayAreaMins                     : 0x00000CF8
-            m_vecPlayAreaMaxs                     : 0x00000D04
-            m_flSpawnSelectionTimeStart           : 0x00000EF0
-            m_flSpawnSelectionTimeEnd             : 0x00000EF4
-            m_flSpawnSelectionTimeLoadout         : 0x00000EF8
-            m_spawnStage                          : 0x00000EFC
-            m_flTabletHexOriginX                  : 0x00000F00
-            m_flTabletHexOriginY                  : 0x00000F04
-            m_flTabletHexSize                     : 0x00000F08
-            m_flSurvivalStartTime                 : 0x000013A0
-            m_iPlayerSpawnHexIndices              : 0x00000D10
-            m_SpawnTileState                      : 0x00000E10
-            m_roundData_playerXuids               : 0x00000F10
-            m_roundData_playerPositions           : 0x00001118
-            m_roundData_playerTeams               : 0x0000121C
-            m_SurvivalGameRuleDecisionTypes       : 0x00001320
-            m_SurvivalGameRuleDecisionValues      : 0x00001360
+        m_szTournamentEventName                   : 0x00000464
+        m_szTournamentEventStage                  : 0x00000568
+        m_szTournamentPredictionsTxt              : 0x00000770
+        m_nTournamentPredictionsPct               : 0x00000874
+        m_szMatchStatTxt                          : 0x0000066C
+        m_nGuardianModeWaveNumber                 : 0x00000884
+        m_nGuardianModeSpecialKillsRemaining      : 0x00000888
+        m_nGuardianModeSpecialWeaponNeeded        : 0x0000088C
+        m_nHalloweenMaskListSeed                  : 0x000009A0
+        m_numGlobalGiftsGiven                     : 0x00000898
+        m_numGlobalGifters                        : 0x0000089C
+        m_numGlobalGiftsPeriodSeconds             : 0x000008A0
+        m_numBestOfMaps                           : 0x0000099C
+        m_iNumConsecutiveCTLoses                  : 0x00000C7C
+        m_iNumConsecutiveTerroristLoses           : 0x00000C80
+        m_iMatchStats_RoundResults                : 0x000009B8
+        m_iMatchStats_PlayersAlive_T              : 0x00000AA8
+        m_iMatchStats_PlayersAlive_CT             : 0x00000A30
+        m_GGProgressiveWeaponOrderCT              : 0x0000008C
+        m_GGProgressiveWeaponOrderT               : 0x0000017C
+        m_GGProgressiveWeaponKillUpgradeOrderCT   : 0x0000026C
+        m_GGProgressiveWeaponKillUpgradeOrderT    : 0x0000035C
+        m_TeamRespawnWaveTimes                    : 0x00000B20
+        m_flNextRespawnWave                       : 0x00000BA0
+        m_nEndMatchMapGroupVoteTypes              : 0x00000C28
+        m_nEndMatchMapGroupVoteOptions            : 0x00000C50
+        m_arrFeaturedGiftersAccounts              : 0x000008A4
+        m_arrFeaturedGiftersGifts                 : 0x000008B4
+        m_arrProhibitedItemIndices                : 0x000008C4
+        m_arrTournamentActiveCasterAccounts       : 0x0000098C
+        m_SurvivalRules                           : 0x00000D00
+            m_vecPlayAreaMins                     : 0x00000D00
+            m_vecPlayAreaMaxs                     : 0x00000D0C
+            m_flSpawnSelectionTimeStart           : 0x00000EF8
+            m_flSpawnSelectionTimeEnd             : 0x00000EFC
+            m_flSpawnSelectionTimeLoadout         : 0x00000F00
+            m_spawnStage                          : 0x00000F04
+            m_flTabletHexOriginX                  : 0x00000F08
+            m_flTabletHexOriginY                  : 0x00000F0C
+            m_flTabletHexSize                     : 0x00000F10
+            m_flSurvivalStartTime                 : 0x000013A8
+            m_iPlayerSpawnHexIndices              : 0x00000D18
+            m_SpawnTileState                      : 0x00000E18
+            m_roundData_playerXuids               : 0x00000F18
+            m_roundData_playerPositions           : 0x00001120
+            m_roundData_playerTeams               : 0x00001224
+            m_SurvivalGameRuleDecisionTypes       : 0x00001328
+            m_SurvivalGameRuleDecisionValues      : 0x00001368
+        m_RetakeRules                             : 0x000013C0
+            m_bBlockersPresent                    : 0x000014C0
+            m_bRoundInProgress                    : 0x000014C1
+            m_iFirstSecondHalfRound               : 0x000014C4
+            m_iBombSite                           : 0x000014C8
 
 DT_TEPlantBomb
     m_vecOrigin                                   : 0x00000014
@@ -1041,6 +1047,7 @@ DT_PlayerPing
     m_hPlayer                                     : 0x000009E4
     m_hPingedEntity                               : 0x000009E8
     m_iType                                       : 0x000009EC
+    m_bUrgent                                     : 0x000009F0
 
 DT_CSRagdoll
     m_vecOrigin                                   : 0x00000138
@@ -1217,6 +1224,23 @@ DT_World
 DT_WaterLODControl
     m_flCheapWaterStartDistance                   : 0x000009D8
     m_flCheapWaterEndDistance                     : 0x000009DC
+
+DT_MapVetoPickController
+    m_nDraftType                                  : 0x000009E8
+    m_nTeamWinningCoinToss                        : 0x000009EC
+    m_nCurrentPhase                               : 0x0000130C
+    m_nPhaseStartTick                             : 0x00001310
+    m_nPhaseDurationTicks                         : 0x00001314
+    m_nTeamWithFirstChoice                        : 0x000009F0
+    m_nVoteMapIdsList                             : 0x00000AF0
+    m_nAccountIDs                                 : 0x00000B0C
+    m_nMapId0                                     : 0x00000C0C
+    m_nMapId1                                     : 0x00000D0C
+    m_nMapId2                                     : 0x00000E0C
+    m_nMapId3                                     : 0x00000F0C
+    m_nMapId4                                     : 0x0000100C
+    m_nMapId5                                     : 0x0000110C
+    m_nStartingSide0                              : 0x0000120C
 
 DT_VoteController
     m_iActiveIssueIndex                           : 0x000009E4

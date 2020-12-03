@@ -256,6 +256,11 @@
 1062, #CSGO_Type_Collectible, Map Token Chlorine
 1063, #CSGO_Type_Collectible, Map Token Mutiny
 1064, #CSGO_Type_Collectible, Map Token Swamp
+1065, #CSGO_Type_Collectible, Map Token Frostbite
+1066, #CSGO_Type_Collectible, Map Token Engage
+1067, #CSGO_Type_Collectible, Map Token Apollo
+1068, #CSGO_Type_Collectible, Map Token Guard
+1069, #CSGO_Type_Collectible, Map Token Elysion
 1200, #CSGO_Tool_Name_TagTag, Name Tag
 1201, #CSGO_Type_Tool, casket
 1203, #CSGO_Tool_WeaponCase_KeyTag, Weapon Case Key
@@ -534,6 +539,7 @@
 5033, #Type_Hands, motorcycle_gloves
 5034, #Type_Hands, specialist_gloves
 5035, #Type_Hands, studded_hydra_gloves
+4725, #Type_Hands, studded_brokenfang_gloves
 5036, #Type_CustomPlayer, customplayer_t_map_based
 5037, #Type_CustomPlayer, customplayer_ct_map_based
 6001, #CSGO_Type_Collectible, Collectible Pin - Dust II
@@ -1255,6 +1261,14 @@
 4671, #CSGO_Type_Ticket, CommunitySeasonNine2019_PlusStars1
 4672, #CSGO_Type_Ticket, CommunitySeasonNine2019_PlusStars10
 4673, #CSGO_Type_Ticket, CommunitySeasonNine2019_PlusStars100
+4699, #CSGO_Type_Ticket, CommunitySeasonTen2020
+4700, #CSGO_Type_Collectible, CommunitySeasonTen2020 Coin 1
+4701, #CSGO_Type_Collectible, CommunitySeasonTen2020 Coin 2
+4702, #CSGO_Type_Collectible, CommunitySeasonTen2020 Coin 3
+4703, #CSGO_Type_Collectible, CommunitySeasonTen2020 Coin 4
+4704, #CSGO_Type_Ticket, CommunitySeasonTen2020_PlusStars1
+4705, #CSGO_Type_Ticket, CommunitySeasonTen2020_PlusStars10
+4706, #CSGO_Type_Ticket, CommunitySeasonTen2020_PlusStars100
 4235, #CSGO_Type_WeaponCase, crate_pins_series_1
 4284, #CSGO_Type_WeaponCase, crate_pins_series_2
 4481, #CSGO_Type_WeaponCase, crate_pins_series_3
@@ -1289,6 +1303,7 @@
 4600, #CSGO_Type_WeaponCase, crate_sticker_pack_shattered_web
 4597, #CSGO_Type_WeaponCase, crate_sticker_pack_halo_capsule
 4616, #CSGO_Type_WeaponCase, crate_sticker_pack_warhammer
+4729, #CSGO_Type_WeaponCase, crate_sticker_pack_broken_fang
 1373, #CSGO_Tool_WeaponCase_KeyTag, community_19 Key
 4471, #CSGO_Type_WeaponCase, crate_community_19
 1374, #CSGO_Tool_WeaponCase_KeyTag, community_20 Key
@@ -1370,6 +1385,7 @@
 5205, #Type_CustomPlayer, customplayer_tm_phoenix_varianth
 5206, #Type_CustomPlayer, customplayer_tm_phoenix_variantf
 5207, #Type_CustomPlayer, customplayer_tm_phoenix_variantg
+5208, #Type_CustomPlayer, customplayer_tm_phoenix_varianti
 5300, #Type_CustomPlayer, customplayer_ctm_fbi
 5301, #Type_CustomPlayer, customplayer_ctm_fbi_varianta
 5302, #Type_CustomPlayer, customplayer_ctm_fbi_variantc
@@ -1384,17 +1400,41 @@
 5402, #Type_CustomPlayer, customplayer_ctm_st6_variantg
 5403, #Type_CustomPlayer, customplayer_ctm_st6_variantm
 5404, #Type_CustomPlayer, customplayer_ctm_st6_varianti
+4619, #Type_CustomPlayer, customplayer_ctm_st6_variantj
+4680, #Type_CustomPlayer, customplayer_ctm_st6_variantl
 5500, #Type_CustomPlayer, customplayer_tm_balkan_variantf
 5501, #Type_CustomPlayer, customplayer_tm_balkan_varianti
 5502, #Type_CustomPlayer, customplayer_tm_balkan_variantg
 5503, #Type_CustomPlayer, customplayer_tm_balkan_variantj
 5504, #Type_CustomPlayer, customplayer_tm_balkan_varianth
+4718, #Type_CustomPlayer, customplayer_tm_balkan_variantk
+5505, #Type_CustomPlayer, customplayer_tm_balkan_variantl
 5600, #Type_CustomPlayer, customplayer_ctm_sas
 5601, #Type_CustomPlayer, customplayer_ctm_sas_variantf
+4711, #Type_CustomPlayer, customplayer_ctm_swat_variante
+4712, #Type_CustomPlayer, customplayer_ctm_swat_variantf
+4713, #Type_CustomPlayer, customplayer_ctm_swat_variantg
+4714, #Type_CustomPlayer, customplayer_ctm_swat_varianth
+4715, #Type_CustomPlayer, customplayer_ctm_swat_varianti
+4716, #Type_CustomPlayer, customplayer_ctm_swat_variantj
+4726, #Type_CustomPlayer, customplayer_tm_professional_varf
+4733, #Type_CustomPlayer, customplayer_tm_professional_varf1
+4734, #Type_CustomPlayer, customplayer_tm_professional_varf2
+4735, #Type_CustomPlayer, customplayer_tm_professional_varf3
+4736, #Type_CustomPlayer, customplayer_tm_professional_varf4
+4727, #Type_CustomPlayer, customplayer_tm_professional_varg
+4728, #Type_CustomPlayer, customplayer_tm_professional_varh
+4732, #Type_CustomPlayer, customplayer_tm_professional_vari
+4730, #Type_CustomPlayer, customplayer_tm_professional_varj
 6404, #CSGO_Type_WeaponCase, character_operator_dossier_op09_rare
 6405, #CSGO_Type_WeaponCase, character_operator_dossier_op09_mythical
 6406, #CSGO_Type_WeaponCase, character_operator_dossier_op09_legendary
 6407, #CSGO_Type_WeaponCase, character_operator_dossier_op09_ancient
+4707, #CSGO_Type_WeaponCase, character_operator_dossier_op10_rare
+4708, #CSGO_Type_WeaponCase, character_operator_dossier_op10_mythical
+4709, #CSGO_Type_WeaponCase, character_operator_dossier_op10_legendary
+4710, #CSGO_Type_WeaponCase, character_operator_dossier_op10_ancient1
+4724, #CSGO_Type_WeaponCase, character_operator_dossier_op10_ancient2
 1375, #CSGO_Tool_WeaponCase_KeyTag, community_21 Key
 4548, #CSGO_Type_WeaponCase, crate_community_21
 1383, #CSGO_Tool_WeaponCase_KeyTag, community_22 Key
@@ -1408,9 +1448,15 @@
 4608, #CSGO_Type_WeaponCase, selfopeningitem_set_canals
 4611, #CSGO_Type_WeaponCase, selfopeningitem_set_norse
 4612, #CSGO_Type_WeaponCase, selfopeningitem_set_stmarc
+4720, #CSGO_Type_WeaponCase, selfopeningitem_set_op10_ct
+4721, #CSGO_Type_WeaponCase, selfopeningitem_set_op10_t
+4722, #CSGO_Type_WeaponCase, selfopeningitem_set_op10_ancient
 4621, #CSGO_Type_WeaponCase, selfopeningitem_crate_spray_std2_1
 4618, #CSGO_Type_WeaponCase, selfopeningitem_crate_spray_std2_2
+4617, #CSGO_Type_WeaponCase, selfopeningitem_crate_spray_std3
 4667, #CSGO_Type_WeaponCase, selfopeningitem_crate_sticker_pack_shattered_web
+4723, #CSGO_Type_WeaponCase, selfopeningitem_crate_sticker_pack_recoil
+4731, #CSGO_Type_WeaponCase, selfopeningitem_crate_sticker_pack_broken_fang
 4477, #CSGO_Type_WeaponCase, crate_sticker_pack_chicken_capsule
 1384, #CSGO_Tool_WeaponCase_KeyTag, community_23 Key
 4620, #CSGO_Type_WeaponCase, crate_community_23
@@ -1418,9 +1464,13 @@
 4669, #CSGO_Type_WeaponCase, crate_community_24
 4670, #CSGO_Type_WeaponCase, crate_sticker_pack_cs20_capsule
 4610, #CSGO_Type_WeaponCase, crate_patch_pack01
+4614, #CSGO_Type_WeaponCase, crate_patch_pack02
 4615, #CSGO_Type_WeaponCase, crate_patch_pack_hlalyx
 4694, #CSGO_Type_WeaponCase, crate_sticker_pack_hlalyx_capsule
 1386, #CSGO_Tool_WeaponCase_KeyTag, community_25 Key
 4695, #CSGO_Type_WeaponCase, crate_community_25
 1387, #CSGO_Tool_WeaponCase_KeyTag, community_26 Key
 4698, #CSGO_Type_WeaponCase, crate_community_26
+1388, #CSGO_Tool_WeaponCase_KeyTag, community_27 Key
+4717, #CSGO_Type_WeaponCase, crate_community_27
+4719, #CSGO_Type_WeaponCase, crate_sticker_pack_recoil
