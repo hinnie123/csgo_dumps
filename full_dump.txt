@@ -346,6 +346,12 @@
 4678, #CSGO_Type_Collectible, prestige coin 2020 level 5
 4679, #CSGO_Type_Collectible, prestige coin 2020 level 6
 4607, #CSGO_Type_Ticket, xpgrant
+4737, #CSGO_Type_Collectible, prestige coin 2021
+4738, #CSGO_Type_Collectible, prestige coin 2021 level 2
+4739, #CSGO_Type_Collectible, prestige coin 2021 level 3
+4740, #CSGO_Type_Collectible, prestige coin 2021 level 4
+4741, #CSGO_Type_Collectible, prestige coin 2021 level 5
+4742, #CSGO_Type_Collectible, prestige coin 2021 level 6
 4001, #CSGO_Type_WeaponCase, crate_valve_1
 4002, #CSGO_Type_WeaponCase, crate_esports_2013
 4004, #CSGO_Type_WeaponCase, crate_valve_2

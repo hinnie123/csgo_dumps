@@ -1047,7 +1047,7 @@ DT_PlayerPing
     m_hPlayer                                     : 0x000009E4
     m_hPingedEntity                               : 0x000009E8
     m_iType                                       : 0x000009EC
-    m_bUrgent                                     : 0x000009F0
+    m_bUrgent                                     : 0x000009F4
 
 DT_CSRagdoll
     m_vecOrigin                                   : 0x00000138
