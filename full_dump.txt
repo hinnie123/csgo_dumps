@@ -1259,6 +1259,9 @@
 4664, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_train
 4665, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_nuke
 4666, #CSGO_Type_WeaponCase, crate_berlin2019_promo_de_vertigo
+4743, #CSGO_Type_WeaponCase, crate_sticker_pack_rmr2020_legends
+4744, #CSGO_Type_WeaponCase, crate_sticker_pack_rmr2020_challengers
+4745, #CSGO_Type_WeaponCase, crate_sticker_pack_rmr2020_contenders
 4549, #CSGO_Type_Ticket, CommunitySeasonNine2019
 4550, #CSGO_Type_Collectible, CommunitySeasonNine2019 Coin 1
 4551, #CSGO_Type_Collectible, CommunitySeasonNine2019 Coin 2

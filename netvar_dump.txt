@@ -714,7 +714,7 @@ DT_FootstepControl
 DT_CSGameRulesProxy
     cs_gamerules_data                             : 0x00000000
         m_bFreezePeriod                           : 0x00000020
-        m_bMatchWaitingForResume                  : 0x00000040
+        m_bMatchWaitingForResume                  : 0x00000041
         m_bWarmupPeriod                           : 0x00000021
         m_fWarmupPeriodEnd                        : 0x00000024
         m_fWarmupPeriodStart                      : 0x00000028
@@ -724,6 +724,7 @@ DT_CSGameRulesProxy
         m_flCTTimeOutRemaining                    : 0x00000034
         m_nTerroristTimeOuts                      : 0x00000038
         m_nCTTimeOuts                             : 0x0000003C
+        m_bTechnicalTimeOut                       : 0x00000040
         m_iRoundTime                              : 0x00000044
         m_gamePhase                               : 0x00000060
         m_totalRoundsPlayed                       : 0x00000064
@@ -816,10 +817,11 @@ DT_CSGameRulesProxy
             m_SurvivalGameRuleDecisionTypes       : 0x00001328
             m_SurvivalGameRuleDecisionValues      : 0x00001368
         m_RetakeRules                             : 0x000013C0
-            m_bBlockersPresent                    : 0x000014C0
-            m_bRoundInProgress                    : 0x000014C1
-            m_iFirstSecondHalfRound               : 0x000014C4
-            m_iBombSite                           : 0x000014C8
+            m_nMatchSeed                          : 0x000014B8
+            m_bBlockersPresent                    : 0x000014BC
+            m_bRoundInProgress                    : 0x000014BD
+            m_iFirstSecondHalfRound               : 0x000014C0
+            m_iBombSite                           : 0x000014C4
 
 DT_TEPlantBomb
     m_vecOrigin                                   : 0x00000014
@@ -1017,6 +1019,12 @@ DT_CSPlayer
         m_flVelocityModifier                      : 0x0000A39C
         m_unActiveQuestId                         : 0x0000B328
         m_nQuestProgressReason                    : 0x0000B32C
+        m_iRetakesOffering                        : 0x0000BCA4
+        m_iRetakesOfferingCard                    : 0x0000BCA8
+        m_bRetakesHasDefuseKit                    : 0x0000BCAC
+        m_bRetakesMVPLastRound                    : 0x0000BCAD
+        m_iRetakesMVPBoostItem                    : 0x0000BCB0
+        m_RetakesMVPBoostExtraUtility             : 0x0000BCB4
         m_bPlayerDominated                        : 0x0000B494
         m_bPlayerDominatingMe                     : 0x0000B4D5
         m_iWeaponPurchasesThisRound               : 0x0000B518
@@ -1048,6 +1056,7 @@ DT_PlayerPing
     m_hPingedEntity                               : 0x000009E8
     m_iType                                       : 0x000009EC
     m_bUrgent                                     : 0x000009F4
+    m_szPlaceName                                 : 0x000009F5
 
 DT_CSRagdoll
     m_vecOrigin                                   : 0x00000138
