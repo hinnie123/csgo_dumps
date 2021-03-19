@@ -837,6 +837,11 @@
 20171, #CSGO_Type_WeaponCase, coupon - warhammer_sticker_capsule
 20172, #CSGO_Type_WeaponCase, coupon - amontobin_01
 20173, #CSGO_Type_WeaponCase, coupon - amontobin_01_stattrak
+20174, #CSGO_Type_WeaponCase, coupon - poorly_drawn_sticker_capsule
+20175, #CSGO_Type_WeaponCase, coupon - neckdeep_02
+20176, #CSGO_Type_WeaponCase, coupon - neckdeep_02_stattrak
+20177, #CSGO_Type_WeaponCase, coupon - scarlxrd_02
+20178, #CSGO_Type_WeaponCase, coupon - scarlxrd_02_stattrak
 4668, #CSGO_Type_WeaponCase, crate_xray_p250
 4188, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_nip
 4189, #CSGO_Type_WeaponCase, crate_sticker_pack_columbus2016_splc
@@ -1483,3 +1488,4 @@
 1388, #CSGO_Tool_WeaponCase_KeyTag, community_27 Key
 4717, #CSGO_Type_WeaponCase, crate_community_27
 4719, #CSGO_Type_WeaponCase, crate_sticker_pack_recoil
+4746, #CSGO_Type_WeaponCase, crate_sticker_pack_poorly_drawn
